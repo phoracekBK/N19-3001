@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='ConversionLogFile.xsl'?>
+<LogFile projectName="17059_100" typeText="Type" messageText="Message" timeText="Time">
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="12/11/2019 11:06:04 AM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Upgrade started" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="12/11/2019 11:06:04 AM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Reading information from previous project/library." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="12/11/2019 11:06:05 AM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Importing data into the new project/library." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="12/11/2019 11:06:19 AM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Updating new project/library." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="12/11/2019 11:06:22 AM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Updating new project/library." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:06:25 AM" Debug="false">
+    <Text>HmiConvert: Started conversion section.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:06:25 AM" Debug="false">
+    <Text>HmiConvert: Starting conversion step &lt;Siemens.Simatic.Hmi.Device.DeviceManagers.Scan:Siemens.Simatic.Hmi.Utah.Device.Upgrade.DeviceConverter.ConvertHmiDeviceToV15&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:06:25 AM" Debug="false">
+    <Text>HmiConvert: Finished conversion step &lt;Siemens.Simatic.Hmi.Device.DeviceManagers.Scan:Siemens.Simatic.Hmi.Utah.Device.Upgrade.DeviceConverter.ConvertHmiDeviceToV15&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:06:25 AM" Debug="false">
+    <Text>HmiConvert: Starting conversion step &lt;Siemens.Simatic.Hmi.Styles.Managers.Scan:Siemens.Simatic.Hmi.Utah.Styles.HmiStyleConverter.ConvertHmiStyleFromV14ToV15&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:06:27 AM" Debug="false">
+    <Text>HmiConvert: Finished conversion step &lt;Siemens.Simatic.Hmi.Styles.Managers.Scan:Siemens.Simatic.Hmi.Utah.Styles.HmiStyleConverter.ConvertHmiStyleFromV14ToV15&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:06:27 AM" Debug="false">
+    <Text>HmiConvert is waiting for external dependency: Siemens.Simatic.Lang.SPLConvert</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:06:56 AM" Debug="false">
+    <Text>HmiConvert: Started conversion section.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:06:56 AM" Debug="false">
+    <Text>HmiConvert: Starting conversion step &lt;Siemens.Simatic.Hmi.Tag.Managers.Scan:Siemens.Simatic.Hmi.Utah.Tag.V13AndV14TagsRepairer.RepairV13AndV14Tags&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:06:57 AM" Debug="false">
+    <Text>HmiConvert: Finished conversion step &lt;Siemens.Simatic.Hmi.Tag.Managers.Scan:Siemens.Simatic.Hmi.Utah.Tag.V13AndV14TagsRepairer.RepairV13AndV14Tags&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:06:57 AM" Debug="false">
+    <Text>HmiConvert: Starting conversion step &lt;Siemens.Simatic.Hmi.Communication.Managers.Scan:Siemens.Simatic.Hmi.Utah.Communication.AddressTypeSafeConverter.ConvertTypeSafeAddress&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:06:57 AM" Debug="false">
+    <Text>HmiConvert: Finished conversion step &lt;Siemens.Simatic.Hmi.Communication.Managers.Scan:Siemens.Simatic.Hmi.Utah.Communication.AddressTypeSafeConverter.ConvertTypeSafeAddress&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:06:57 AM" Debug="false">
+    <Text>HmiConvert: Starting conversion step &lt;Siemens.Simatic.Hmi.Communication.Managers.Scan:Siemens.Simatic.Hmi.Utah.Communication.OpcUaConverter.ConvertConnection&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:06:57 AM" Debug="false">
+    <Text>HmiConvert: Finished conversion step &lt;Siemens.Simatic.Hmi.Communication.Managers.Scan:Siemens.Simatic.Hmi.Utah.Communication.OpcUaConverter.ConvertConnection&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:06:57 AM" Debug="false">
+    <Text>HmiConvert: Starting conversion step &lt;Siemens.Simatic.Hmi.Globalization.Managers.Scan:Siemens.Simatic.Hmi.Utah.Globalization.NotUsedTextCategoryDeleter.DeleteNotUsedTextCategoriesInLibraryContext&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:06:57 AM" Debug="false">
+    <Text>HmiConvert: Finished conversion step &lt;Siemens.Simatic.Hmi.Globalization.Managers.Scan:Siemens.Simatic.Hmi.Utah.Globalization.NotUsedTextCategoryDeleter.DeleteNotUsedTextCategoriesInLibraryContext&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:06:57 AM" Debug="false">
+    <Text>HmiConvert: Starting conversion step &lt;Siemens.Simatic.Hmi.Globalization.Managers.Scan:Siemens.Simatic.Hmi.Utah.Globalization.TrefTextCategoryReplacer.TurnTRefCategoriesIntoRealOnes&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:06:57 AM" Debug="false">
+    <Text>HmiConvert: Finished conversion step &lt;Siemens.Simatic.Hmi.Globalization.Managers.Scan:Siemens.Simatic.Hmi.Utah.Globalization.TrefTextCategoryReplacer.TurnTRefCategoriesIntoRealOnes&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:06:57 AM" Debug="false">
+    <Text>HmiConvert: Starting conversion step &lt;Siemens.Simatic.Hmi.Globalization.Managers.Scan:Siemens.Simatic.Hmi.Utah.Globalization.CommentCategoryRepairer.RepairCommentCategoryLinks&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:06:57 AM" Debug="false">
+    <Text>HmiConvert: Finished conversion step &lt;Siemens.Simatic.Hmi.Globalization.Managers.Scan:Siemens.Simatic.Hmi.Utah.Globalization.CommentCategoryRepairer.RepairCommentCategoryLinks&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:06:57 AM" Debug="false">
+    <Text>HmiConvert: Starting conversion step &lt;Siemens.Simatic.Hmi.GraphX.GraphXManagers.Scan:Siemens.Simatic.Hmi.Utah.GraphX.PhaseConverter.DeleteTextFromGroups&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:06:57 AM" Debug="false">
+    <Text>HmiConvert: Finished conversion step &lt;Siemens.Simatic.Hmi.GraphX.GraphXManagers.Scan:Siemens.Simatic.Hmi.Utah.GraphX.PhaseConverter.DeleteTextFromGroups&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:06:57 AM" Debug="false">
+    <Text>HmiConvert: Starting conversion step &lt;Siemens.Simatic.Hmi.GraphX.GraphXManagers.Scan:Siemens.Simatic.Hmi.Utah.GraphX.PhaseConverter.RepairPointsCollectionOfScreenItems&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:06:57 AM" Debug="false">
+    <Text>HmiConvert: Finished conversion step &lt;Siemens.Simatic.Hmi.GraphX.GraphXManagers.Scan:Siemens.Simatic.Hmi.Utah.GraphX.PhaseConverter.RepairPointsCollectionOfScreenItems&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:06:57 AM" Debug="false">
+    <Text>HmiConvert: Starting conversion step &lt;Siemens.Simatic.Hmi.ScreenModules.Managers.Scan:Siemens.Simatic.Hmi.Utah.Modules.ScreenModules.PropertiesConverter.RepairAuthorizationPropertyInModuleDevice&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:06:57 AM" Debug="false">
+    <Text>HmiConvert: Finished conversion step &lt;Siemens.Simatic.Hmi.ScreenModules.Managers.Scan:Siemens.Simatic.Hmi.Utah.Modules.ScreenModules.PropertiesConverter.RepairAuthorizationPropertyInModuleDevice&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:06:57 AM" Debug="false">
+    <Text>HmiConvert: Starting conversion step &lt;Siemens.Simatic.Hmi.GraphX.Controls.Managers.Scan:Siemens.Simatic.Hmi.Utah.GraphX.Controls.ProDiagPhaseConverter.AddToolbarButtons&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:06:57 AM" Debug="false">
+    <Text>HmiConvert: Finished conversion step &lt;Siemens.Simatic.Hmi.GraphX.Controls.Managers.Scan:Siemens.Simatic.Hmi.Utah.GraphX.Controls.ProDiagPhaseConverter.AddToolbarButtons&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:06:57 AM" Debug="false">
+    <Text>HmiConvert: Starting conversion step &lt;Siemens.Simatic.Hmi.GraphX.Controls.Managers.Scan:Siemens.Simatic.Hmi.Utah.GraphX.Controls.ProDiagPhaseConverter.RepairToolbarButtons&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:06:57 AM" Debug="false">
+    <Text>HmiConvert: Finished conversion step &lt;Siemens.Simatic.Hmi.GraphX.Controls.Managers.Scan:Siemens.Simatic.Hmi.Utah.GraphX.Controls.ProDiagPhaseConverter.RepairToolbarButtons&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:06:57 AM" Debug="false">
+    <Text>HmiConvert: Starting conversion step &lt;Siemens.Simatic.Hmi.Tag.Managers.Scan:Siemens.Simatic.Hmi.Utah.Tag.RootTagConvertSynchronization.ResynchronizeRootTag&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:07:01 AM" Debug="false">
+    <Text>HmiConvert: Finished conversion step &lt;Siemens.Simatic.Hmi.Tag.Managers.Scan:Siemens.Simatic.Hmi.Utah.Tag.RootTagConvertSynchronization.ResynchronizeRootTag&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:07:01 AM" Debug="false">
+    <Text>HmiConvert: Finished conversion section.</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="12/11/2019 11:07:02 AM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Updating new project/library." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="12/11/2019 11:07:02 AM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="The cross-reference information is being converted." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="12/11/2019 11:07:06 AM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="The cross-reference information was created successfully." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="12/11/2019 11:07:06 AM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Conversion of the cross-reference information is finished." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="12/11/2019 11:07:06 AM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Cleaning up outdated metadata." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:07:16 AM" Debug="false">
+    <Text>Meta Package 'Siemens.Simatic.AlarmServices.Model.V13.IPI.Import' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:07:16 AM" Debug="false">
+    <Text>Meta Package 'Siemens.Simatic.HwConfiguration.IPI.Core.Model' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:07:16 AM" Debug="false">
+    <Text>Meta Package 'Siemens.Simatic.Lang.IPI.Target' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:07:16 AM" Debug="false">
+    <Text>Package container 'HW.ET200SP.CM_FREEPORT.MDD_6ES7137-6AA00-0BA0_1.0_14.0.10' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:07:16 AM" Debug="false">
+    <Text>Package container 'HW.HMI.Device.StandardPanels.TP700Standard_14.0.10-HmiOnly' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:07:16 AM" Debug="false">
+    <Text>Package container 'HW.HMI.Device.StandardPanels.TP700Standard_14.0.10' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:07:16 AM" Debug="false">
+    <Text>Package container 'HW.ET200SP.Submodules.CPU.PLUGGABLE_DP.6ES7545-5DA00-0AB0_V1.6_14.0.0' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:07:16 AM" Debug="false">
+    <Text>Package container 'Siemens.Simatic.Iecpl.IPI.Target.Model' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:07:16 AM" Debug="false">
+    <Text>Package container 'Siemens.Simatic.AlarmServices.V13.IPI.Mandatory' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:07:16 AM" Debug="false">
+    <Text>Package container 'HW.HMI.Device.StandardPanels.TP700Standard_13.0.10' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:07:16 AM" Debug="false">
+    <Text>Package container 'HW.ET200AL.ETCon_RACK.MDD_6ES714x-xxxxx-0AA0_ETCon_Rack_1.0_14.0.0' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:07:16 AM" Debug="false">
+    <Text>Package container 'HW.ET200AL.ET-Con.ET-Con_IM_Sub-Sender.MDD_ET-Con_IM_Sub-Sender_1.0_14.0.10' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:07:16 AM" Debug="false">
+    <Text>Package container 'HW.ET200AL.ET-Con.MDD_ET-Con2_1.0_14.0.10' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:07:16 AM" Debug="false">
+    <Text>Package container 'HW.ET200AL.ET-Con.MDD_ET-Con1_1.0_14.0.10' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:07:16 AM" Debug="false">
+    <Text>Package container 'HW.ET200AL.SUBMODULES.ProfinetIO.Interface.MDD_6ES7-157-1AB00-0AB0-Sub-Interface_V1.0_14.0.0' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:07:16 AM" Debug="false">
+    <Text>Package container 'HW.ET200AL.SUBMODULES.ProfinetIO.HeadSubmodule.MDD_6ES7-157-1AB00-0AB0-Sub-Head_V1.0_14.0.10' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:07:16 AM" Debug="false">
+    <Text>Package container 'HW.ET200AL.HM_PN.MDD_6ES7_157_1AB00_0AB0_V1.0_14.0.10' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:07:16 AM" Debug="false">
+    <Text>Package container 'HW.ET200AL.RACK.MDD_ET200AL-IMRack_1.0_14.0.0' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:07:16 AM" Debug="false">
+    <Text>Package container 'HW.ET200AL.DEVICE.MDD_ET200AL-Device_1.0_14.0.0' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:07:16 AM" Debug="false">
+    <Text>Package container 'HW.GSD.cpv_0a35.gsd.DEVICE_1.0.0' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:07:16 AM" Debug="false">
+    <Text>Package container 'HW.ET200S.CP.MDD_6ES7138-4DF01-0AB0_1.0_14.0.0' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:07:16 AM" Debug="false">
+    <Text>Package container 'HW.ET200S.SM_DO.MDD_6ES7132-4BD02-0AA0_1.0_14.0.0' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:07:16 AM" Debug="false">
+    <Text>Package container 'HW.ET200S.SM_DI.MDD_6ES7131-4BD01-0AA0_1.0_14.0.0' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:07:16 AM" Debug="false">
+    <Text>Package container 'HW.ET200S.SUBMODULES.CPU.PLUGGABLE_DP.MDD_6ES7138-4HA00-0AB0_1.0_14.0.0' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:07:16 AM" Debug="false">
+    <Text>Package container 'Siemens.Simatic.Lang.S7PSW.V14.0.1.0.NonMandatory' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:07:16 AM" Debug="false">
+    <Text>Package container 'HW.ET200S.CPU_151.MDD_6ES7151-8AB01-0AB0_3.2_14.0.0' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:07:16 AM" Debug="false">
+    <Text>Package container 'HW.ET200S.PM.MDD_6ES7138-4CA01-0AA0_1.0_14.0.0' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:07:16 AM" Debug="false">
+    <Text>Package container 'HW.ET200S.RACK.MDD_ET200S-Rack_1.0_14.0.0' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:07:16 AM" Debug="false">
+    <Text>Package container 'HW.ET200S.DEVICE.MDD_ET200S-Device_1.0_14.0.0' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:07:16 AM" Debug="false">
+    <Text>Package container 'HW.SubnetPB' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:07:16 AM" Debug="false">
+    <Text>Product version 'HW.GSD.cpv_0a35.gsd.DEVICE_1.0.0.Product:11.0.0.0.0' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:07:16 AM" Debug="false">
+    <Text>Product version 'Siemens.Simatic.STEP7.Professional:14.00.00.00' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:07:16 AM" Debug="false">
+    <Text>Product version 'Siemens.Simatic.Hmi.Comfort:14.00.00.00' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="12/11/2019 11:07:16 AM" Debug="false">
+    <Text>Product version 'Siemens.Simatic.Portal:14.00.01.00' was deleted</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="12/11/2019 11:07:16 AM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Saving the upgraded project/library." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="12/11/2019 11:07:17 AM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Saving the upgraded project/library." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="Automation-ObjectFrame-Feedbacks" MessageId="ConversionInfoTabProjectSucceeded" MessageClass="Success" Timestamp="12/11/2019 11:07:18 AM">
+    <Number ServiceNumber="80" MessageNumber="34" />
+    <Text FeedbackText="Project 'D:\Siemens\workpace\N19-3001\template\HAT_17059_100\17059_100\System\PEData.plf' was successfully upgraded and saved as project 'D:\Siemens\workpace\N19-3001\template\HAT_17059_100\17059_100_V15\System\PEData.plf'." />
+    <Help HelpId="-1" HelpFile="" />
+  </MessageCell>
+</LogFile>
