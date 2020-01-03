@@ -135,11 +135,7 @@ static void view_process_input_query(view * this)
 	else if(strcmp(command, VIEW_CMD_HELP) == 0)
 		view_cmd_help_callback(this);
 	else
-	{
-		char * str = c_string_concat("Unknown command: ", command);
-		this->output_buffer = c_string_concat(str, "\n");
-		free(str);
-	}
+		this->output_buffer = c_string_format("Unknown command: %s\n", command);
 
 	if(command != NULL)
 		free(command);

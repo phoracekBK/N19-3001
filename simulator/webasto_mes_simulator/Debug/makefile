@@ -30,7 +30,7 @@ all: webasto_mes_simulator
 webasto_mes_simulator: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MinGW C Linker'
-	gcc -L"C:\Users\HORACEK\MEGA\eclipse_workspace\aclib\Debug" -L"C:\Users\HORACEK\MEGA\eclipse_workspace\webasto_mes_simulator\lib" -o "webasto_mes_simulator" $(OBJS) $(USER_OBJS) $(LIBS)
+	gcc -L"C:\Users\HORACEK\MEGA\eclipse_workspace\aclib\Debug" -L"D:\bk_git\N19-3001\simulator\webasto_mes_simulator\lib" -o "webasto_mes_simulator" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
