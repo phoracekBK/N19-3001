@@ -1,3 +1,4 @@
+
 import snap7
 from snap7 import util
 from snap7 import client
@@ -10,60 +11,60 @@ import time
 
 
 class GlassInfo:
-    vehicleNumber: str
-    vehicleModel: str
-    rearWindowType: str
+    vehicle_number: str
+    vehicle_model: str
+    rear_window_type: str
 
-    def __init__(self, vehicleNumber, vehicleModel, rearWindowType):
-        self.vehicleNumber = vehicleNumber
-        self.vehicleModel = vehicleModel
-        self.rearWindowType = rearWindowType
+    def __init__(self, vehicle_number, vehicle_model, rear_window_type):
+        self.vehicle_number = vehicle_number
+        self.vehicle_model = vehicle_model
+        self.rear_window_type = rear_window_type
 
 
 class PLC:
-    plcClient: client
-    rackIndex: int
-    slotIndex: int
-    ipAddress: str
-    dbIndex: int
-    connectionTry: int
+    plc_client: client
+    rack_index: int
+    slot_index: int
+    ip_address: str
+    db_index: int
+    connection_try: int
 
-    def __init__(self, ipAddress, rackIndex, slotIndex, dbIndex):
-        self.rackIndex = rackIndex
-        self.slotIndex = slotIndex
-        self.ipAddress = ipAddress
-        self.dbIndex = dbIndex
-        self.connectionTry = 0
+    def __init__(self, ip_address, rack_index, slot_index, db_index):
+        self.rack_index = rack_index
+        self.slot_index = slot_index
+        self.ip_address = ip_address
+        self.db_index = db_index
+        self.connection_try = 0
 
-        self.plcClient = snap7.client.Client()
+        self.plc_client = snap7.client.Client()
 
     def connect(self):
-        return self.plcClient.connect(self.ipAddress, self.rackIndex, self.slotIndex)
+        return self.plc_client.connect(self.ip_address, self.rack_index, self.slot_index)
 
     def write(self, db):
-        if self.plcClient.get_connected():
-            self.connectionTry = 0
-            return self.plcClient.db_write(self.dbIndex, 0, db)
+        if self.plc_client.get_connected():
+            self.connection_try = 0
+            return self.plc_client.db_write(self.db_index, 0, db)
         else:
-            if self.connectionTry < 3:
+            if self.connection_try < 3:
                 self.connect()
-                self.connectionTry = self.connectionTry + 1
+                self.connection_try = self.connection_try + 1
                 return self.write(db)
             else:
-                self.connectionTry = 0
+                self.connection_try = 0
                 return False
 
-    def read(self, dbSize):
-        if self.plcClient.get_connected():
-            self.connectionTry = 0
-            return self.plcClient.db_read(self.dbIndex, 0, dbSize)
+    def read(self, db_size):
+        if self.plc_client.get_connected():
+            self.connection_try = 0
+            return self.plc_client.db_read(self.db_index, 0, db_size)
         else:
-            if self.connectionTry < 3:
+            if self.connection_try < 3:
                 self.connect()
-                self.connectionTry = self.connectionTry + 1
-                return self.read(dbSize)
+                self.connection_try = self.connection_try + 1
+                return self.read(db_size)
             else:
-                self.connectionTry = 0
+                self.connection_try = 0
                 return False
 
 
@@ -86,21 +87,23 @@ def write_to_file(path, csv):
 class PCQueue:
     plc: PLC
     queue: list
-    dbSize: int
-    backupFilePath: str
+    db_size: int
+    backup_file_path: str
 
-    def __init__(self, dbSize):
+    def __init__(self, db_size):
         self.plc = PLC("192.168.0.1", 0, 1, 5)
         self.queue = []
-        self.dbSize = dbSize
-        self.backupFilePath = "queue.csv"
+        self.db_size = db_size
+        self.backup_file_path = "queue.csv"
 
-        self.parse_csv(read_from_file(self.backupFilePath))
+        self.parse_csv(read_from_file(self.backup_file_path))
 
     def generate_csv(self, index, csv):
         if index < len(self.queue):
-            csv = csv + self.queue[index].vehicleNumber + ";" + self.queue[index].vehicleModel + ";" + self.queue[
-                index].rearWindowType + "\n"
+            csv = csv + self.queue[index].vehicle_number + ";"
+            csv = csv + self.queue[index].vehicle_model + ";"
+            csv = csv + self.queue[index].rear_window_type + "\n"
+
             return self.generate_csv(index + 1, csv)
         else:
             return csv
@@ -123,9 +126,9 @@ class PCQueue:
     def copy_firest_n_glass_elements_to_visual_queue(self, db, index):
         if index < 10:
             if index < len(self.queue):
-                util.set_string(db, 208 + (206 * index), self.queue[index].vehicleNumber, 100)
-                util.set_string(db, 208 + (206 * index) + 102, self.queue[index].vehicleModel, 50)
-                util.set_string(db, 208 + (206 * index) + 154, self.queue[index].rearWindowType, 50)
+                util.set_string(db, 208 + (206 * index), self.queue[index].vehicle_number, 100)
+                util.set_string(db, 208 + (206 * index) + 102, self.queue[index].vehicle_model, 50)
+                util.set_string(db, 208 + (206 * index) + 154, self.queue[index].rear_window_type, 50)
             else:
                 util.set_string(db, 208 + (206 * index), "", 100)
                 util.set_string(db, 208 + (206 * index) + 102, "", 50)
@@ -141,37 +144,37 @@ class PCQueue:
     def event_add_glass(self, db):
         self.queue.append(
             GlassInfo(util.get_string(db, 0, 100), util.get_string(db, 102, 50), util.get_string(db, 154, 50)))
-        write_to_file(self.backupFilePath, self.to_csv())
+        write_to_file(self.backup_file_path, self.to_csv())
         return self.synchronize_visual_queue(db)
 
     def event_add_priority_glass(self, db):
         self.queue.insert(0, GlassInfo(util.get_string(db, 0, 100), util.get_string(db, 102, 50),
                                        util.get_string(db, 154, 50)))
-        write_to_file(self.backupFilePath, self.to_csv())
+        write_to_file(self.backup_file_path, self.to_csv())
         return self.synchronize_visual_queue(db)
 
-    def find_and_delete_glass_in_queue(self, vehicleNumber, index):
+    def find_and_delete_glass_in_queue(self, vehicle_number, index):
         if index < len(self.queue):
-            if self.queue[index].vehicleNumber == vehicleNumber:
+            if self.queue[index].vehicleNumber == vehicle_number:
                 del self.queue[index]
             else:
-                self.find_and_delete_glass_in_queue(vehicleNumber, index + 1)
+                self.find_and_delete_glass_in_queue(vehicle_number, index + 1)
 
     def event_delete_glass(self, db):
         self.find_and_delete_glass_in_queue(util.get_string(db, 0, 100), 0)
-        write_to_file(self.backupFilePath, self.to_csv())
+        write_to_file(self.backup_file_path, self.to_csv())
         return self.synchronize_visual_queue(db)
 
     def event_bus_init(self):
-        db = self.plc.read(self.dbSize)
+        db = self.plc.read(self.db_size)
         db = self.synchronize_visual_queue(db)
         self.plc.write(db)
 
     def event_bus_main(self):
         self.event_bus_init()
 
-        while (True):
-            db = self.plc.read(self.dbSize)
+        while True:
+            db = self.plc.read(self.db_size)
 
             if util.get_bool(db, 206, 0):
                 db = self.event_add_glass(db)
