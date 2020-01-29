@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/magna_mes_simulator.iml" filepath="$PROJECT_DIR$/.idea/magna_mes_simulator.iml" />
       <module fileurl="file://$PROJECT_DIR$/../pc_queue/.idea/pc_queue.iml" filepath="$PROJECT_DIR$/../pc_queue/.idea/pc_queue.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/webasto_mes_simulator.iml" filepath="$PROJECT_DIR$/.idea/webasto_mes_simulator.iml" />
     </modules>
   </component>
 </project>
