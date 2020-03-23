@@ -9,5 +9,5 @@ C_QUEUE="-I$HOME/aclib/include/c_queue/ $HOME/aclib/c_queue/c_queue.c"
 
 LIBS="$C_STRING $C_LINKED_LIST $C_QUEUE -L. -lsnap7"
 
-gcc -O2 -Wall $FILES -g -o ./bin/pc_queue.exe $LIBS && ./bin/pc_queue.exe -d
+gcc -O2 -Wall $FILES -g -o ./bin/pc_queue.exe $LIBS #&& ./bin/pc_queue.exe -d
 

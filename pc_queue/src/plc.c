@@ -74,7 +74,7 @@ bool plc_reconnect(plc * this, uint8_t connection_try)
 	if(connection_try < 3)
 	{
 		plc_disconnect(this);
-		
+
 		if(plc_connect(this) == true)
 		{
 			return true;
@@ -92,7 +92,7 @@ bool plc_reconnect(plc * this, uint8_t connection_try)
 uint8_t * plc_read(plc * this, int base, int size)
 {
 	uint8_t * byte_array = malloc(sizeof(uint8_t)*size);
-	
+
 	if(Cli_DBRead(this->Client, this->DB_index, base, size, byte_array) != 0)
 	{
 		free(byte_array);
@@ -123,7 +123,7 @@ bool plc_write(plc * this, uint8_t * byte_array, int base, int size)
 				return plc_write(this, byte_array, base, size);
 			}
 		}
-	
+
 		free(plc_byte_array);
 		return true;
 	}
@@ -170,7 +170,7 @@ int16_t plc_read_int(plc * this, int byte_index)
 	uint8_t * byte_array = plc_read(this, byte_index, 2);
 
 	if(byte_array != NULL)
-		return plc_read_int_from_array(byte_array, byte_index);
+		return plc_read_int_from_array(byte_array, 0);
 
 	return 0;
 }
@@ -178,12 +178,12 @@ int16_t plc_read_int(plc * this, int byte_index)
 bool plc_write_int(plc * this, int byte_index, int16_t value)
 {
 	uint8_t * byte_array = malloc(sizeof(uint8_t)*2);
-	
+
 	byte_array = plc_write_int_to_array(byte_array, 0, value);
 	bool ret_val = plc_write(this, byte_array, byte_index, 2);
 
 	free(byte_array);
-		
+
 	return ret_val;
 }
 
@@ -230,10 +230,10 @@ bool plc_write_string(plc * this, int byte_index, char * string, uint8_t size)
 char * plc_read_string(plc * this, int byte_index, uint8_t size)
 {
 	uint8_t * byte_array = plc_read(this, byte_index, size);
-	
+
 	if(byte_array != NULL)
 	{
-		char * string = plc_read_string_from_array(byte_array, byte_index, size);
+		char * string = plc_read_string_from_array(byte_array, 0, size);
 
 		free(byte_array);
 
@@ -245,7 +245,7 @@ char * plc_read_string(plc * this, int byte_index, uint8_t size)
 
 
 bool plc_read_bool_from_array(uint8_t * byte_array, int byte_index, int bit_index)
-{	
+{
 	return (byte_array[byte_index] & (1 << bit_index));
 }
 
@@ -273,7 +273,7 @@ uint8_t * plc_write_int_to_array(uint8_t * byte_array, int byte_index, int16_t v
 }
 
 uint8_t * plc_write_dword_to_array(uint8_t * byte_array, int byte_index, int32_t value)
-{	
+{
 	byte_array[byte_index + 3] =  ((uint8_t*)&value)[0];
 	byte_array[byte_index + 2] =  ((uint8_t*)&value)[1];
 	byte_array[byte_index + 1] =  ((uint8_t*)&value)[2];
@@ -307,20 +307,3 @@ char * plc_read_string_from_array(uint8_t * byte_array, int byte_index, uint8_t 
 
 	return string;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
