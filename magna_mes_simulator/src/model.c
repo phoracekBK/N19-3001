@@ -4,7 +4,7 @@
 
 struct _model_
 {
-	plc * plc_ref;
+	s7lib * s7lib_ref;
 	c_queue * glass_in_production_queue;
 };
 
@@ -19,7 +19,7 @@ model * model_new()
 {
 	model * this = malloc(sizeof(model));
 
-	this->plc_ref = plc_new(PLC_IP_ADDRESS, PLC_RACK, PLC_SLOT, PLC_DB_NUMBER);
+	this->s7lib_ref = s7lib_new(PLC_IP_ADDRESS, PLC_RACK, PLC_SLOT, PLC_DB_NUMBER);
 	this->glass_in_production_queue = c_queue_new(0);
 
 	return this;
@@ -101,7 +101,6 @@ static uint32_t model_generate_default_id(c_linked_list * list, uint32_t id)
 	return id;
 }
 
-
 bool model_enqueu_glass(model * this, glass_info * glass)
 {
 	if(c_queue_enqueue(this->glass_in_production_queue, glass) == true)
@@ -120,7 +119,7 @@ bool model_dequeue_glass(model * this, glass_info * glass)
 	return false;
 }
 
-static int32_t controler_find_glass_in_queue(c_linked_list * tail, glass_info * glass) 
+static int32_t controler_find_glass_in_queue(c_linked_list * tail, glass_info * glass)
 {
 	if(tail != NULL)
 	{
@@ -160,7 +159,7 @@ glass_info * model_get_default_glass_info(model * this)
 	char vehicle_model = model_choice == 0 ? '7' : 'I';
 
 	snprintf(vehicle_number, VEHICLE_NUMBER_LENGTH, "%09d 00", id);
-	snprintf(rear_window_type, REAR_WINDOW_TYPE_LENGTH, "%s", rear_window_type_choice == 0 ? "ABC DEF GHI JK LMN" : "ABC DEF GHI");
+	snprintf(rear_window_type, REAR_WINDOW_TYPE_LENGTH+1, "%s", rear_window_type_choice == 0 ? "ABC DEF GHI JK LMN" : "ABC DEF GHI");
 
 	glass_info * glass = glass_info_new(vehicle_number, rear_window_type, vehicle_model, id);
 
@@ -185,17 +184,17 @@ c_linked_list * model_get_glass_list(model * this)
 
 uint16_t model_get_versionsnummer(model * this)
 {
-	return plc_read_int(this->plc_ref, 0);
+	return s7lib_read_int(this->s7lib_ref, 0);
 }
 
 bool model_set_sersionsnummer(model * this, uint16_t sersionsnumber)
 {
-	return plc_write_int(this->plc_ref, 0, sersionsnumber);
+	return s7lib_write_int(this->s7lib_ref, 0, sersionsnumber);
 }
 
 char model_get_tailtype(model * this)
 {
-	uint8_t * byte = plc_read(this->plc_ref, 2, 1);	
+	uint8_t * byte = s7lib_read(this->s7lib_ref, 2, 1);
 	char tailtype = *byte;
 
 	free(byte);
@@ -205,49 +204,49 @@ char model_get_tailtype(model * this)
 
 bool model_set_tailtype(model * this, char tailtype)
 {
-	return plc_write(this->plc_ref, (uint8_t *) &tailtype, 2, 1);
+	return s7lib_write(this->s7lib_ref, (uint8_t *) &tailtype, 2, 1);
 }
 
 
 bool model_get_flag1(model * this)
 {
-	return plc_read_bool(this->plc_ref, 3, 0);
+	return s7lib_read_bool(this->s7lib_ref, 3, 0);
 }
 
 bool model_set_flag1(model * this)
 {
-	return plc_write_bool(this->plc_ref, 3, 0, true);
+	return s7lib_write_bool(this->s7lib_ref, 3, 0, true);
 }
 
 bool model_reset_flag1(model * this)
 {
-	return plc_write_bool(this->plc_ref, 3, 0, false);
+	return s7lib_write_bool(this->s7lib_ref, 3, 0, false);
 }
 
 
 char * model_get_vehicle_number1(model * this)
 {
-	return (char *) plc_read(this->plc_ref, 4, VEHICLE_NUMBER_LENGTH);
+	return (char *) s7lib_read(this->s7lib_ref, 4, VEHICLE_NUMBER_LENGTH);
 }
 
 bool model_set_vehicle_number1(model * this, char * vehicle_number)
 {
-	return plc_write(this->plc_ref, (uint8_t*) vehicle_number, 4, VEHICLE_NUMBER_LENGTH);
+	return s7lib_write(this->s7lib_ref, (uint8_t*) vehicle_number, 4, VEHICLE_NUMBER_LENGTH);
 }
 
 char * model_get_rear_window_type1(model * this)
 {
-	return (char*) plc_read(this->plc_ref, 18, REAR_WINDOW_TYPE_LENGTH);
+	return (char*) s7lib_read(this->s7lib_ref, 18, REAR_WINDOW_TYPE_LENGTH);
 }
 
 bool model_set_rear_window_type1(model * this, char * rear_window_type)
 {
-	return plc_write(this->plc_ref, (uint8_t*) rear_window_type, 18,  REAR_WINDOW_TYPE_LENGTH);
+	return s7lib_write(this->s7lib_ref, (uint8_t*) rear_window_type, 18,  REAR_WINDOW_TYPE_LENGTH);
 }
 
 char model_get_vehicle_model1(model * this)
 {
-	uint8_t * byte = plc_read(this->plc_ref, 36, 1);
+	uint8_t * byte = s7lib_read(this->s7lib_ref, 36, 1);
 	char vehicle_model = *byte;
 
 	free(byte);
@@ -257,122 +256,122 @@ char model_get_vehicle_model1(model * this)
 
 bool model_set_vehicle_model1(model * this, char vehicle_model)
 {
-	return plc_write(this->plc_ref, (uint8_t *) &vehicle_model, 36, 1);
+	return s7lib_write(this->s7lib_ref, (uint8_t *) &vehicle_model, 36, 1);
 }
 
 bool model_get_flag2(model * this)
 {
-	return plc_read_bool(this->plc_ref, 37, 0);
+	return s7lib_read_bool(this->s7lib_ref, 37, 0);
 }
 
 bool model_set_flag2(model * this)
 {
-	return plc_write_bool(this->plc_ref, 37, 0, true);
+	return s7lib_write_bool(this->s7lib_ref, 37, 0, true);
 }
 
 bool model_reset_flag2(model * this)
 {
-	return plc_write_bool(this->plc_ref, 37, 0, false);
+	return s7lib_write_bool(this->s7lib_ref, 37, 0, false);
 }
 
 
 char * model_get_vehicle_number2(model * this)
 {
-	return (char*) plc_read(this->plc_ref, 38, VEHICLE_NUMBER_LENGTH);
+	return (char*) s7lib_read(this->s7lib_ref, 38, VEHICLE_NUMBER_LENGTH);
 }
 
 bool model_set_vehicle_number2(model * this, char * vehicle_number)
 {
-	return plc_write(this->plc_ref, (uint8_t*) vehicle_number, 38, VEHICLE_NUMBER_LENGTH);
+	return s7lib_write(this->s7lib_ref, (uint8_t*) vehicle_number, 38, VEHICLE_NUMBER_LENGTH);
 }
 
 char * model_get_rear_window_type2(model * this)
 {
-	return (char*) plc_read(this->plc_ref, 52, REAR_WINDOW_TYPE_LENGTH);
+	return (char*) s7lib_read(this->s7lib_ref, 52, REAR_WINDOW_TYPE_LENGTH);
 }
 
 bool model_set_rear_window_type2(model * this, char * rear_window_type)
 {
-	return plc_write(this->plc_ref, (uint8_t*) rear_window_type, 52, REAR_WINDOW_TYPE_LENGTH);
+	return s7lib_write(this->s7lib_ref, (uint8_t*) rear_window_type, 52, REAR_WINDOW_TYPE_LENGTH);
 }
 
 bool model_get_flag3(model * this)
 {
-	return plc_read_bool(this->plc_ref, 70, 0);
+	return s7lib_read_bool(this->s7lib_ref, 70, 0);
 }
 
 bool model_set_flag3(model * this)
 {
-	return plc_write_bool(this->plc_ref, 70, 0, true);
+	return s7lib_write_bool(this->s7lib_ref, 70, 0, true);
 }
 
 bool model_reset_flag3(model * this)
 {
-	return plc_write_bool(this->plc_ref, 70, 0, false);
+	return s7lib_write_bool(this->s7lib_ref, 70, 0, false);
 }
 
 char * model_get_vehicle_number3(model * this)
 {
-	return (char *) plc_read(this->plc_ref, 72, VEHICLE_NUMBER_LENGTH);
+	return (char *) s7lib_read(this->s7lib_ref, 72, VEHICLE_NUMBER_LENGTH);
 }
 
 bool model_set_vehicle_number3(model * this, char * vehicle_number)
 {
-	return plc_write(this->plc_ref, (uint8_t*) vehicle_number, 72, VEHICLE_NUMBER_LENGTH);
+	return s7lib_write(this->s7lib_ref, (uint8_t*) vehicle_number, 72, VEHICLE_NUMBER_LENGTH);
 }
 
 
 char * model_get_rear_window_type3(model * this)
 {
-	return (char*) plc_read(this->plc_ref, 86, REAR_WINDOW_TYPE_LENGTH);
+	return (char*) s7lib_read(this->s7lib_ref, 86, REAR_WINDOW_TYPE_LENGTH);
 }
 
 bool model_set_rear_window_type3(model * this, char * rear_window_type)
 {
-	return plc_write(this->plc_ref, (uint8_t*) rear_window_type, 86, REAR_WINDOW_TYPE_LENGTH);
+	return s7lib_write(this->s7lib_ref, (uint8_t*) rear_window_type, 86, REAR_WINDOW_TYPE_LENGTH);
 }
 
 
 bool model_get_flag4(model * this)
 {
-	return plc_read_bool(this->plc_ref, 104, 0);
+	return s7lib_read_bool(this->s7lib_ref, 104, 0);
 }
 
 bool model_set_flag4(model * this)
 {
-	return plc_write_bool(this->plc_ref, 104, 0, true);
+	return s7lib_write_bool(this->s7lib_ref, 104, 0, true);
 }
 
 bool model_reset_flag4(model * this)
 {
-	return plc_write_bool(this->plc_ref, 104, 0, false);
+	return s7lib_write_bool(this->s7lib_ref, 104, 0, false);
 }
 
 
 uint32_t model_get_id(model * this)
 {
-	return plc_read_dword(this->plc_ref, 106);
+	return s7lib_read_dword(this->s7lib_ref, 106);
 }
 
 bool model_set_id(model * this, uint32_t id)
 {
-	return plc_write_dword(this->plc_ref, 106, id);
+	return s7lib_write_dword(this->s7lib_ref, 106, id);
 }
 
 
 bool model_get_glass_panel_taken_out(model * this)
 {
-	return plc_read_bool(this->plc_ref, 116, 0);
+	return s7lib_read_bool(this->s7lib_ref, 116, 0);
 }
 
 bool model_set_glass_panel_taken_out(model * this)
 {
-	return plc_write_bool(this->plc_ref, 116, 0, true);
+	return s7lib_write_bool(this->s7lib_ref, 116, 0, true);
 }
 
 bool model_reset_glass_panel_taken_out(model * this)
 {
-	return plc_write_bool(this->plc_ref, 116, 0, false);
+	return s7lib_write_bool(this->s7lib_ref, 116, 0, false);
 }
 
 
@@ -380,28 +379,24 @@ bool model_reset_glass_panel_taken_out(model * this)
 
 bool model_get_glass_panel_is_in_tailgate(model * this)
 {
-	return plc_read_bool(this->plc_ref, 117, 0);
+	return s7lib_read_bool(this->s7lib_ref, 117, 0);
 }
 
 bool model_set_glass_panel_is_in_tailgate(model * this)
 {
-	return plc_write_bool(this->plc_ref, 117, 0, true);
+	return s7lib_write_bool(this->s7lib_ref, 117, 0, true);
 }
 
 bool model_reset_glass_panel_is_in_tailgate(model * this)
 {
-	return plc_write_bool(this->plc_ref, 117, 0, false);
+	return s7lib_write_bool(this->s7lib_ref, 117, 0, false);
 }
 
 void model_finalize(model * this)
 {
-	plc_finalize(this->plc_ref);
+	s7lib_finalize(this->s7lib_ref);
 
 	c_queue_finalize_with_release(this->glass_in_production_queue, glass_info_finalize);
 
 	free(this);
 }
-
-
-
-

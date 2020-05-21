@@ -5,9 +5,9 @@
 #include <c_queue.h>
 #include <stdlib.h>
 #include <unistd.h>
+#include <s7lib.h>
 
 
-#include "plc.h"
 #include "model.h"
 #include "glass_info.h"
 

@@ -7,10 +7,11 @@
 #include <string.h>
 #include <c_linked_list.h>
 #include <c_queue.h>
+#include <s7lib.h>
 
 #include "glass_info.h"
 #include "config.h"
-#include "plc.h"
+
 
 struct _model_;
 typedef struct _model_ model;

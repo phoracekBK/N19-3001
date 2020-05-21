@@ -1,0 +1,4 @@
+
+* bezpečnost na karuselu na základě optické brány
+* stavove nastavení volných profilů
+* upravit zavírání clon na primovací kontrolu

@@ -3,7 +3,7 @@
 
 struct _controler_
 {
-	plc * plc_ref;
+	s7lib * s7lib_ref;
 	c_queue * queue;
 
 	uint8_t enqueue_step;
@@ -39,7 +39,7 @@ controler * controler_new(char * ip_address, int rack, int slot, int db_index)
 {
 	controler * this = malloc(sizeof(controler));
 
-	this->plc_ref = plc_new(ip_address, rack, slot, db_index);
+	this->s7lib_ref = s7lib_new(ip_address, rack, slot, db_index);
 
 	this->queue = c_queue_new(0);
 
@@ -76,7 +76,7 @@ static bool controler_load_from_file(controler * this, char * address)
 	{
 		controler_read_file(input, this->queue);
 		fclose(input);
-		
+
 		return true;
 	}
 
@@ -88,19 +88,19 @@ static void controler_write_file(FILE * output, c_linked_list * list)
 	if(list != NULL)
 	{
 		glass_info * glass = c_linked_list_node_get_data(list);
-		
+
 		fwrite((void *) glass, glass_info_get_sizeof(), 1, output);
 		controler_write_file(output, c_linked_list_get_next(list));
 	}
 }
 
 static bool controler_save_to_file(controler * this, char * address)
-{	
+{
 	FILE * output = fopen(address, "w");
 
 	if(output != NULL)
 	{
-		controler_write_file(output, c_queue_get_tail(this->queue));	
+		controler_write_file(output, c_queue_get_tail(this->queue));
 		fclose(output);
 		return true;
 	}
@@ -115,16 +115,16 @@ static void controler_init(controler * this)
 	if(controler_synchronize_visu_queue(this) == false)
 		printf("%s\n", "initialize visual controler issue");
 
-	if(model_reset_error_status(this->plc_ref) == false)
+	if(model_reset_error_status(this->s7lib_ref) == false)
 		printf("%s\n", "reset error status issue");
 
-	if(model_reset_cmd_byte(this->plc_ref) == false)
+	if(model_reset_cmd_byte(this->s7lib_ref) == false)
 		printf("%s\n", "reset command byte issue");
 
-	if(model_reset_priority_input_status(this->plc_ref) == false)
+	if(model_reset_priority_input_status(this->s7lib_ref) == false)
 		printf("%s\n", "reset priority output status issue");
 
-	if(model_reset_done_status(this->plc_ref) == false)
+	if(model_reset_done_status(this->s7lib_ref) == false)
 		printf("%s\n", "reset done status issue");
 }
 
@@ -133,12 +133,12 @@ static void controler_enqueue_callback(controler * this)
 {
 	if(this->enqueue_step == 0)
 	{
-		if(model_read_cmd_enqueue_status(this->plc_ref) == true)
+		if(model_read_cmd_enqueue_status(this->s7lib_ref) == true)
 			this->enqueue_step = 1;
 	}
 	else if(this->enqueue_step == 1)
 	{
-		glass_info * glass = model_read_glass_info(this->plc_ref, 0);
+		glass_info * glass = model_read_glass_info(this->s7lib_ref, 0);
 
 		c_queue_enqueue(this->queue, glass);
 		this->enqueue_step = 2;
@@ -148,12 +148,12 @@ static void controler_enqueue_callback(controler * this)
 		controler_save_to_file(this, QUEUE_FILE_PATH);
 		controler_synchronize_visu_queue(this);
 
-		model_set_done_status(this->plc_ref);
+		model_set_done_status(this->s7lib_ref);
 		this->enqueue_step = 3;
 	}
 	else if(this->enqueue_step == 3)
 	{
-		if(model_read_cmd_enqueue_status(this->plc_ref) == false)
+		if(model_read_cmd_enqueue_status(this->s7lib_ref) == false)
 			this->enqueue_step = 0;
 	}
 	else
@@ -166,14 +166,14 @@ static void controler_priority_enqueue_callback(controler * this)
 {
 	if(this->priority_enqueue_step == 0)
 	{
-		if(model_read_cmd_priority_enqueue_status(this->plc_ref) == true)
+		if(model_read_cmd_priority_enqueue_status(this->s7lib_ref) == true)
 		{
 			this->priority_enqueue_step = 1;
 		}
 	}
 	else if(this->priority_enqueue_step == 1)
 	{
-		glass_info * glass = model_read_glass_info(this->plc_ref, 0);
+		glass_info * glass = model_read_glass_info(this->s7lib_ref, 0);
 		c_queue_priority_enqueue(this->queue, glass);
 		this->priority_enqueue_step = 2;
 	}
@@ -182,14 +182,14 @@ static void controler_priority_enqueue_callback(controler * this)
 		controler_save_to_file(this, QUEUE_FILE_PATH);
 		controler_synchronize_visu_queue(this);
 
-		model_set_priority_input_status(this->plc_ref);
-		model_set_done_status(this->plc_ref);
+		model_set_priority_input_status(this->s7lib_ref);
+		model_set_done_status(this->s7lib_ref);
 
 		this->priority_enqueue_step = 3;
 	}
 	else if(this->priority_enqueue_step == 3)
 	{
-		if(model_read_cmd_priority_enqueue_status(this->plc_ref) == false)
+		if(model_read_cmd_priority_enqueue_status(this->s7lib_ref) == false)
 			this->priority_enqueue_step = 0;
 	}
 	else
@@ -202,9 +202,9 @@ static void controler_dequeue_callback(controler * this)
 {
 	if(this->dequeue_step == 0)
 	{
-		if(model_read_cmd_dequeue_status(this->plc_ref) == true)
+		if(model_read_cmd_dequeue_status(this->s7lib_ref) == true)
 			this->dequeue_step = 1;
-	}	
+	}
 	else if(this->dequeue_step == 1)
 	{
 		c_queue_dequeue_with_release(this->queue, glass_info_finalize);
@@ -215,12 +215,12 @@ static void controler_dequeue_callback(controler * this)
 		controler_save_to_file(this, QUEUE_FILE_PATH);
 		controler_synchronize_visu_queue(this);
 
-		model_set_done_status(this->plc_ref);
+		model_set_done_status(this->s7lib_ref);
 		this->dequeue_step = 3;
 	}
 	else if(this->dequeue_step == 3)
 	{
-		if(model_read_cmd_dequeue_status(this->plc_ref) == false)
+		if(model_read_cmd_dequeue_status(this->s7lib_ref) == false)
 			this->dequeue_step = 0;
 	}
 	else
@@ -233,12 +233,12 @@ static void controler_delete_callback(controler * this)
 {
 	if(this->delete_step == 0)
 	{
-		if(model_read_cmd_delete_status(this->plc_ref) == true)
+		if(model_read_cmd_delete_status(this->s7lib_ref) == true)
 			this->delete_step = 1;
 	}
 	else if(this->delete_step == 1)
-	{	
-		glass_info * glass = model_read_glass_info(this->plc_ref, 0);
+	{
+		glass_info * glass = model_read_glass_info(this->s7lib_ref, 0);
 
 		if(glass != NULL)
 		{
@@ -261,24 +261,24 @@ static void controler_delete_callback(controler * this)
 		controler_save_to_file(this, QUEUE_FILE_PATH);
 		controler_synchronize_visu_queue(this);
 
-		model_set_done_status(this->plc_ref);
+		model_set_done_status(this->s7lib_ref);
 
 		this->delete_step = 4;
 	}
 	else if(this->delete_step == 3)
 	{
-		model_set_error_status(this->plc_ref);
+		model_set_error_status(this->s7lib_ref);
 		this->delete_step = 4;
 	}
 	else if(this->delete_step == 4)
 	{
-		if(model_read_cmd_delete_status(this->plc_ref) == false)
+		if(model_read_cmd_delete_status(this->s7lib_ref) == false)
 			this->delete_step = 0;
 	}
 	else
 	{
 		this->delete_step = 0;
-	}	
+	}
 }
 
 static int32_t controler_find_glass_in_queue(c_linked_list * list, glass_info * glass)
@@ -300,7 +300,7 @@ static void controler_reload_visu_callback(controler * this)
 {
 	if(this->reload_visu_step == 0)
 	{
-		if(model_read_cmd_reload_visu_status(this->plc_ref) == true)
+		if(model_read_cmd_reload_visu_status(this->s7lib_ref) == true)
 			this->reload_visu_step = 1;
 	}
 	else if(this->reload_visu_step == 1)
@@ -312,17 +312,17 @@ static void controler_reload_visu_callback(controler * this)
 	}
 	else if(this->reload_visu_step == 2)
 	{
-		model_set_error_status(this->plc_ref);
+		model_set_error_status(this->s7lib_ref);
 		this->reload_visu_step = 4;
 	}
 	else if(this->reload_visu_step == 3)
 	{
-		model_set_done_status(this->plc_ref);
+		model_set_done_status(this->s7lib_ref);
 		this->reload_visu_step = 4;
 	}
 	else if(this->reload_visu_step == 4)
 	{
-		if(model_read_cmd_reload_visu_status(this->plc_ref) == false)
+		if(model_read_cmd_reload_visu_status(this->s7lib_ref) == false)
 			this->reload_visu_step = 0;
 	}
 	else
@@ -342,7 +342,7 @@ void controler_handler(controler * this)
 		controler_enqueue_callback(this);
 		controler_priority_enqueue_callback(this);
 		controler_dequeue_callback(this);
-		controler_delete_callback(this);	
+		controler_delete_callback(this);
 		controler_reload_visu_callback(this);
 
 		fflush(stdout);
@@ -352,7 +352,7 @@ void controler_handler(controler * this)
 
 void controler_finalize(controler * this)
 {
-	plc_finalize(this->plc_ref);
+	s7lib_finalize(this->s7lib_ref);
 	c_queue_finalize_with_release(this->queue, glass_info_finalize);
 
 	free(this);
@@ -383,7 +383,7 @@ static uint8_t * controler_copy_first_n_glass(c_linked_list * list, uint8_t * by
 static bool controler_synchronize_visu_queue(controler * this)
 {
 	uint8_t * visu_controler = controler_generate_visu_queue(this);
-	bool ret_val = model_write_visu_queue(this->plc_ref, visu_controler, (int16_t) c_queue_size(this->queue));		
+	bool ret_val = model_write_visu_queue(this->s7lib_ref, visu_controler, (int16_t) c_queue_size(this->queue));
 
 	free(visu_controler);
 
@@ -398,19 +398,3 @@ static uint8_t * controler_generate_visu_queue(controler * this)
 
 	return controler_copy_first_n_glass(c_queue_get_tail(this->queue), byte_array, 0);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

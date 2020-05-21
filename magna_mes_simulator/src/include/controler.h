@@ -7,9 +7,10 @@
 #include <stdbool.h>
 #include <string.h>
 #include <pthread.h>
+#include <s7lib.h>
 
 #include "model.h"
-#include "plc.h"
+
 
 
 struct _controler_;
