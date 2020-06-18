@@ -1,21 +1,19 @@
 #include "include/controler.h"
 #include "include/controler_parser.h"
-
+#include "include/csv_io.h"
 
 static bool controler_write_to_file(char *, char *);
 static char * controler_generate_csv_line(uint8_t *, char);
-static bool controler_store_csv_line(uint8_t *, char *, char);
+static bool controler_store_csv_line(uint8_t *, char *, char*, char);
 static char * controler_generate_csv_header();
-static bool controler_write_to_file_without_header(char *, char *);
-static bool controler_write_to_file_with_header(char *, char *);
 static char * controler_add_csv_line_parameter(char *, char *, char);
 
 
-uint8_t * controler_check_store_request(uint8_t * buffer, char * csv_path, char separator)
+uint8_t * controler_check_store_request(uint8_t * buffer, char * csv_path, char * csv_name, char separator)
 {
     if(s7lib_parser_read_bool(buffer, 0, 0) == true)
     {
-        if(controler_store_csv_line(buffer, csv_path, separator) == true)
+        if(controler_store_csv_line(buffer, csv_path, csv_name, separator) == true)
           return s7lib_parser_write_bool(buffer, 0, 0, false);
     }
 
@@ -25,48 +23,14 @@ uint8_t * controler_check_store_request(uint8_t * buffer, char * csv_path, char 
 
 /******************************* static functions **********************************/
 
-static bool controler_write_to_file_with_header(char * line, char * csv_path)
-{
-  FILE * file = fopen(csv_path, "a");
-
-  if(file != NULL)
-  {
-    fprintf(file, "%s\n%s\n", controler_generate_csv_header(), line);
-
-    fflush(file);
-    fclose(file);
-
-    return true;
-  }
-
-  return false;
-}
-
-static bool controler_write_to_file_without_header(char * line, char * csv_path)
-{
-  FILE * file = fopen(csv_path, "a");
-
-  if(file != NULL)
-  {
-    fprintf(file, "%s\n", line);
-
-    fflush(file);
-    fclose(file);
-
-    return true;
-  }
-
-  return false;
-}
-
 static bool controler_write_to_file(char * line, char * csv_path)
 {
   if(line != NULL)
   {
     if(access(csv_path, F_OK) != -1)
-      return controler_write_to_file_without_header(line, csv_path);
+      return csv_io_write_to_file(csv_path, "%s\n%s",controler_generate_csv_header(), line);
     else
-      return controler_write_to_file_with_header(line, csv_path);
+      return csv_io_write_to_file(csv_path, "\n%s", line);
   }
 
   return false;
@@ -139,14 +103,16 @@ static char * controler_generate_csv_line(uint8_t * buffer, char separator)
   return csv_line;
 }
 
-static bool controler_store_csv_line(uint8_t * buffer, char * csv_path, char separator)
+static bool controler_store_csv_line(uint8_t * buffer, char * csv_path, char *csv_name, char separator)
 {
     char * csv_line = controler_generate_csv_line(buffer, separator);
 
     if(csv_line != NULL)
     {
-      bool result =  controler_write_to_file(csv_line, csv_path);
+	  char * path = csv_io_generate_csv_name(time(NULL), csv_path, csv_name);
+      bool result =  controler_write_to_file(csv_line, path);
       free(csv_line);
+	  free(path);
 
       return result;
     }

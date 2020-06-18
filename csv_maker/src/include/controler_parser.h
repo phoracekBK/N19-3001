@@ -3,6 +3,7 @@
 
 #include <stdint.h>
 #include <math.h>
+#include <c_string/c_string.h>
 #include <s7lib_parser.h>
 
 char * controler_parser_get_window_id(uint8_t *);

@@ -4,6 +4,8 @@
 #include "unit_test.h"
 #include "../src/include/controler_parser.h"
 #include "../src/include/config.h"
+#include "../src/include/csv_io.h"
+
 
 static void controler_parser_get_window_id_test();
 static void controler_parser_get_vehicle_number_test();
@@ -28,6 +30,9 @@ static void controler_parser_get_glue_temperature_during_application_test();
 static void controler_parser_get_applied_glue_ammount_test();
 static void controler_parser_get_humidity_test();
 static void controler_parser_get_ambient_temperature_test();
+static void csv_io_generate_csv_name_test();
+
+
 static uint8_t * ut_get_buffer();
 
 
@@ -57,6 +62,9 @@ void unit_test_run()
   controler_parser_get_applied_glue_ammount_test();
   controler_parser_get_humidity_test();
   controler_parser_get_ambient_temperature_test();
+
+	csv_io_generate_csv_name_test();
+  
 }
 
 static uint8_t * ut_get_buffer()
@@ -82,6 +90,8 @@ static void controler_parser_get_window_id_test()
     printf("PASS\n");
   else
     printf("FAIL\n");
+
+	fflush(stdout);
 
   free(id_string);
   free(buffer);
@@ -443,10 +453,11 @@ static void controler_parser_get_glue_application_ratio_test()
   printf("controler_parser_get_glue_application_ratio: ");
 
   uint8_t * buffer = ut_get_buffer();
-  buffer = s7lib_parser_write_int(buffer, 126, 100.0);
-  buffer = s7lib_parser_write_int(buffer, 130, 3.0);
+  buffer = s7lib_parser_write_real(buffer, 126, 100.0);
+  buffer = s7lib_parser_write_real(buffer, 130, 3.0);
 
   char * glue_application_ratio = controler_parser_get_glue_application_ratio(buffer);
+
 
   if(strcmp(glue_application_ratio, "100.0:3.0") == 0)
     printf("PASS\n");
@@ -524,9 +535,6 @@ static void controler_parser_get_ambient_temperature_test()
 
   char * ambient_temperature = controler_parser_get_ambient_temperature(buffer);
 
-
-
-
   if(strcmp(ambient_temperature, "27.8") == 0)
     printf("PASS\n");
   else
@@ -537,3 +545,19 @@ static void controler_parser_get_ambient_temperature_test()
   if(ambient_temperature != NULL)
     free(ambient_temperature);
 }
+
+
+static void csv_io_generate_csv_name_test()
+{
+	printf("csv_io_generate_csv_name: ");
+
+	char * name = csv_io_generate_csv_name(1591694883, ".", "InlineCubing");
+
+	if(strcmp(name, "./InlineCubing-2020-06-09.csv") == 0)
+		printf("PASS\n");	
+	else
+		printf("FAIL\n");
+
+	free(name);
+}
+

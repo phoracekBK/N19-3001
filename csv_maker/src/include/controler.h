@@ -3,7 +3,9 @@
 
 #include <stdint.h>
 #include <unistd.h>
+#include <c_string/c_string.h>
 
-uint8_t * controler_check_store_request(uint8_t *, char *, char);
+
+uint8_t * controler_check_store_request(uint8_t *, char *, char *, char);
 
 #endif

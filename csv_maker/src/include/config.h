@@ -7,8 +7,8 @@
 #define DB_INDEX 18
 #define DB_SIZE 150
 
-#define CSV_PATH "./record.csv"
-
+#define CSV_PATH "./"
+#define CSV_NAME "InlineCubing"
 #define CSV_SEPARATOR ';'
 
 #endif
