@@ -1,65 +1,30 @@
 
 ** TODO **
-* upravit program pro generování csv souborů, aby pracoval dle požadavků
-* cyklus pro roboty na test brzd
-* inicializace estop stavu u robotů???
-* odstranit duplicitní objekt primer_checker ze struktury carrousel!!!
-* udělat překlad hmi
+* cyklis pro roboty na referencování polohy
+* opravit předávání informací z lepícího stolu na gripper a výstupní stanici
+* opravit dokončování lepení, aby si mohl manipulační robot dříve převzít
+  sklo, je to na základě dokončení lepícího programu robota ne na základě
+volného profilu
+* majáky na signalizaci objemu sudu (blíží se konec sudu, prázdný sud)
+* upravit ukládání času posledního odpouštění nebo aplikace AB složky, je
+  nutné uložit předchozí čas ne aktuální
+* přidat hodnoty mezních hodnot intervalu teplot pro vytápění pistole a sudu
+* změnit umístění hodnot pro aplikované množství lepidla, vložit přímo do
+  struktury skla
+* přemístit všechny zbývající informace do struktury skla pro lepší
+  zaznamenávání informací pro csv v průběhu výroby 
+* řízení pomocí MES systému
 
-
-// změny v csv
-* Vehicle number (nur von MES system) - unikátní číslo identifikující dveře
-* Rear window type (ohne MES -> Operator wählt es durch HMI aus) - typ skla
-* Model - model dveří na které bude sklo lepeno
-* ID number (die Klebeanlage generiert) - vnitřní ID skla
-* Time of primer application - čas aplikace primeru, pokud není aplikováno je
-  hodnota NA
-* Primer Detection with Vision OK - výsledek kontroly primeru, pokud je
-  vypnuto, tak hodnota NA
-* Bead Check pass/fail area - zóny, které byly kamerami na kontrolu primeru
-  vyhodnoceny jako nok, ale nok neprojdou od stanice, pokud je kontorla
-vypnuta tak je hodnota NA
-* Primer Curing Rack - index regálu kde bylo sklo uloženo ke zrání
-* Timestamp when Primer Flashoff Completed - čas kdy byl primer na skle
-  vyzrály k aplikaci lepidla (pouze pokud je primováno jinak je hodnota NA)
-* Time interval from primer application until glue application ends - čas od
-  aplikace primeru do ukončení aplikace lepidla (pouze pokud je primováno,
-jinak je hodnota NA)
-* Time since last dispense Timestamp when gluebed was started to applied - čas
-  poslední aplikace lepidla nebo odpouštění složky AB
-* Timestamp of glue bead application - čas kdy robot začne nanášet lepidlo
-* Robot Finish Time glue bead application - čas kdy robot dokončil nanášení
-  lepidla
-* Time interval from glue bead application until glass is taken out from
-  output station - interval od začátku aplikace do vyjmutí ze stanice
-* Barrel Expiry OK "A" - expirace sudu složky A ok/nok
-* Adhesive Batch ID "A" - produktové číslo sudu složky A
-* Adhesive Serial # "A" - sériové číslo sudu složky A
-* Material Dispensed "A" [ml] - aplikované množství složky A
-* Pistol Temperature Actual "A" - aktuální teplota pistole při aplikaci
-* Pot Temperature Actual "A" - aktuální teplota sudu složky A
-* Barrel Expiry OK "B" - expirace sudu složky B ok/nok 
-* Adhesive Batch ID "B" - produktové číslo sudu složky B
-* Adhesive Serial # "B" - sériové číslo sudu složky B
-* Material Dispensed "B" [ml] - aplikované množství složky B
-* Mischungsverhältnis Komponente A zu B - aplikační poměr nanášeného lepidla
-* Mix tube life * životnost mixéru
-* Robot Completed Cycle Without Fault * zda při pohybu manipulačního robota
-  nebyla stisknuta estop
-* Dispense Unit Completed Cycle Without Fault - zda při nanášení lepidla
-  nebyla stisknuta estop
-* Rotary Unit Completed Cycle Without Fault - zda nebyla v procesu otáčení
-  carrouselu stisknuta estop
-* Adhesive Application Process Complete Summary - zda nebyla
-* Bead Check Camera Laser- Sensor - výsledek měření housenky metralight
-* Bead Check Pass / Fail Area (Laser- Sensor) - nelze vyčíst data ze senzoru
-metralight
-	
 
 
 
 
 ** DONE **
+* cyklus pro roboty na test brzd
+* upravit program pro generování csv souborů, aby pracoval dle požadavků
+* inicializace estop stavu u robotů???
+* odstranit duplicitní objekt primer_checker ze struktury carrousel!!!
+* udělat překlad hmi
 * doladit mazání záznamů skel z regálů sušícího bufferu
 * reset error watchdog timerů v případě stopky
 * přidat inicializaci pracovního cyklu
@@ -103,4 +68,52 @@ nebo šablona stále v koncové pozici
 
 
 
+** změny v csv **
+* Vehicle number (nur von MES system) - unikátní číslo identifikující dveře
+* Rear window type (ohne MES -> Operator wählt es durch HMI aus) - typ skla
+* Model - model dveří na které bude sklo lepeno
+* ID number (die Klebeanlage generiert) - vnitřní ID skla
+* Time of primer application - čas aplikace primeru, pokud není aplikováno je
+  hodnota NA
+* Primer Detection with Vision OK - výsledek kontroly primeru, pokud je
+  vypnuto, tak hodnota NA
+* Bead Check pass/fail area - zóny, které byly kamerami na kontrolu primeru
+  vyhodnoceny jako nok, ale nok neprojdou od stanice, pokud je kontorla
+vypnuta tak je hodnota NA
+* Primer Curing Rack - index regálu kde bylo sklo uloženo ke zrání
+* Timestamp when Primer Flashoff Completed - čas kdy byl primer na skle
+  vyzrály k aplikaci lepidla (pouze pokud je primováno jinak je hodnota NA)
+* Time interval from primer application until glue application ends - čas od
+  aplikace primeru do ukončení aplikace lepidla (pouze pokud je primováno,
+jinak je hodnota NA)
+* Time since last dispense Timestamp when gluebed was started to applied - čas
+  poslední aplikace lepidla nebo odpouštění složky AB
+* Timestamp of glue bead application - čas kdy robot začne nanášet lepidlo
+* Robot Finish Time glue bead application - čas kdy robot dokončil nanášení
+  lepidla
+* Time interval from glue bead application until glass is taken out from
+  output station - interval od začátku aplikace do vyjmutí ze stanice
+* Barrel Expiry OK "A" - expirace sudu složky A ok/nok
+* Adhesive Batch ID "A" - produktové číslo sudu složky A
+* Adhesive Serial # "A" - sériové číslo sudu složky A
+* Material Dispensed "A" [ml] - aplikované množství složky A
+* Pistol Temperature Actual "A" - aktuální teplota pistole při aplikaci
+* Pot Temperature Actual "A" - aktuální teplota sudu složky A
+* Barrel Expiry OK "B" - expirace sudu složky B ok/nok 
+* Adhesive Batch ID "B" - produktové číslo sudu složky B
+* Adhesive Serial # "B" - sériové číslo sudu složky B
+* Material Dispensed "B" [ml] - aplikované množství složky B
+* Mischungsverhältnis Komponente A zu B - aplikační poměr nanášeného lepidla
+* Mix tube life - životnost mixéru
+* Robot Completed Cycle Without Fault - zda při pohybu manipulačního robota
+  nebyla stisknuta estop
+* Dispense Unit Completed Cycle Without Fault - zda při nanášení lepidla
+  nebyla stisknuta estop
+* Rotary Unit Completed Cycle Without Fault - zda nebyla v procesu otáčení
+  carrouselu stisknuta estop
+* Adhesive Application Process Complete Summary - zda nebyla
+* Bead Check Camera Laser- Sensor - výsledek měření housenky metralight
+* Bead Check Pass / Fail Area (Laser- Sensor) - nelze vyčíst data ze senzoru
+metralight
+	
 

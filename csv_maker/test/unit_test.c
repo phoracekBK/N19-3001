@@ -7,64 +7,100 @@
 #include "../src/include/csv_io.h"
 
 
-static void controler_parser_get_window_id_test();
-static void controler_parser_get_vehicle_number_test();
-static void controler_parser_get_rear_window_type_test();
-static void controler_parser_get_vehicle_model_test();
-static void controler_parser_get_primer_application_time_test();
-static void controler_parser_get_interval_from_primer_application_test();
-static void controler_parser_get_glue_application_time_test();
-static void controler_parser_get_interval_from_glue_application_test();
-static void controler_parser_get_assembly_time_test();
-static void controler_parser_get_primer_inspection_bypass_flag_test();
-static void controler_parser_get_glue_aplication_inspection_result_flag_test();
-static void controler_parser_get_glue_applied_flag_test();
-static void controler_parser_get_glass_delete_flag_test();
-static void controler_parser_time_to_seconds_test();
-static void controler_parser_get_glue_A_batch_number_test();
-static void controler_parser_get_glue_B_batch_number_test();
-static void controler_parser_get_glue_A_expiration_date_test();
-static void controler_parser_get_glue_B_expiration_date_test();
-static void controler_parser_get_glue_application_ratio_test();
-static void controler_parser_get_glue_temperature_during_application_test();
-static void controler_parser_get_applied_glue_ammount_test();
-static void controler_parser_get_humidity_test();
-static void controler_parser_get_ambient_temperature_test();
+
+static void cp_get_vehicle_number_test();
+static void cp_get_rear_window_type_test();
+static void cp_get_vehicle_model_test();
+static void cp_get_window_id_test();
+static void cp_get_time_from_primer_application_test();
+static void cp_get_time_from_primer_application_process_off_test();
+static void cp_get_primer_detection_with_vision_ok_test();
+static void cp_get_primer_detection_with_vision_ok_control_off_test();
+static void cp_get_bead_check_pass_fail_area_test();
+static void cp_get_bead_check_pass_fail_area_process_off_test();
+static void cp_get_primer_curring_rack_test();
+static void cp_get_time_primer_flashoff_complete_test();
+static void cp_get_time_primer_flashoff_complete_process_off_test();
+static void cp_get_interval_from_primering_util_gluing_test();		
+static void cp_get_interval_from_primering_util_gluing_process_off_test();
+static void cp_get_time_from_last_dispense_test();
+static void cp_get_timestamp_of_glue_bead_application_test();
+static void cp_get_robot_finish_time_glue_bead_application_test();
+static void cp_get_interval_from_glue_application_util_output_test();
+static void cp_get_barrel_expire_ok_a_test();
+static void cp_get_adhesive_batch_id_a_test();
+static void cp_get_adhesive_serial_a_test();
+static void cp_get_material_dispensed_a_test();
+static void cp_get_pistol_temperature_min_value_test();
+static void cp_get_pistol_temperature_test();
+static void cp_get_pistol_temperature_max_value_test();
+static void cp_get_pot_temperature_min_value_a_test();
+static void cp_get_pot_temperature_actual_a_test();
+static void cp_get_pot_temperature_max_value_a_test();
+static void cp_get_barrel_expire_ok_b_test();
+static void cp_get_adhesive_batch_b_test();
+static void cp_get_adhesive_serial_b_test();
+static void cp_get_material_dispensed_b_test();
+static void cp_get_application_ratio_test();
+static void cp_get_mixer_tube_life_test();
+static void cp_get_robot_completed_cycle_without_fault_test();
+static void cp_get_dispense_unit_completed_cycle_without_fault_test();
+static void cp_get_rotary_unit_completed_cycle_without_fault_test();
+static void cp_get_adhesive_application_complete_summary_test();
+static void cp_get_bead_check_laser_sensor_test();
+static void cp_get_humidity_test();
+static void cp_get_ambient_temperature_test();
 static void csv_io_generate_csv_name_test();
-
-
 static uint8_t * ut_get_buffer();
 
 
 
 void unit_test_run()
 {
-  controler_parser_get_window_id_test();
-  controler_parser_get_vehicle_number_test();
-  controler_parser_get_rear_window_type_test();
-  controler_parser_get_vehicle_model_test();
-  controler_parser_get_primer_application_time_test();
-  controler_parser_get_interval_from_primer_application_test();
-  controler_parser_get_glue_application_time_test();
-  controler_parser_get_interval_from_glue_application_test();
-  controler_parser_get_assembly_time_test();
-  controler_parser_get_primer_inspection_bypass_flag_test();
-  controler_parser_get_glue_aplication_inspection_result_flag_test();
-  controler_parser_get_glue_applied_flag_test();
-  controler_parser_get_glass_delete_flag_test();
-  controler_parser_time_to_seconds_test();
-  controler_parser_get_glue_A_batch_number_test();
-  controler_parser_get_glue_B_batch_number_test();
-  controler_parser_get_glue_A_expiration_date_test();
-  controler_parser_get_glue_B_expiration_date_test();
-  controler_parser_get_glue_application_ratio_test();
-  controler_parser_get_glue_temperature_during_application_test();
-  controler_parser_get_applied_glue_ammount_test();
-  controler_parser_get_humidity_test();
-  controler_parser_get_ambient_temperature_test();
 
-	csv_io_generate_csv_name_test();
-  
+	 cp_get_vehicle_number_test();
+	 cp_get_rear_window_type_test();
+	 cp_get_vehicle_model_test();
+	 cp_get_window_id_test();
+	 cp_get_time_from_primer_application_test();
+	 cp_get_time_from_primer_application_process_off_test();
+	 cp_get_primer_detection_with_vision_ok_test();
+	 cp_get_primer_detection_with_vision_ok_control_off_test();
+	 cp_get_bead_check_pass_fail_area_test();	
+	 cp_get_bead_check_pass_fail_area_process_off_test();
+	 cp_get_primer_curring_rack_test();
+	 cp_get_time_primer_flashoff_complete_test();
+	 cp_get_time_primer_flashoff_complete_process_off_test();
+	 cp_get_interval_from_primering_util_gluing_test();		
+	 cp_get_interval_from_primering_util_gluing_process_off_test();
+	 cp_get_time_from_last_dispense_test();
+	 cp_get_timestamp_of_glue_bead_application_test();
+	 cp_get_robot_finish_time_glue_bead_application_test();
+	 cp_get_interval_from_glue_application_util_output_test();
+	 cp_get_barrel_expire_ok_a_test();
+	 cp_get_adhesive_batch_id_a_test();
+	 cp_get_adhesive_serial_a_test();
+	 cp_get_material_dispensed_a_test();
+	 cp_get_pistol_temperature_min_value_test();
+	 cp_get_pistol_temperature_test();
+	 cp_get_pistol_temperature_max_value_test();
+	 cp_get_pot_temperature_min_value_a_test();
+	 cp_get_pot_temperature_actual_a_test();
+	 cp_get_pot_temperature_max_value_a_test();
+	 cp_get_barrel_expire_ok_b_test();
+	 cp_get_adhesive_batch_b_test();
+	 cp_get_adhesive_serial_b_test();
+	 cp_get_material_dispensed_b_test();
+	 cp_get_application_ratio_test();
+	 cp_get_mixer_tube_life_test();
+	 cp_get_robot_completed_cycle_without_fault_test();
+	 cp_get_dispense_unit_completed_cycle_without_fault_test();
+	 cp_get_rotary_unit_completed_cycle_without_fault_test();
+	 cp_get_adhesive_application_complete_summary_test();
+	 cp_get_bead_check_laser_sensor_test();
+	 cp_get_humidity_test();
+	 cp_get_ambient_temperature_test();
+	 csv_io_generate_csv_name_test();
 }
 
 static uint8_t * ut_get_buffer()
@@ -75,476 +111,791 @@ static uint8_t * ut_get_buffer()
   return buffer;
 }
 
-
-
-static void controler_parser_get_window_id_test()
+static uint8_t * ut_set_time_date(uint8_t * buffer, uint32_t index, uint32_t year, uint8_t month, uint8_t day, uint8_t hour, uint8_t minute, uint8_t second)
 {
-  printf("controler_parser_get_window_id: ");
+	s7lib_parser_write_int(buffer, index, year);
+	buffer[index+2] = month;
+	buffer[index+3] = day;
+	buffer[index+5] = hour;
+	buffer[index+6] = minute;
+	buffer[index+7] = second;
 
-  uint8_t * buffer = ut_get_buffer();
-  buffer = s7lib_parser_write_dword(buffer, 40, 30);
-
-  char * id_string = controler_parser_get_window_id(buffer);
-
-  if(strcmp(id_string, "30") == 0)
-    printf("PASS\n");
-  else
-    printf("FAIL\n");
-
-	fflush(stdout);
-
-  free(id_string);
-  free(buffer);
+	return buffer;
 }
 
-static void controler_parser_get_vehicle_number_test()
+static uint8_t * ut_get_buffer_with_time_date(uint32_t index, uint32_t year, uint8_t month, uint8_t day, uint8_t hour, uint8_t minute, uint8_t second)
 {
-  printf("controler_parser_get_vehicle_number: ");
-
-  uint8_t * buffer = ut_get_buffer();
-  buffer = s7lib_parser_write_string(buffer, 2, "qwertzuiopasd", 13);
-
-  char * vehicle_number_string = controler_parser_get_vehicle_number(buffer);
-
-  if(strcmp(vehicle_number_string, "qwertzuiopasd") == 0)
-    printf("PASS\n");
-  else
-    printf("FAIL\n");
-
-  free(buffer);
-  free(vehicle_number_string);
+	uint8_t * buffer = ut_get_buffer();
+	return ut_set_time_date(buffer, index, year, month, day, hour, minute, second);
 }
 
-static void controler_parser_get_rear_window_type_test()
+
+
+static void cp_get_vehicle_number_test()
 {
-  printf("controler_parser_get_rear_window_type: ");
+	printf("cp_get_vehicle_number: ");
 
-  uint8_t * buffer = ut_get_buffer();
-  buffer = s7lib_parser_write_string(buffer, 18, "qwertzuiopasdYXCVB", 18);
+	uint8_t * buffer = ut_get_buffer();
+	s7lib_parser_write_string(buffer, 2, "asdfqwe123456", 13);
 
-  char * rear_window_type_string = controler_parser_get_rear_window_type(buffer);
+	char * vehicle_number = cp_get_vehicle_number(buffer);
 
-  if(strcmp(rear_window_type_string, "qwertzuiopasdYXCVB") == 0)
-    printf("PASS\n");
-  else
-    printf("FAIL\n");
+	if(strcmp(vehicle_number, "asdfqwe123456") == 0)
+		printf("PASS\n");
+	else
+		printf("FAIL\n");
 
-  free(buffer);
-  free(rear_window_type_string);
+	free(vehicle_number);
+	free(buffer);
 }
 
-static void controler_parser_get_vehicle_model_test()
+static void cp_get_rear_window_type_test()
 {
-  printf("controler_parser_get_vehicle_model: ");
-  uint8_t * buffer = ut_get_buffer();
-  buffer[38] = '7';
+	printf("cp_get_rear_window_type: ");
 
-  char * string_model = controler_parser_get_vehicle_model(buffer);
+	uint8_t * buffer = ut_get_buffer();
+	s7lib_parser_write_string(buffer, 18, "asdfghjklqwer12345", 18);
 
-  if(strcmp(string_model, "7") == 0)
-    printf("PASS\n");
-  else
-    printf("FAIL\n");
+	char * rear_window_type = cp_get_rear_window_type(buffer);
 
-  free(buffer);
-  free(string_model);
+	if(strcmp(rear_window_type, "asdfghjklqwer12345") == 0)
+		printf("PASS\n");
+	else
+		printf("FAIL\n");
+
+	free(rear_window_type);
+	free(buffer);
 }
 
-static void controler_parser_get_primer_application_time_test()
+static void cp_get_vehicle_model_test()
 {
-  printf("controler_parser_get_primer_application_time: ");
+	printf("cp_get_vehicle_model: ");
 
-  uint8_t * buffer = ut_get_buffer();
+	uint8_t * buffer = ut_get_buffer();
+	buffer[38] = '7';
 
-  buffer = s7lib_parser_write_int(buffer, 44, 2020);
-  buffer[46] = 5;
-  buffer[47] = 11;
-  buffer[49] = 7;
-  buffer[50] = 44;
-  buffer[51] = 12;
+	char * vehicle_model = cp_get_vehicle_model(buffer);
 
-  char * string_time = controler_parser_get_primer_application_time(buffer);
+	if(strcmp(vehicle_model, "7") == 0)
+		printf("PASS\n");
+	else
+		printf("FAIL\n");
 
-  if(strcmp(string_time, "05.11.2020-07:44:12") == 0)
-    printf("PASS\n");
-  else
-    printf("FAIL\n");
-
-  free(buffer);
-  free(string_time);
+	free(vehicle_model);
+	free(buffer);
 }
 
-static void controler_parser_get_interval_from_primer_application_test()
+static void cp_get_window_id_test()
 {
-  printf("controler_parser_get_interval_from_primer_application: ");
+	printf("cp_get_window_id: ");
 
-  uint8_t * buffer = ut_get_buffer();
+	uint8_t * buffer = ut_get_buffer();
+	s7lib_parser_write_dword(buffer, 40, 4567);
 
-  buffer = s7lib_parser_write_int(buffer, 44, 2020);
-  buffer[46] = 5;
-  buffer[47] = 11;
-  buffer[49] = 7;
-  buffer[50] = 44;
-  buffer[51] = 12;
+	char * window_id = cp_get_window_id(buffer);
 
-  buffer = s7lib_parser_write_int(buffer, 68, 2020);
-  buffer[70] = 5;
-  buffer[71] = 11;
-  buffer[73] = 7;
-  buffer[74] = 45;
-  buffer[75] = 12;
+	if(strcmp(window_id, "4567") == 0)
+		printf("PASS\n");
+	else
+		printf("FAIL\n");
 
-  char * string_interval = controler_parser_get_interval_from_primer_application(buffer);
-
-  if(strcmp(string_interval, "60") == 0)
-    printf("PASS\n");
-  else
-    printf("FAIL\n");
-
-  free(buffer);
-  free(string_interval);
+	free(window_id);
+	free(buffer);
 }
 
-static void controler_parser_get_glue_application_time_test()
+static void cp_get_time_from_primer_application_test()
 {
-  printf("controler_parser_get_glue_application_time: ");
+	printf("cp_get_time_from_primer_application: ");
 
-  uint8_t * buffer = ut_get_buffer();
+	uint8_t * buffer = ut_get_buffer_with_time_date(44, 2020, 6, 27, 23, 21, 51);
+	s7lib_parser_write_bool(buffer, 202, 1, true);
+	
+	char * time_from_primer_application = cp_get_time_from_primer_application(buffer);
+	
+	if(strcmp(time_from_primer_application, "2020-06-27 23:21:51") == 0)
+		printf("PASS\n");
+	else
+		printf("FAIL\n");
 
-  buffer = s7lib_parser_write_int(buffer, 56, 2020);
-  buffer[58] = 5;
-  buffer[59] = 11;
-  buffer[61] = 7;
-  buffer[62] = 44;
-  buffer[63] = 12;
-
-  char * string_time = controler_parser_get_glue_application_time(buffer);
-
-  if(strcmp(string_time, "05.11.2020-07:44:12") == 0)
-    printf("PASS\n");
-  else
-    printf("FAIL\n");
-
-  free(buffer);
-  free(string_time);
+	free(time_from_primer_application);
+	free(buffer);
 }
 
-static void controler_parser_get_interval_from_glue_application_test()
+static void cp_get_time_from_primer_application_process_off_test()
 {
-  printf("controler_parser_get_interval_from_glue_application: ");
-  uint8_t * buffer = ut_get_buffer();
+	printf("cp_get_time_from_primer_application_process_off: ");
 
-  buffer = s7lib_parser_write_int(buffer, 56, 2020);
-  buffer[58] = 5;
-  buffer[59] = 11;
-  buffer[61] = 7;
-  buffer[62] = 44;
-  buffer[63] = 12;
+	uint8_t * buffer = ut_get_buffer_with_time_date(44, 2020, 6, 27, 23, 21, 51);
 
-  buffer = s7lib_parser_write_int(buffer, 68, 2020);
-  buffer[70] = 5;
-  buffer[71] = 11;
-  buffer[73] = 7;
-  buffer[74] = 45;
-  buffer[75] = 12;
+	char * time_from_primer_application = cp_get_time_from_primer_application(buffer);
+	
+	if(strcmp(time_from_primer_application, "NA") == 0)
+		printf("PASS\n");
+	else
+		printf("FAIL\n");
 
-  char * string_interval = controler_parser_get_interval_from_glue_application(buffer);
-
-  if(strcmp(string_interval, "60") == 0)
-    printf("PASS\n");
-  else
-    printf("FAIL\n");
-
-  free(buffer);
-  free(string_interval);
+	free(time_from_primer_application);
+	free(buffer);
 }
 
-static void controler_parser_get_assembly_time_test()
+static void cp_get_primer_detection_with_vision_ok_test()
 {
-  printf("controler_parser_get_assembly_time: ");
+	printf("cp_get_primer_detection_with_vision_ok: ");
 
-  uint8_t * buffer = ut_get_buffer();
+	uint8_t * buffer = ut_get_buffer();
+	s7lib_parser_write_bool(buffer, 202, 0, true);
+	s7lib_parser_write_bool(buffer, 108, 1, true);
+	
+	char * primer_detection_with_vision_ok = cp_get_primer_detection_with_vision_ok(buffer);
 
-  buffer = s7lib_parser_write_int(buffer, 68, 2020);
-  buffer[70] = 5;
-  buffer[71] = 11;
-  buffer[73] = 7;
-  buffer[74] = 44;
-  buffer[75] = 12;
+	if(strcmp(primer_detection_with_vision_ok, "PASS") == 0)
+		printf("PASS\n");
+	else
+		printf("FAIL\n");
 
-  char * string_time = controler_parser_get_assembly_time(buffer);
-
-  if(strcmp(string_time, "05.11.2020-07:44:12") == 0)
-    printf("PASS\n");
-  else
-    printf("FAIL\n");
-
-  free(buffer);
-  free(string_time);
+	free(primer_detection_with_vision_ok);
+	free(buffer);
 }
 
-static void controler_parser_get_primer_inspection_bypass_flag_test()
+static void cp_get_primer_detection_with_vision_ok_control_off_test()
 {
-  printf("controler_parser_get_primer_inspection_bypass_flag: ");
+	printf("cp_get_primer_detection_with_vision_ok_control_off: ");
 
-  uint8_t * buffer = ut_get_buffer();
-  buffer = s7lib_parser_write_bool(buffer, 80,0,true);
+	uint8_t * buffer = ut_get_buffer();
+	s7lib_parser_write_bool(buffer, 108, 1, true);
 
-  char * string_flag = controler_parser_get_primer_inspection_bypass_flag(buffer);
 
-  if(strcmp(string_flag, "true") == 0)
-    printf("PASS\n");
-  else
-    printf("FAIL\n");
+	char * primer_detection_with_vision_ok = cp_get_primer_detection_with_vision_ok(buffer);
 
-  free(buffer);
-  free(string_flag);
+	if(strcmp(primer_detection_with_vision_ok, "NA") == 0)
+		printf("PASS\n");
+	else
+		printf("FAIL\n");
+
+	free(primer_detection_with_vision_ok);
+
+	free(buffer);
 }
 
-static void controler_parser_get_glue_aplication_inspection_result_flag_test()
+static void cp_get_bead_check_pass_fail_area_test()
 {
-  printf("controler_parser_get_glue_aplication_inspection_result_flag: ");
+	printf("cp_get_beat_check_pass_fail_area: ");
 
-  uint8_t * buffer = ut_get_buffer();
-  buffer = s7lib_parser_write_bool(buffer, 80,1,true);
+	uint8_t * buffer = ut_get_buffer();
+	s7lib_parser_write_bool(buffer, 106, 0, true);
+	s7lib_parser_write_bool(buffer, 106, 1, false);
+	s7lib_parser_write_bool(buffer, 106, 2, true);
+	s7lib_parser_write_bool(buffer, 106, 3, false);
+	s7lib_parser_write_bool(buffer, 202, 0, true);
 
-  char * string_flag = controler_parser_get_glue_aplication_inspection_result_flag(buffer);
+	char * bead_check_pass_fail_area = cp_get_bead_check_pass_fail_area(buffer);
 
-  if(strcmp(string_flag, "pass") == 0)
-    printf("PASS\n");
-  else
-    printf("FAIL\n");
+	if(strcmp(bead_check_pass_fail_area, "PASS-FAIL-PASS-FAIL") == 0)
+		printf("PASS\n");
+	else
+		printf("FAIL\n");
 
-  free(buffer);
-  free(string_flag);
+	free(bead_check_pass_fail_area);
+	free(buffer);
 }
 
-static void controler_parser_get_glue_applied_flag_test()
+static void cp_get_bead_check_pass_fail_area_process_off_test()
 {
-  printf("controler_parser_get_glue_applied_flag: ");
+	printf("cp_get_beat_check_pass_fail_area_process_off: ");
 
-  uint8_t * buffer = ut_get_buffer();
-  buffer = s7lib_parser_write_bool(buffer, 80,2,true);
+	uint8_t * buffer = ut_get_buffer();
+	buffer = s7lib_parser_write_bool(buffer, 106, 0, true);
+	buffer = s7lib_parser_write_bool(buffer, 106, 1, false);
+	buffer = s7lib_parser_write_bool(buffer, 106, 2, true);
+	buffer = s7lib_parser_write_bool(buffer, 106, 3, false);
+	
+	char * bead_check_pass_fail_area = cp_get_bead_check_pass_fail_area(buffer);
 
-  char * string_flag = controler_parser_get_glue_applied_flag(buffer);
+	if(strcmp(bead_check_pass_fail_area, "NA") == 0)
+		printf("PASS\n");
+	else
+		printf("FAIL\n");
 
-  if(strcmp(string_flag, "true") == 0)
-    printf("PASS\n");
-  else
-    printf("FAIL\n");
-
-  free(buffer);
-  free(string_flag);
+	free(bead_check_pass_fail_area);
+	free(buffer);
 }
 
-static void controler_parser_get_glass_delete_flag_test()
+static void cp_get_primer_curring_rack_test()
 {
-  printf("controler_parser_get_glass_delete_flag: ");
+	printf("cp_get_primer_curring_rack: ");
 
-  uint8_t * buffer = ut_get_buffer();
-  buffer = s7lib_parser_write_bool(buffer, 80,3,true);
+	uint8_t * buffer = ut_get_buffer();
+	s7lib_parser_write_int(buffer, 104, 5);
 
-  char * string_flag = controler_parser_get_glass_delete_flag(buffer);
+	char * primer_curring_rack = cp_get_primer_curring_rack(buffer);
 
-  if(strcmp(string_flag, "true") == 0)
-    printf("PASS\n");
-  else
-    printf("FAIL\n");
+	if(strcmp(primer_curring_rack, "5") == 0)
+		printf("PASS\n");
+	else
+		printf("FAIL\n");
 
-  free(buffer);
-  free(string_flag);
+	free(primer_curring_rack);
+	free(buffer);
 }
 
-static void controler_parser_time_to_seconds_test()
+static void cp_get_time_primer_flashoff_complete_test()
 {
-  printf("controler_parser_time_to_seconds: ");
+	printf("cp_get_time_primer_flash_off_complete: ");
 
-  int time [6] = {0,0,0,1,1,10};
+	uint8_t * buffer = ut_get_buffer_with_time_date(56, 2020, 6, 27, 12, 33, 53);
+	s7lib_parser_write_bool(buffer, 202, 1, true);
 
-  uint64_t interval = controler_parser_time_to_seconds(time);
+	char * time_primer_flashoff_complete = cp_get_time_primer_flashoff_complete(buffer);
 
-  if(interval == 3670)
-    printf("PASS\n");
-  else
-    printf("FAIL\n");
+	if(strcmp(time_primer_flashoff_complete, "2020-06-27 12:33:53") == 0)
+		printf("PASS\n");
+	else
+		printf("FAIL\n");
+
+	free(time_primer_flashoff_complete);
+	free(buffer);
 }
 
-static void controler_parser_get_glue_A_batch_number_test()
+static void cp_get_time_primer_flashoff_complete_process_off_test()
 {
-  printf("controler_parser_get_glue_A_batch_number: ");
-  uint8_t * buffer = ut_get_buffer();
-  buffer = s7lib_parser_write_string(buffer, 82, "ertzuiopasdYXCVB", 16);
+	printf("cp_get_time_primer_flash_off_complete_process_off: ");
 
-  char * barrel_a_batch_number = controler_parser_get_glue_A_batch_number(buffer);
+	uint8_t * buffer = ut_get_buffer_with_time_date(56, 2020, 6, 27, 12, 33, 53);
 
-  if(strcmp(barrel_a_batch_number,"ertzuiopasdYXCVB") == 0)
-    printf("PASS\n");
-  else
-    printf("FAIL\n");
+	char * time_primer_flashoff_complete = cp_get_time_primer_flashoff_complete(buffer);
 
-  free(buffer);
+	if(strcmp(time_primer_flashoff_complete, "NA") == 0)
+		printf("PASS\n");
+	else
+		printf("FAIL\n");
 
-  if(barrel_a_batch_number != NULL)
-    free(barrel_a_batch_number);
+	free(time_primer_flashoff_complete);
+	free(buffer);
 }
 
-static void controler_parser_get_glue_B_batch_number_test()
+
+static void cp_get_interval_from_primering_util_gluing_test()
 {
-  printf("controler_parser_get_glue_B_batch_number: ");
-  uint8_t * buffer = ut_get_buffer();
-  buffer = s7lib_parser_write_string(buffer, 104, "ertzuiopasdYXCVB", 16);
+	printf("cp_get_interval_from_primering_util_gluing: ");
 
-  char * barrel_b_batch_number = controler_parser_get_glue_B_batch_number(buffer);
+	uint8_t * buffer = ut_get_buffer_with_time_date(44, 2020, 6, 27, 23, 21, 51);
+	buffer = ut_set_time_date(buffer, 80, 2020, 6, 27, 23, 41, 51);
+	s7lib_parser_write_bool(buffer, 202, 1, true);
 
-  if(strcmp(barrel_b_batch_number,"ertzuiopasdYXCVB") == 0)
-    printf("PASS\n");
-  else
-    printf("FAIL\n");
+	char * interval_from_primering_util_gluing = cp_get_interval_from_primering_util_gluing(buffer);
 
-  free(buffer);
+	if(strcmp(interval_from_primering_util_gluing, "1200") == 0)
+		printf("PASS\n");
+	else
+		printf("FAIL\n");
 
-  if(barrel_b_batch_number != NULL)
-    free(barrel_b_batch_number);
+	free(interval_from_primering_util_gluing);
+	free(buffer);
 }
 
-static void controler_parser_get_glue_A_expiration_date_test()
+
+static void cp_get_interval_from_primering_util_gluing_process_off_test()
 {
-  printf("controler_parser_get_glue_A_expiration_date: ");
-  uint8_t * buffer = ut_get_buffer();
-  buffer = s7lib_parser_write_int(buffer, 100, 2019);
-  buffer[102] = 2;
+	printf("cp_get_interval_from_primering_util_gluing_process_off: ");
 
-  char * barrel_a_expiration_date = controler_parser_get_glue_A_expiration_date(buffer);
+	uint8_t * buffer = ut_get_buffer_with_time_date(44, 2020, 6, 27, 23, 21, 51);
+	buffer = ut_set_time_date(buffer, 80, 2020, 6, 27, 23, 41, 51);
 
-  if(strcmp(barrel_a_expiration_date, "2019-02") == 0)
-    printf("PASS\n");
-  else
-    printf("FAIL\n");
+	char * interval_from_primering_util_gluing = cp_get_interval_from_primering_util_gluing(buffer);
 
-  free(buffer);
+	if(strcmp(interval_from_primering_util_gluing, "NA") == 0)
+		printf("PASS\n");
+	else
+		printf("FAIL\n");
 
-  if(barrel_a_expiration_date != NULL)
-    free(barrel_a_expiration_date);
+	free(interval_from_primering_util_gluing);
+	free(buffer);
 }
 
-static void controler_parser_get_glue_B_expiration_date_test()
+static void cp_get_time_from_last_dispense_test()
 {
-  printf("controler_parser_get_glue_B_expiration_date: ");
+	printf("cp_get_time_from_last_dispense: ");
 
-  uint8_t * buffer = ut_get_buffer();
-  buffer = s7lib_parser_write_int(buffer, 122, 2019);
-  buffer[124] = 2;
+	uint8_t * buffer = ut_get_buffer_with_time_date(190, 2020, 11, 2,22,16,2);
+	
+	char * time_from_last_dispense = cp_get_time_from_last_dispense(buffer);
 
-  char * barrel_b_expiration_date = controler_parser_get_glue_B_expiration_date(buffer);
+	if(strcmp(time_from_last_dispense, "2020-11-02 22:16:02") == 0)
+		printf("PASS\n");
+	else
+		printf("FAIL\n");
 
-  if(strcmp(barrel_b_expiration_date, "2019-02") == 0)
-    printf("PASS\n");
-  else
-    printf("FAIL\n");
-
-  free(buffer);
-
-  if(barrel_b_expiration_date != NULL)
-    free(barrel_b_expiration_date);
+	free(time_from_last_dispense);
+	free(buffer);
 }
 
-static void controler_parser_get_glue_application_ratio_test()
+static void cp_get_timestamp_of_glue_bead_application_test()
 {
-  printf("controler_parser_get_glue_application_ratio: ");
+	printf("cp_get_timestamp_of_glue_bead_application: ");
 
-  uint8_t * buffer = ut_get_buffer();
-  buffer = s7lib_parser_write_real(buffer, 126, 100.0);
-  buffer = s7lib_parser_write_real(buffer, 130, 3.0);
+	uint8_t * buffer = ut_get_buffer_with_time_date(68, 2020,11,2,23,16,33);
 
-  char * glue_application_ratio = controler_parser_get_glue_application_ratio(buffer);
+	char * timestamp_of_flue_bead_application = cp_get_timestamp_of_glue_bead_application(buffer);
 
+	if(strcmp(timestamp_of_flue_bead_application, "2020-11-02 23:16:33") == 0)
+		printf("PASS\n");
+	else
+		printf("FAIL\n");
 
-  if(strcmp(glue_application_ratio, "100.0:3.0") == 0)
-    printf("PASS\n");
-  else
-    printf("FAIL\n");
-
-  free(buffer);
-
-  if(glue_application_ratio != NULL)
-    free(glue_application_ratio);
+	free(timestamp_of_flue_bead_application);
+	free(buffer);
 }
 
-static void controler_parser_get_glue_temperature_during_application_test()
+static void cp_get_robot_finish_time_glue_bead_application_test()
 {
-  printf("controler_parser_get_glue_temperature_during_application: ");
-  uint8_t * buffer = ut_get_buffer();
-  buffer = s7lib_parser_write_real(buffer, 134, 55.1234);
+	printf("cp_get_robot_finish_time_glue_bead_application: ");
 
-  char * glue_temperature_during_application = controler_parser_get_glue_temperature_during_application(buffer);
+	uint8_t * buffer = ut_get_buffer_with_time_date(80, 2020, 5, 22, 12, 5, 23);
+	
+	char * robot_finish_time_glue_bead_application = cp_get_robot_finish_time_glue_bead_application(buffer);
 
-  if(strcmp(glue_temperature_during_application, "55.1") == 0)
-    printf("PASS\n");
-  else
-    printf("FAIL\n");
+	if(strcmp(robot_finish_time_glue_bead_application, "2020-05-22 12:05:23") == 0)
+		printf("PASS\n");
+	else
+		printf("FAIL\n");
 
-  free(buffer);
-
-  if(glue_temperature_during_application != NULL)
-    free(glue_temperature_during_application);
+	free(robot_finish_time_glue_bead_application);
+	free(buffer);
 }
 
-static void controler_parser_get_applied_glue_ammount_test()
+static void cp_get_interval_from_glue_application_util_output_test()
 {
-  printf("controler_parser_get_applied_glue_amount: ");
-  uint8_t * buffer = ut_get_buffer();
-  buffer = s7lib_parser_write_real(buffer, 138, 245.3);
+	printf("cp_get_interval_from_glue_application_util_output: ");
 
-  char * applied_glue_amount = controler_parser_get_applied_glue_amount(buffer);
+	uint8_t * buffer = ut_get_buffer_with_time_date(68, 2020, 12,2,12,34,44);
+	buffer = ut_set_time_date(buffer, 92, 2020,12,2,12,40,44);
 
-  if(strcmp(applied_glue_amount, "245.3") == 0)
-    printf("PASS\n");
-  else
-    printf("FAIL\n");
+	char * interval_from_glue_application_util_output = cp_get_interval_from_glue_application_util_output(buffer);
 
-  free(buffer);
-  free(applied_glue_amount);
+	if(strcmp(interval_from_glue_application_util_output, "360") == 0)
+		printf("PASS\n");
+	else
+		printf("FAIL\n");
+
+	free(interval_from_glue_application_util_output);
+	free(buffer);
 }
 
-static void controler_parser_get_humidity_test()
+static void cp_get_barrel_expire_ok_a_test()
 {
-  printf("controler_parser_get_humidity: ");
+	printf("cp_get_barrel_expiration_ok_a: ");
 
-  uint8_t * buffer = ut_get_buffer();
-  buffer = s7lib_parser_write_real(buffer, 142, 77.4);
+	uint8_t * buffer = ut_get_buffer();
+	s7lib_parser_write_bool(buffer, 149, 0, true);	
 
-  char * ambient_humidity = controler_parser_get_humidity(buffer);
+	char * barrel_expire_ok_a = cp_get_barrel_expire_ok_a(buffer);
 
-  if(strcmp(ambient_humidity, "77.4") == 0)
-    printf("PASS\n");
-  else
-    printf("FAIL\n");
+	if(strcmp(barrel_expire_ok_a, "nok") == 0)
+		printf("PASS\n");
+	else
+		printf("FAIL\n");
 
-  free(buffer);
-
-  if(ambient_humidity != NULL)
-    free(ambient_humidity);
+	free(barrel_expire_ok_a);
+	free(buffer);
 }
 
-static void controler_parser_get_ambient_temperature_test()
+static void cp_get_adhesive_batch_id_a_test()
 {
-  printf("controler_parser_get_ambient_temperature: ");
+	printf("cp_get_adhesive_batch_id_a: ");
 
-  uint8_t * buffer = ut_get_buffer();
-  buffer = s7lib_parser_write_real(buffer, 146, 27.8);
+	uint8_t * buffer = ut_get_buffer();
+	s7lib_parser_write_string(buffer, 110, "F113JC1UDA", 16);
 
-  char * ambient_temperature = controler_parser_get_ambient_temperature(buffer);
+	char * adhesive_batch_id_a = cp_get_adhesive_batch_id_a(buffer);
 
-  if(strcmp(ambient_temperature, "27.8") == 0)
-    printf("PASS\n");
-  else
-    printf("FAIL\n");
+	if(strcmp(adhesive_batch_id_a, "F113JC1UDA") == 0)
+		printf("PASS\n");
+	else
+		printf("FAIL\n");
 
-  free(buffer);
-
-  if(ambient_temperature != NULL)
-    free(ambient_temperature);
+	free(adhesive_batch_id_a);
+	free(buffer);
 }
+
+static void cp_get_adhesive_serial_a_test()
+{
+	printf("cp_get_adhesive_serial_a: ");
+
+	uint8_t * buffer = ut_get_buffer();
+	s7lib_parser_write_string(buffer, 128, "107472359", 16);
+
+	char * adhesive_serial_a = cp_get_adhesive_serial_a(buffer); 
+
+	if(strcmp(adhesive_serial_a, "107472359") == 0)
+		printf("PASS\n");
+	else
+		printf("FAIL\n");
+
+	free(adhesive_serial_a);
+	free(buffer);
+}
+
+static void cp_get_material_dispensed_a_test()
+{
+	printf("cp_get_material_dispensed_a: ");
+
+	uint8_t * buffer = ut_get_buffer();
+	s7lib_parser_write_real(buffer, 224, 123.345);
+
+	char * material_dispensed_a = cp_get_material_dispensed_a(buffer); 
+
+	if(strcmp(material_dispensed_a, "123.3") == 0)
+		printf("PASS\n");
+	else
+		printf("FAIL\n");
+
+	free(material_dispensed_a);
+	free(buffer);
+}
+
+static void cp_get_pistol_temperature_min_value_test()
+{
+	printf("cp_get_pistol_temperature_min_value: ");
+
+	uint8_t * buffer = ut_get_buffer();
+	s7lib_parser_write_real(buffer, 216, 35.0);
+
+	char * pistol_temperature_min_value = cp_get_pistol_temperature_min_value(buffer);
+
+	if(strcmp(pistol_temperature_min_value, "35.0") == 0)
+		printf("PASS\n");
+	else
+		printf("FAIL\n");
+
+	free(pistol_temperature_min_value);
+	free(buffer);
+}
+
+static void cp_get_pistol_temperature_test()
+{
+	printf("cp_get_pistol_temperature: ");
+
+	uint8_t * buffer = ut_get_buffer();
+	s7lib_parser_write_real(buffer, 216, 55.5);
+	
+	char * pistol_actual_temperature = cp_get_pistol_temperature(buffer);
+
+	if(strcmp(pistol_actual_temperature, "55.5") == 0)
+		printf("PASS\n");
+	else
+		printf("FAIL\n"); 
+
+	free(pistol_actual_temperature);
+	free(buffer);
+}
+
+static void cp_get_pistol_temperature_max_value_test()
+{
+	printf("cp_get_pistol_temperature_max_value: ");
+
+	uint8_t * buffer = ut_get_buffer();
+	s7lib_parser_write_real(buffer, 116, 65.0);
+	
+	char * pistol_temperature_max_value = cp_get_pistol_temperature_max_value(buffer);
+
+	if(strcmp(pistol_temperature_max_value, "65.0") == 0)
+		printf("PASS\n");
+	else
+		printf("FAIL\n");
+
+	free(pistol_temperature_max_value);
+	free(buffer);
+}
+
+static void cp_get_pot_temperature_min_value_a_test()
+{
+	printf("cp_get_pot_temperature_min_value_a: ");
+
+	uint8_t * buffer = ut_get_buffer();
+	s7lib_parser_write_real(buffer, 220, 35.0);
+
+	char * pot_temperature_min_value_a = cp_get_pot_temperature_min_value_a(buffer);
+
+	if(strcmp(pot_temperature_min_value_a, "35.0") == 0)
+		printf("PASS\n");
+	else
+		printf("FAIL\n");
+
+	free(pot_temperature_min_value_a);
+	free(buffer);
+}
+
+static void cp_get_pot_temperature_actual_a_test()
+{
+	printf("cp_get_pot_temperature_actual_a: ");
+
+	uint8_t * buffer = ut_get_buffer();
+	s7lib_parser_write_real(buffer, 220, 55.5);
+	
+	char * pot_temperature_actual_a = cp_get_pot_temperature_actual_a(buffer);
+
+	if(strcmp(pot_temperature_actual_a, "55.5") == 0)
+		printf("PASS\n");
+	else
+		printf("FAIL\n");
+
+	free(pot_temperature_actual_a);
+	free(buffer);
+}
+
+static void cp_get_pot_temperature_max_value_a_test()
+{
+	printf("cp_get_pot_temperature_max_value_a: ");
+
+	uint8_t * buffer = ut_get_buffer();
+	s7lib_parser_write_real(buffer, 220, 65.0);
+
+	char * pot_temperature_max_value_a = cp_get_pot_temperature_max_value_a(buffer);
+
+	if(strcmp(pot_temperature_max_value_a, "65.0") == 0)
+		printf("PASS\n");
+	else
+		printf("FAIL\n");
+
+	free(pot_temperature_max_value_a);
+	free(buffer);
+}
+
+static void cp_get_barrel_expire_ok_b_test()
+{
+	printf("cp_get_barrel_expire_ok_b: ");
+
+	uint8_t * buffer = ut_get_buffer();
+	s7lib_parser_write_bool(buffer, 189, 0, true);
+
+	char * barrel_expire_ok_b = cp_get_barrel_expire_ok_b(buffer);
+
+	if(strcmp(barrel_expire_ok_b, "nok") == 0)
+		printf("PASS\n");
+	else
+		printf("FAIL\n");
+
+	free(barrel_expire_ok_b);
+	free(buffer);
+}
+
+static void cp_get_adhesive_batch_b_test()
+{
+	printf("cp_get_adhesive_batch_b: ");
+
+	uint8_t * buffer = ut_get_buffer();
+	s7lib_parser_write_string(buffer, 150, "YY00j6E802", 16);
+
+	char * adhesive_batch_b = cp_get_adhesive_batch_b(buffer);
+
+	if(strcmp(adhesive_batch_b, "YY00j6E802") == 0)
+		printf("PASS\n");
+	else
+		printf("FAIL\n");
+
+	free(adhesive_batch_b);
+	free(buffer);
+}
+
+static void cp_get_adhesive_serial_b_test()
+{
+	printf("cp_get_adhesive_searial_b: ");
+
+	uint8_t * buffer = ut_get_buffer();
+	s7lib_parser_write_string(buffer, 168, "107472359", 16);
+
+	char * adhesive_serial_b = cp_get_adhesive_serial_b(buffer);
+
+	if(strcmp(adhesive_serial_b, "107472359") == 0)
+		printf("PASS\n");
+	else
+		printf("FAIL\n");
+
+	free(adhesive_serial_b);
+	free(buffer);
+}
+
+static void cp_get_material_dispensed_b_test()
+{
+	printf("cp_get_material_dispensed_b: ");
+
+	uint8_t * buffer = ut_get_buffer();
+	s7lib_parser_write_real(buffer, 228, 2.234);
+
+	char * material_dispensed_b = cp_get_material_dispensed_b(buffer); 
+
+	if(strcmp(material_dispensed_b, "2.2") == 0)
+		printf("PASS\n");
+	else
+		printf("FAIL\n");
+
+	free(material_dispensed_b);
+	free(buffer);
+}
+
+static void cp_get_application_ratio_test()
+{
+	printf("cp_get_application_ratio: ");
+
+	uint8_t * buffer = ut_get_buffer();
+	s7lib_parser_write_real(buffer, 208, 100.0);
+	s7lib_parser_write_real(buffer, 212, 3.0);
+	
+	char * application_ratio = cp_get_application_ratio(buffer);
+
+	if(strcmp(application_ratio, "100.0:3.0") == 0)
+		printf("PASS\n");
+	else
+		printf("FAIL\n");
+
+	free(application_ratio);
+	free(buffer);
+}
+
+static void cp_get_mixer_tube_life_test()
+{
+	printf("cp_get_mixer_tube_life: ");
+
+	uint8_t * buffer = ut_get_buffer();
+	s7lib_parser_write_dword(buffer, 204, 3453);
+
+	char * mixer_tube_life = cp_get_mixer_tube_life(buffer);
+
+	if(strcmp(mixer_tube_life, "3453") == 0)
+		printf("PASS\n");
+	else
+		printf("FAIL\n");
+
+	free(mixer_tube_life);
+	free(buffer);
+}
+
+static void cp_get_robot_completed_cycle_without_fault_test()
+{
+	printf("cp_get_robot_completed_cycle_without_fault: ");
+
+	uint8_t * buffer = ut_get_buffer();
+	s7lib_parser_write_bool(buffer, 108, 4, true);
+	
+	char * robot_completed_cycle_without_fault = cp_get_robot_completed_cycle_without_fault(buffer);
+
+	if(strcmp(robot_completed_cycle_without_fault, "true") == 0)
+		printf("PASS\n");
+	else
+		printf("FAIL\n");
+
+	free(robot_completed_cycle_without_fault);
+	free(buffer);
+}
+
+static void cp_get_dispense_unit_completed_cycle_without_fault_test()
+{
+	printf("cp_get_dispense_unit_completed_cycle_without_fault: ");
+
+	uint8_t * buffer = ut_get_buffer();
+	s7lib_parser_write_bool(buffer, 108, 5, true);
+
+	char * dispense_unit_completed_cycle_without_fault = cp_get_dispense_unit_completed_cycle_without_fault(buffer);
+
+	if(strcmp(dispense_unit_completed_cycle_without_fault, "true") == 0)
+		printf("PASS\n");
+	else
+		printf("FAIL\n");
+
+	free(dispense_unit_completed_cycle_without_fault);
+	free(buffer);
+}
+
+static void cp_get_rotary_unit_completed_cycle_without_fault_test()
+{
+	printf("cp_get_rotary_unit_completed_cycle_wihtout_fault: ");
+
+	uint8_t * buffer = ut_get_buffer();
+	s7lib_parser_write_bool(buffer, 108, 6, true);
+
+	char * rotary_unit_completed_cycle_without_fault = cp_get_rotary_unit_completed_cycle_without_fault(buffer);
+
+	if(strcmp(rotary_unit_completed_cycle_without_fault, "true") == 0)
+		printf("PASS\n");
+	else
+		printf("FAIL\n");
+
+	free(rotary_unit_completed_cycle_without_fault);
+	free(buffer);
+}
+
+static void cp_get_adhesive_application_complete_summary_test()
+{
+	printf("cp_get_adhesive_application_complete_summary: ");
+
+	uint8_t * buffer = ut_get_buffer();
+	s7lib_parser_write_bool(buffer, 108, 7, true);
+
+	char * adhesive_application_complete_summary = cp_get_adhesive_application_complete_summary(buffer);
+
+	if(strcmp(adhesive_application_complete_summary, "true") == 0)
+		printf("PASS\n");
+	else
+		printf("FAIL\n");
+
+	free(adhesive_application_complete_summary);
+	free(buffer);
+}
+
+static void cp_get_bead_check_laser_sensor_test()
+{
+	printf("cp_get_bead_check_laser_sensor: ");
+
+	uint8_t * buffer = ut_get_buffer();
+	s7lib_parser_write_bool(buffer, 108, 2, true);
+
+	char * bead_check_laser_sensor = cp_get_bead_check_laser_sensor(buffer);
+
+	if(strcmp(bead_check_laser_sensor, "PASS") == 0)
+		printf("PASS\n");
+	else
+		printf("FAIL\n");
+
+	free(bead_check_laser_sensor);
+	free(buffer);
+}
+
+static void cp_get_humidity_test()
+{
+	printf("cp_get_humidity: ");
+
+	uint8_t * buffer = ut_get_buffer();
+	s7lib_parser_write_real(buffer, 232, 57.71);
+
+	char * humidity = cp_get_humidity(buffer);
+
+	if(strcmp(humidity, "57.7") == 0)
+		printf("PASS\n");
+	else
+		printf("FAIL\n");
+
+	free(humidity);
+	free(buffer);
+}
+
+static void cp_get_ambient_temperature_test()
+{
+	printf("cp_get_ambient_temperature: ");
+
+	uint8_t * buffer = ut_get_buffer();
+	s7lib_parser_write_real(buffer, 236, 23.31);
+
+	char * ambient_temperature = cp_get_ambient_temperature(buffer);
+
+	if(strcmp(ambient_temperature, "23.3") == 0)
+		printf("PASS\n");
+	else
+		printf("FAIL\n");
+
+	free(ambient_temperature);
+	free(buffer);
+}
+
 
 
 static void csv_io_generate_csv_name_test()

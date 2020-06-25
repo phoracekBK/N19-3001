@@ -72,6 +72,7 @@ void main_loop(s7lib * s7lib_ref, char * path)
     	   		free(buffer);
     	   	}
 
+			fflush(stdout);
     	   	sleep(1);
     	}
 	}
@@ -81,7 +82,7 @@ void main_loop(s7lib * s7lib_ref, char * path)
 	}
 }
 
-void main_loop_no_debug(s7lib * s7lib_ref, char * path)
+void main_loop_silence_mode(s7lib * s7lib_ref, char * path)
 {
 	HWND var = GetConsoleWindow();
 	
@@ -99,10 +100,10 @@ int main(int argv, char ** argc)
 
 	if(s7lib_ref != NULL)
   	{
-		if(is_debug_mode(argv, argc, "-d") == true)
-			main_loop(s7lib_ref, resolve_path_for_csv(argv, argc, "-a", CSV_PATH));
+		if(is_debug_mode(argv, argc, "-s") == true)
+			main_loop_silence_mode(s7lib_ref, resolve_path_for_csv(argv, argc, "-a", CSV_PATH));
 		else
-			main_loop_no_debug(s7lib_ref, resolve_path_for_csv(argv, argc, "-a", CSV_PATH));
+			main_loop(s7lib_ref, resolve_path_for_csv(argv, argc, "-a", CSV_PATH));
  	}	
   	else
   	{

@@ -5,7 +5,7 @@
 #define RACK 0
 #define SLOT 1
 #define DB_INDEX 18
-#define DB_SIZE 150
+#define DB_SIZE 240
 
 #define CSV_PATH "./"
 #define CSV_NAME "InlineCubing"

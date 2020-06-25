@@ -5,4 +5,4 @@ FILES="main.c unit_test.c ../src/controler_parser.c ../src/csv_io.c ../src/contr
 DEST="."
 OUTPUT_FILENAME="csv_maker_test.exe"
 
-gcc -Wall -O2 $FILES $LIBS -o $DEST/$OUTPUT_FILENAME
+clear && gcc -Wall -O2 $FILES $LIBS -o $DEST/$OUTPUT_FILENAME

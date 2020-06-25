@@ -21,17 +21,9 @@ bool is_path_valid(char * path)
 	if(access(path, F_OK) != 0)
 	{
 		if(errno == ENOENT || errno == ENOTDIR)
-		{
-			printf("path invalid\n");
-			fflush(stdout);
-
 			return false;
-		}
 	}
 	
-	printf("path valid\n");
-	fflush(stdout);
-
 	return true;
 }
 
@@ -80,6 +72,7 @@ void main_loop(s7lib * s7lib_ref, char * path)
     	   		free(buffer);
     	   	}
 
+			fflush(stdout);
     	   	sleep(1);
     	}
 	}
@@ -105,7 +98,7 @@ int main(int argv, char ** argc)
 {	
   	s7lib * s7lib_ref = s7lib_new(IP_ADDRESS, RACK, SLOT, DB_INDEX);
 
-	if(s7lib_ref != NULL || true)
+	if(s7lib_ref != NULL)
   	{
 		if(is_debug_mode(argv, argc, "-d") == true)
 			main_loop(s7lib_ref, resolve_path_for_csv(argv, argc, "-a", CSV_PATH));
