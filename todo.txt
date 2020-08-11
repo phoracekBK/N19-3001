@@ -14,6 +14,18 @@ volného profilu
 * přemístit všechny zbývající informace do struktury skla pro lepší
   zaznamenávání informací pro csv v průběhu výroby 
 * řízení pomocí MES systému
+* potvrzení estop pomocí tlačítek na výstupu
+* přidat tabulku s informacemi o počtech skel v sušícím bufferu
+  (implementován algoritmus součtu)
+
+* prekrývání textového pole nebo tlačítka - chybové hlášky / upraveno
+* chybaji popisky v HMI / upraveno
+* chyba pri prechodu z manualu d oautomatu - vypina se Metralight
+* životnost mixéru zobrazit v min, ne v s / upraveno
+* mixer vypršený čas na živ smesi se vyresetuje i životnost mixéru / upraveno
+* když se vypne sama lepici technologie po odpuštení 3x, tak doplnit aspoň hlášku na displej
+* doplnit dva užívatelksý účty - chybí název použivatelov a práva
+* 
 
 
 
