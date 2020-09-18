@@ -1,37 +1,39 @@
 
 ** TODO **
 * cyklis pro roboty na referencování polohy
-* opravit předávání informací z lepícího stolu na gripper a výstupní stanici
 * opravit dokončování lepení, aby si mohl manipulační robot dříve převzít
   sklo, je to na základě dokončení lepícího programu robota ne na základě
 volného profilu
 * majáky na signalizaci objemu sudu (blíží se konec sudu, prázdný sud)
+* řízení pomocí MES systému
+* doplnit dva užívatelské účty - chybí název použivatelov a práva
+* problém při porovnávání rear_window_type v počítání typů skel v sušícím regálu (prozatím vyřešeno, ale nutná oprava)
+
+
+
+
+** DONE **
+* upravit funkci na výpočet aplikovaného množství na základě převodového poměru čerpadel
+* opravit předávání informací z lepícího stolu na gripper a výstupní stanici
+* potvrzení estop pomocí tlačítek na výstupu
+* chyba pri prechodu z manualu do automatu - vypina se Metralight
+* opravit ukládání csv, nové jméno s aktuálním datem je vytvořeno pouze při spuštění a pro vytvoření jména pro další den je nutné program restartovat
+* mixer vypršený čas na živ smesi se vyresetuje i životnost mixéru / upraveno
+* na straně robotů připravit podmínku, že při odjezdu robota od skla musí zmizet signál přítomnosti skla jinak zopakovat přisátí a odsátí, aby nezůstalo sklo sporadicky přisáté (nebude implementováno)
+* v případě, že je směs expirovaná, není žádný alarm (je alarm ale pouze když není suchý režim)
+* když se vypne sama lepici technologie po odpuštení 3x, tak doplnit aspoň hlášku na displej
+* prekrývání textového pole nebo tlačítka - chybové hlášky / upraveno
+* chybaji popisky v HMI / upraveno
+* přidat tabulku s informacemi o počtech skel v sušícím bufferu
+  (implementován algoritmus součtu)
+* životnost mixéru zobrazit v min, ne v s / upraveno
 * upravit ukládání času posledního odpouštění nebo aplikace AB složky, je
   nutné uložit předchozí čas ne aktuální
 * přidat hodnoty mezních hodnot intervalu teplot pro vytápění pistole a sudu
 * změnit umístění hodnot pro aplikované množství lepidla, vložit přímo do
   struktury skla
 * přemístit všechny zbývající informace do struktury skla pro lepší
-  zaznamenávání informací pro csv v průběhu výroby 
-* řízení pomocí MES systému
-* potvrzení estop pomocí tlačítek na výstupu
-* přidat tabulku s informacemi o počtech skel v sušícím bufferu
-  (implementován algoritmus součtu)
-
-* prekrývání textového pole nebo tlačítka - chybové hlášky / upraveno
-* chybaji popisky v HMI / upraveno
-* chyba pri prechodu z manualu d oautomatu - vypina se Metralight
-* životnost mixéru zobrazit v min, ne v s / upraveno
-* mixer vypršený čas na živ smesi se vyresetuje i životnost mixéru / upraveno
-* když se vypne sama lepici technologie po odpuštení 3x, tak doplnit aspoň hlášku na displej
-* doplnit dva užívatelksý účty - chybí název použivatelov a práva
-* 
-
-
-
-
-
-** DONE **
+  zaznamenávání informací pro csv v průběhu výroby
 * cyklus pro roboty na test brzd
 * upravit program pro generování csv souborů, aby pracoval dle požadavků
 * inicializace estop stavu u robotů???
@@ -41,7 +43,7 @@ volného profilu
 * reset error watchdog timerů v případě stopky
 * přidat inicializaci pracovního cyklu
 * otestovat kalibraci metralightu
-* opravit proces kontroly primeru kdy je vyhodnocen jako nok a přesto projde 
+* opravit proces kontroly primeru kdy je vyhodnocen jako nok a přesto projde
 * opravit případ kdy je primovací proces vypnut a po nok kontrole primeru je sklo vráceno a šablona sjede dolů
 * opravit případ kdy je ponechán lepící robot v údržbové pozici a je zahájen
   povel k lepení
@@ -73,7 +75,7 @@ nebo šablona stále v koncové pozici
 * přidat na hmi stav lepící technologie start a informace na inicializaci
   vstupu a výstupu
 * přidat informaci o stavu automat/manual do hlavního hmi
-* upravit ukládání referenci skla do bufferu 
+* upravit ukládání referenci skla do bufferu
 * bezpečnost na karuselu na základě optické brány
 * stavove nastavení volných profilů
 * upravit zavírání clon na primovací kontrolu
@@ -111,7 +113,7 @@ jinak je hodnota NA)
 * Material Dispensed "A" [ml] - aplikované množství složky A
 * Pistol Temperature Actual "A" - aktuální teplota pistole při aplikaci
 * Pot Temperature Actual "A" - aktuální teplota sudu složky A
-* Barrel Expiry OK "B" - expirace sudu složky B ok/nok 
+* Barrel Expiry OK "B" - expirace sudu složky B ok/nok
 * Adhesive Batch ID "B" - produktové číslo sudu složky B
 * Adhesive Serial # "B" - sériové číslo sudu složky B
 * Material Dispensed "B" [ml] - aplikované množství složky B
@@ -125,7 +127,4 @@ jinak je hodnota NA)
   carrouselu stisknuta estop
 * Adhesive Application Process Complete Summary - zda nebyla
 * Bead Check Camera Laser- Sensor - výsledek měření housenky metralight
-* Bead Check Pass / Fail Area (Laser- Sensor) - nelze vyčíst data ze senzoru
-metralight
-	
-
+* Bead Check Pass / Fail Area (Laser- Sensor) - nelze vyčíst data ze senzoru metralight
