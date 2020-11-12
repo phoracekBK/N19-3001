@@ -106,6 +106,29 @@ IGuiPage
 		qm_Anchors.rightMargin: 2
 		qm_Anchors.topMargin: 2
 	}
+	IGuiTextField
+	{
+		id: q268435533
+		objId: 268435533
+		x: 0
+		y: 432
+		width: 490
+		height: 40
+		qm_BorderCornerRadius: 3
+		qm_ImageSource: "image://QSmartImageProvider/19#2#4#128#0#0"
+		qm_Border.top: 0
+		qm_Border.bottom: 0
+		qm_Border.right: 0
+		qm_Border.left: 0
+		qm_FillColor: "#ff949694"
+		qm_TextColor: "#ff31344a"
+		qm_ValueVarTextAlignmentHorizontal: Text.AlignHCenter
+		qm_ValueVarTextAlignmentVertical: Text.AlignVCenter
+		qm_Anchors.bottomMargin: 2
+		qm_Anchors.leftMargin: 3
+		qm_Anchors.rightMargin: 2
+		qm_Anchors.topMargin: 2
+	}
 	IGuiQmlRectangle
 	{
 		id: q671088651
