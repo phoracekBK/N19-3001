@@ -1,0 +1,31 @@
+(* nezbytné body *)
+* provést úpravu modulu pro ovládání inspekce primeru (0.5 dne)
+* implementovat nastavení pracovních přestávek a implemetovat dotazy na nanesení lepidla 5 minut před přestávkou (0.5 dne)
+* implementovat výstupní frontu skel pro MES proces 2 (1 den)
+* implementovat obsluhu pro proces 3 MES (1 den)
+* implementovat mazání záznamů z výstupní fronty po nanesení lepidla (0.5 dne)
+* implementovat mechanismus pro prioritní vložení skla při neúspěném nanesení lepidla/smontování (0.5 dne)
+* úprava alarmového systému (1 den)
+
+
+(* body, které nejsou nezbytné *)
+* přepracovat sekvenci pro manipulaci se sklem pomocí manipulačního robota
+ (vkládání z carrouselu do bufferu, z bufferu na lepící stůl, z lepícího stolu na výstup) (2 dny)
+* přepracovat sekvenci pro nanášení lepidla lepícím robotem (1 den)
+* přepracovat výstupní sekvenci (1 den)
+* přepracovat ovladač pro řízení robotů (společní kód pro jednotné spouštění pohybových programů) (1 den)
+* přepracovat ovládací sekvenci pro manipulačního robota (1 den)
+* přepracovat ovládací sekvenci pro lepícího robota (1 den)
+* přepracovat modul pro ovládání centrování (0.5 dne)
+* přepracovat rozhraní pro ovládání METRALIGTu
+
+(* hotovo *)
+implementovat protokol pro komunikaci s MES (1 den)
+vyladit program pc_queue (0.5 dne)
+přepracovat modul ovládání motorů (1 den)
+přepracovat vstupní sekvenci (2 dny)
+implementovat komunikaci s pc_queue (0.5 dne)
+přepracovat výstupní vizualizaci (0.2 dne)
+přepracovat vizualizaci hmi pro mes a pc_queu (0.5 dne)
+implementovat logy pro MES komunikaci (0.2 dne)
+implementovat proces 1 pro MES - propojení mezi vstupní sekvencí MES a pc queue (0.5 dne)
