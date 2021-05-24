@@ -1,0 +1,6703 @@
+Diagnostics buffer of the module PLC_1 [CPU 1513F-1 PN]
+
+
+Article no. / name            Component                     Version
+6ES7 513-1FL02-0AB0           Hardware                      3
+- - -                         Firmware                      V 2.8.1
+Firmware expansion            Firmware expansion            ---
+
+
+Rack:                         0
+Slot:                         1
+
+
+Serial number:                S C-M3C446742020
+
+
+
+
+1 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+5/12/2021 12:07:40.175 PM
+(Coding:  16#  34 00 00 05 16 7E 49 CC  DF B4 9D 4B 39 CB 00 00  38 CB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+2 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        244
+ kr90r3100 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Outgoing event
+Event type:  OK
+5/12/2021 12:04:54.902 PM
+(Coding:  16#  20 00 00 1E 16 7E 49 A6  64 B0 92 EE 75 E5 00 00  71 05 00 01 00 00 01 5E  00 0D 00 00 00 00 00 F4  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+3 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        200
+ kr120r2700 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Outgoing event
+Event type:  OK
+5/12/2021 12:04:54.897 PM
+(Coding:  16#  20 00 00 1E 16 7E 49 A6  64 5E 82 3B 75 E5 00 00  71 05 00 01 00 00 01 4B  00 0D 00 00 00 00 00 C8  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+4 of 526; Event ID: 16# 0D:75D3
+Error: Safety program: Error in PROFIsafe communication with F-I/O
+Check value error (CRC)
+F-runtime group   1
+Start address of the F-I/O:        200
+ kr120r2700 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Outgoing event
+Event type:  OK
+5/12/2021 12:04:40.294 PM
+(Coding:  16#  20 00 00 1E 16 7E 49 A2  FD FA E6 F6 75 D3 00 00  71 02 00 01 00 00 01 4B  00 0D 00 00 00 00 00 C8  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+5 of 526; Event ID: 16# 0D:75D3
+Error: Safety program: Error in PROFIsafe communication with F-I/O
+Check value error (CRC)
+F-runtime group   1
+Start address of the F-I/O:        244
+ kr90r3100 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Outgoing event
+Event type:  OK
+5/12/2021 12:04:40.196 PM
+(Coding:  16#  20 00 00 1E 16 7E 49 A2  F8 1B C4 AB 75 D3 00 00  71 02 00 01 00 00 01 5E  00 0D 00 00 00 00 00 F4  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+6 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        200
+ kr120r2700 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Incoming event
+Event type:  Error
+5/12/2021 12:04:40.194 PM
+(Coding:  16#  20 01 00 1E 16 7E 49 A2  F8 01 0C C6 75 E5 00 00  71 05 00 01 00 00 01 4B  00 0D 00 00 00 00 00 C8  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+7 of 526; Event ID: 16# 0D:75D3
+Error: Safety program: Error in PROFIsafe communication with F-I/O
+Check value error (CRC)
+F-runtime group   1
+Start address of the F-I/O:        200
+ kr120r2700 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Incoming event
+Event type:  Error
+5/12/2021 12:04:40.192 PM
+(Coding:  16#  20 01 00 1E 16 7E 49 A2  F7 EC 82 98 75 D3 00 00  71 02 00 01 00 00 01 4B  00 0D 00 00 00 00 00 C8  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+8 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        244
+ kr90r3100 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Incoming event
+Event type:  Error
+5/12/2021 12:04:40.099 PM
+(Coding:  16#  20 01 00 1E 16 7E 49 A2  F2 5F 1B 9A 75 E5 00 00  71 05 00 01 00 00 01 5E  00 0D 00 00 00 00 00 F4  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+9 of 526; Event ID: 16# 0D:75D3
+Error: Safety program: Error in PROFIsafe communication with F-I/O
+Check value error (CRC)
+F-runtime group   1
+Start address of the F-I/O:        244
+ kr90r3100 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Incoming event
+Event type:  Error
+5/12/2021 12:04:40.097 PM
+(Coding:  16#  20 01 00 1E 16 7E 49 A2  F2 43 44 58 75 D3 00 00  71 02 00 01 00 00 01 5E  00 0D 00 00 00 00 00 F4  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+10 of 526; Event ID: 16# 0D:75D6
+Error: Safety program: Data corruption prior to sending to F-I/O
+F-runtime group   1
+Start address of the F-I/O:        244
+Offset of the output:   2
+ PLC_1 / PLC_1. 
+ 
+
+Outgoing event
+Event type:  OK
+5/12/2021 12:04:40.089 PM
+(Coding:  16#  20 00 00 1E 16 7E 49 A2  F1 C1 71 04 75 D6 00 00  00 02 00 01 00 00 00 37  00 0D 00 00 00 00 00 F4  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+11 of 526; Event ID: 16# 02:400E
+CPU info: Communication initiated request: WARM RESTART 
+Pending startup inhibit(s): 
+ - No startup inhibit set 
+
+ CPU changes from STARTUP to RUN mode 
+
+ PLC_1 / PLC_1 
+  
+
+Incoming event
+Event type:  OK
+5/12/2021 12:04:40.065 PM
+(Coding:  16#  20 01 00 0F 16 7E 49 A2  F0 56 38 77 40 0E 0C 01  00 66 40 00 10 00 00 34  00 02 00 00 06 08 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+12 of 526; Event ID: 16# 02:400E
+CPU info: Communication initiated request: WARM RESTART 
+Pending startup inhibit(s): 
+ - No startup inhibit set 
+
+ CPU changes from STOP to STARTUP mode 
+
+ PLC_1 / PLC_1 
+  
+
+Incoming event
+Event type:  OK
+5/12/2021 12:04:38.797 PM
+(Coding:  16#  20 01 00 0F 16 7E 49 A2  A4 C3 7F 0F 40 0E 0C 01  00 66 40 00 10 00 00 34  00 02 00 00 04 06 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+13 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+5/12/2021 11:48:33.072 AM
+(Coding:  16#  34 01 00 05 16 7E 48 C1  CB 14 54 3E 39 CB 00 00  04 B9 00 13 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 3F 04  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+14 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+5/12/2021 11:48:33.072 AM
+(Coding:  16#  34 00 00 05 16 7E 48 C1  CB 11 79 0B 39 CB 00 00  04 BB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+15 of 526; Event ID: 16# 02:4010
+CPU info: System initiated request: STOP 
+Pending startup inhibit(s):
+ - No startup inhibit set 
+ 
+ CPU changes from RUN to STOP mode 
+
+ PLC_1 / PLC_1 
+  
+
+Incoming event
+Event type:  OK
+5/12/2021 11:48:31.382 AM
+(Coding:  16#  20 01 00 0F 16 7E 48 C1  66 57 F7 EE 40 10 0C 01  00 64 40 00 10 00 00 34  00 02 00 00 08 04 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+16 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+5/12/2021 11:48:30.569 AM
+(Coding:  16#  34 01 00 05 16 7E 48 C1  35 E2 D3 CD 39 CB 00 00  04 BB 00 05 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  EB C0 00 00 00 00 00 00  00 00 00 00)
+
+
+17 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing   
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Outgoing event
+Event type:  OK
+5/12/2021 11:48:30.568 AM
+(Coding:  16#  20 00 00 03 16 7E 48 C1  35 C8 5E EB 39 51 00 00  38 51 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+18 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing  
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Incoming event
+Event type:  Error
+5/12/2021 11:48:30.554 AM
+(Coding:  16#  20 01 00 03 16 7E 48 C1  34 FC AA CB 39 51 00 00  00 00 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+19 of 526; Event ID: 16# 0D:75D6
+Error: Safety program: Data corruption prior to sending to F-I/O
+F-runtime group   1
+Start address of the F-I/O:        244
+Offset of the output:   2
+ PLC_1 / PLC_1. 
+ 
+
+Incoming event
+Event type:  Error
+5/12/2021 11:48:30.498 AM
+(Coding:  16#  20 01 00 1E 16 7E 48 C1  31 A1 3F 63 75 D6 00 00  00 02 00 01 00 00 00 37  00 0D 00 00 00 00 00 F4  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+20 of 526; Event ID: 16# 02:2505
+Temporary CPU error: User programmed STOP request in FB 32773 
+affecting OB 123 execution 
+ 
+ PLC_1 / PLC_1 
+  
+
+Internal address details: Caddr=16#00000E25
+
+Incoming event
+Event type:  Error
+5/12/2021 11:48:30.496 AM
+(Coding:  16#  34 01 00 13 16 7E 48 C1  31 80 8B E0 25 05 0C 4C  00 8E 80 05 00 00 00 34  00 02 00 00 00 00 00 7B  01 00 00 00 00 00 0E 25  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+21 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+5/12/2021 11:45:04.038 AM
+(Coding:  16#  34 00 00 05 16 7E 48 91  1F AD E3 06 39 CB 00 00  38 CB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+22 of 526; Event ID: 16# 02:400C
+CPU info: Follow-on operating mode change 
+Power-on mode set: WARM RESTART to RUN (if CPU was in RUN before power off) 
+ 
+Pending startup inhibit(s):
+ - No startup inhibit set 
+
+ CPU changes from STARTUP to RUN mode 
+
+ PLC_1 / PLC_1 
+  
+
+Incoming event
+Event type:  OK
+5/12/2021 11:44:46.571 AM
+(Coding:  16#  20 01 00 0F 16 7E 48 8D  0E 8C E0 49 40 0C 0C 01  02 24 40 00 10 00 00 34  00 02 00 00 06 08 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+23 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+5/12/2021 11:44:46.566 AM
+(Coding:  16#  34 01 00 05 16 7E 48 8D  0E 3B 42 27 39 CB 00 00  04 B9 00 13 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+24 of 526; Event ID: 16# 02:400C
+CPU info: Follow-on operating mode change 
+Power-on mode set: WARM RESTART to RUN (if CPU was in RUN before power off) 
+ 
+Pending startup inhibit(s):
+ - No startup inhibit set 
+
+ CPU changes from STOP to STARTUP mode 
+
+ PLC_1 / PLC_1 
+  
+
+Incoming event
+Event type:  OK
+5/12/2021 11:43:46.835 AM
+(Coding:  16#  20 01 00 0F 16 7E 48 7F  26 02 DF 39 40 0C 0C 01  02 24 40 00 10 00 00 34  00 02 00 00 04 06 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+25 of 526; Event ID: 16# 02:400C
+CPU info: Follow-on operating mode change 
+Power-on mode set: WARM RESTART to RUN (if CPU was in RUN before power off) 
+ 
+Pending startup inhibit(s):
+ - No startup inhibit set 
+
+ CPU changes from STOP (initialization) to STOP mode 
+
+ PLC_1 / PLC_1 
+  
+
+Incoming event
+Event type:  OK
+5/12/2021 11:43:46.735 AM
+(Coding:  16#  20 01 00 0F 16 7E 48 7F  20 09 D5 C0 40 0C 0C 01  02 24 40 00 10 00 00 34  00 02 00 00 03 04 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+26 of 526; Event ID: 16# 02:4001
+CPU info: Power on 
+ 
+memory card type: Program card (external load memory) 
+ CPU changes from NOPOWER to STOP (initialization) mode 
+
+ PLC_1 / PLC_1 
+  
+
+Incoming event
+Event type:  OK
+5/12/2021 11:43:09.819 AM
+(Coding:  16#  20 01 00 0F 16 7E 48 76  87 AE B3 82 40 01 0C 01  03 01 00 00 10 00 00 34  00 02 00 00 0F 03 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+27 of 526; Event ID: 16# 02:4002
+CPU info: Power off 
+ CPU changes from RUN to NOPOWER mode 
+
+ PLC_1 / PLC_1 
+  
+
+Incoming event
+Event type:  OK
+5/12/2021 11:42:20.532 AM
+(Coding:  16#  20 01 00 0F 16 7E 48 6B  0D F2 1B DC 40 02 0C 01  00 00 00 00 10 00 00 34  00 02 00 00 08 0F 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+28 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+5/12/2021 11:41:42.171 AM
+(Coding:  16#  34 01 00 05 16 7E 48 62  1F 6C 64 19 39 CB 00 00  04 B9 00 13 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 3F 04  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+29 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+5/12/2021 11:41:42.170 AM
+(Coding:  16#  34 00 00 05 16 7E 48 62  1F 64 59 05 39 CB 00 00  04 BB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+30 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+5/12/2021 11:41:39.661 AM
+(Coding:  16#  34 01 00 05 16 7E 48 61  89 D3 C0 D4 39 CB 00 00  04 BB 00 05 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  55 80 00 00 00 00 00 00  00 00 00 00)
+
+
+31 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing   
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Outgoing event
+Event type:  OK
+5/12/2021 11:41:39.659 AM
+(Coding:  16#  20 00 00 03 16 7E 48 61  89 B3 19 DA 39 51 00 00  38 51 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+32 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing  
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Incoming event
+Event type:  Error
+5/12/2021 11:41:39.641 AM
+(Coding:  16#  20 01 00 03 16 7E 48 61  88 9F 90 1C 39 51 00 00  00 00 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+33 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+5/4/2021 12:20:03.437 PM
+(Coding:  16#  34 00 00 05 16 7B D5 D5  63 22 F2 E8 39 CB 00 00  38 CB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+34 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+5/4/2021 12:19:51.366 PM
+(Coding:  16#  34 01 00 05 16 7B D5 D2  93 A4 D2 6D 39 CB 00 00  04 B9 00 13 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 3F 04  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+35 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+5/4/2021 12:19:51.366 PM
+(Coding:  16#  34 00 00 05 16 7B D5 D2  93 A1 10 D4 39 CB 00 00  04 BB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+36 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+5/4/2021 12:19:48.861 PM
+(Coding:  16#  34 01 00 05 16 7B D5 D1  FE 4D F0 7D 39 CB 00 00  04 BB 00 05 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  7F C0 00 00 00 00 00 00  00 00 00 00)
+
+
+37 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing   
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Outgoing event
+Event type:  OK
+5/4/2021 12:19:48.859 PM
+(Coding:  16#  20 00 00 03 16 7B D5 D1  FE 31 6F FA 39 51 00 00  38 51 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+38 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing  
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Incoming event
+Event type:  Error
+5/4/2021 12:19:48.842 PM
+(Coding:  16#  20 01 00 03 16 7B D5 D1  FD 2D 0A 77 39 51 00 00  00 00 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+39 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+5/4/2021 11:55:22.034 AM
+(Coding:  16#  34 00 00 05 16 7B D4 7C  78 A1 A6 74 39 CB 00 00  38 CB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+40 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+5/4/2021 11:55:07.466 AM
+(Coding:  16#  34 01 00 05 16 7B D4 79  14 52 EA 14 39 CB 00 00  04 B9 00 13 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 3F 04  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+41 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+5/4/2021 11:55:07.466 AM
+(Coding:  16#  34 00 00 05 16 7B D4 79  14 4F C3 BE 39 CB 00 00  04 BB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+42 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+5/4/2021 11:55:04.957 AM
+(Coding:  16#  34 01 00 05 16 7B D4 78  7E C4 0A 52 39 CB 00 00  04 BB 00 05 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  33 C0 00 00 00 00 00 00  00 00 00 00)
+
+
+43 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing   
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Outgoing event
+Event type:  OK
+5/4/2021 11:55:04.954 AM
+(Coding:  16#  20 00 00 03 16 7B D4 78  7E 98 BC BF 39 51 00 00  38 51 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+44 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing  
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Incoming event
+Event type:  Error
+5/4/2021 11:55:04.936 AM
+(Coding:  16#  20 01 00 03 16 7B D4 78  7D 83 77 A7 39 51 00 00  00 00 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+45 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+5/4/2021 10:26:59.639 AM
+(Coding:  16#  34 00 00 05 16 7B CF A9  E9 43 76 FB 39 CB 00 00  38 CB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+46 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+5/4/2021 10:26:30.072 AM
+(Coding:  16#  34 01 00 05 16 7B CF A3  06 E6 34 62 39 CB 00 00  04 B9 00 13 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 3F 04  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+47 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+5/4/2021 10:26:30.071 AM
+(Coding:  16#  34 00 00 05 16 7B CF A3  06 D8 DB D7 39 CB 00 00  04 BB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+48 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+5/4/2021 10:26:27.561 AM
+(Coding:  16#  34 01 00 05 16 7B CF A2  71 3F 31 7A 39 CB 00 00  04 BB 00 05 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  8B 40 00 00 00 00 00 00  00 00 00 00)
+
+
+49 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing   
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Outgoing event
+Event type:  OK
+5/4/2021 10:26:27.558 AM
+(Coding:  16#  20 00 00 03 16 7B CF A2  71 0F 42 67 39 51 00 00  38 51 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+50 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing  
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Incoming event
+Event type:  Error
+5/4/2021 10:26:27.542 AM
+(Coding:  16#  20 01 00 03 16 7B CF A2  70 1C 24 1F 39 51 00 00  00 00 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+51 of 526; Event ID: 16# 02:4428
+Security information: Session authentication successful
+ SessionID 1568-33100
+ 
+ PLC_1 
+  
+
+Client IPAddr: 192.168.2.20
+
+
+Incoming event
+Event type:  
+4/29/2021 1:37:08.162 PM
+(Coding:  16#  34 01 00 5F 16 7A 51 23  53 A5 F2 42 44 28 0C 00  06 20 81 4C 00 00 00 32  00 02 00 00 00 00 00 00  F0 09 00 B6 00 00 00 00  C0 A8 02 14 00 00 00 00  00 00 00 00)
+
+
+52 of 526; Event ID: 16# 02:4428
+Security information: Session authentication successful
+ SessionID 1568-33100
+ 
+ PLC_1 
+  
+
+Client IPAddr: 192.168.2.20
+
+
+Incoming event
+Event type:  
+4/29/2021 1:36:28.055 PM
+(Coding:  16#  34 01 00 5F 16 7A 51 19  FD 17 F4 C7 44 28 0C 00  06 20 81 4C 00 00 00 32  00 02 00 00 00 00 00 00  F0 09 00 B6 00 00 00 00  C0 A8 02 14 00 00 00 00  00 00 00 00)
+
+
+53 of 526; Event ID: 16# 02:4428
+Security information: Session authentication successful
+ SessionID 1568-33100
+ 
+ PLC_1 
+  
+
+Client IPAddr: 192.168.2.17
+
+
+Incoming event
+Event type:  
+4/29/2021 1:34:26.924 PM
+(Coding:  16#  34 01 00 5F 16 7A 50 FD  C9 1E 30 67 44 28 0C 00  06 20 81 4C 00 00 00 32  00 02 00 00 00 00 00 00  F0 09 00 B6 00 00 00 00  C0 A8 02 11 00 00 00 00  00 00 00 00)
+
+
+54 of 526; Event ID: 16# 02:4428
+Security information: Session authentication successful
+ SessionID 1568-33100
+ 
+ PLC_1 
+  
+
+Client IPAddr: 192.168.2.11
+
+
+Incoming event
+Event type:  
+4/29/2021 1:33:22.733 PM
+(Coding:  16#  34 01 00 5F 16 7A 50 EE  D7 10 70 D0 44 28 0C 00  06 20 81 4C 00 00 00 32  00 02 00 00 00 00 00 00  F0 09 00 B6 00 00 00 00  C0 A8 02 0B 00 00 00 00  00 00 00 00)
+
+
+55 of 526; Event ID: 16# 02:4428
+Security information: Session authentication successful
+ SessionID 1568-33100
+ 
+ PLC_1 
+  
+
+Client IPAddr: 192.168.2.11
+
+
+Incoming event
+Event type:  
+4/23/2021 12:47:55.706 PM
+(Coding:  16#  34 01 00 5F 16 78 76 F8  7F B2 B2 67 44 28 0C 00  06 20 81 4C 00 00 00 32  00 02 00 00 00 00 00 00  F0 09 00 B6 00 00 00 00  C0 A8 02 0B 00 00 00 00  00 00 00 00)
+
+
+56 of 526; Event ID: 16# 02:4428
+Security information: Session authentication successful
+ SessionID 1568-33100
+ 
+ PLC_1 
+  
+
+Client IPAddr: 192.168.2.17
+
+
+Incoming event
+Event type:  
+4/23/2021 12:43:31.918 PM
+(Coding:  16#  34 01 00 5F 16 78 76 BB  14 BD 0C 8A 44 28 0C 00  06 20 81 4C 00 00 00 32  00 02 00 00 00 00 00 00  F0 09 00 B6 00 00 00 00  C0 A8 02 11 00 00 00 00  00 00 00 00)
+
+
+57 of 526; Event ID: 16# 02:4428
+Security information: Session authentication successful
+ SessionID 1568-33100
+ 
+ PLC_1 
+  
+
+Client IPAddr: 192.168.2.20
+
+
+Incoming event
+Event type:  
+4/23/2021 12:41:49.527 PM
+(Coding:  16#  34 01 00 5F 16 78 76 A3  3D C2 11 BA 44 28 0C 00  06 20 81 4C 00 00 00 32  00 02 00 00 00 00 00 00  F0 09 00 B6 00 00 00 00  C0 A8 02 14 00 00 00 00  00 00 00 00)
+
+
+58 of 526; Event ID: 16# 02:4428
+Security information: Session authentication successful
+ SessionID 1568-33100
+ 
+ PLC_1 
+  
+
+Client IPAddr: 192.168.2.20
+
+
+Incoming event
+Event type:  
+4/23/2021 12:41:05.142 PM
+(Coding:  16#  34 01 00 5F 16 78 76 98  E8 34 3A F7 44 28 0C 00  06 20 81 4C 00 00 00 32  00 02 00 00 00 00 00 00  F0 09 00 B6 00 00 00 00  C0 A8 02 14 00 00 00 00  00 00 00 00)
+
+
+59 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ GF4 
+  
+
+Outgoing event
+Event type:  OK
+4/23/2021 12:23:49.015 PM
+(Coding:  16#  34 00 00 05 16 78 75 A7  AA 33 6B 14 39 CB 00 00  38 CB 00 00 00 00 01 76  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+60 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ GF3 
+  
+
+Outgoing event
+Event type:  OK
+4/23/2021 12:23:48.999 PM
+(Coding:  16#  34 00 00 05 16 78 75 A7  A9 46 59 64 39 CB 00 00  38 CB 00 00 00 00 01 2E  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+61 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ GF4 
+  
+
+Incoming event
+Event type:  Error
+4/23/2021 12:23:44.286 PM
+(Coding:  16#  34 01 00 05 16 78 75 A6  90 55 75 0A 39 CB 00 00  04 BB 00 05 00 00 01 76  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  37 90 00 00 00 00 00 00  00 00 00 00)
+
+
+62 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ GF3 
+  
+
+Incoming event
+Event type:  Error
+4/23/2021 12:23:44.269 PM
+(Coding:  16#  34 01 00 05 16 78 75 A6  8F 56 43 67 39 CB 00 00  04 BB 00 05 00 00 01 2E  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  24 E8 00 00 00 00 00 00  00 00 00 00)
+
+
+63 of 526; Event ID: 16# 02:4428
+Security information: Session authentication successful
+ SessionID 1568-33100
+ 
+ PLC_1 
+  
+
+Client IPAddr: 192.168.2.17
+
+
+Incoming event
+Event type:  
+4/22/2021 3:25:47.609 PM
+(Coding:  16#  34 01 00 5F 16 78 31 01  47 CC FF F3 44 28 0C 00  06 20 81 4C 00 00 00 32  00 02 00 00 00 00 00 00  F0 09 00 B6 00 00 00 00  C0 A8 02 11 00 00 00 00  00 00 00 00)
+
+
+64 of 526; Event ID: 16# 02:4428
+Security information: Session authentication successful
+ SessionID 1568-33100
+ 
+ PLC_1 
+  
+
+Client IPAddr: 192.168.2.11
+
+
+Incoming event
+Event type:  
+4/22/2021 3:25:06.473 PM
+(Coding:  16#  34 01 00 5F 16 78 30 F7  B3 F0 1B BF 44 28 0C 00  06 20 81 4C 00 00 00 32  00 02 00 00 00 00 00 00  F0 09 00 B6 00 00 00 00  C0 A8 02 0B 00 00 00 00  00 00 00 00)
+
+
+65 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+4/22/2021 3:04:33.875 PM
+(Coding:  16#  34 00 00 05 16 78 2F D8  B7 64 32 B7 39 CB 00 00  38 CB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+66 of 526; Event ID: 16# 02:400C
+CPU info: Follow-on operating mode change 
+Power-on mode set: WARM RESTART to RUN (if CPU was in RUN before power off) 
+ 
+Pending startup inhibit(s):
+ - No startup inhibit set 
+
+ CPU changes from STARTUP to RUN mode 
+
+ PLC_1 / PLC_1 
+  
+
+Incoming event
+Event type:  OK
+4/22/2021 3:04:05.872 PM
+(Coding:  16#  20 01 00 0F 16 78 2F D2  32 3D 4F 37 40 0C 0C 01  02 24 40 00 10 00 00 34  00 02 00 00 06 08 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+67 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+4/22/2021 3:04:05.866 PM
+(Coding:  16#  34 01 00 05 16 78 2F D2  31 E3 17 A5 39 CB 00 00  04 B9 00 13 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+68 of 526; Event ID: 16# 02:400C
+CPU info: Follow-on operating mode change 
+Power-on mode set: WARM RESTART to RUN (if CPU was in RUN before power off) 
+ 
+Pending startup inhibit(s):
+ - No startup inhibit set 
+
+ CPU changes from STOP to STARTUP mode 
+
+ PLC_1 / PLC_1 
+  
+
+Incoming event
+Event type:  OK
+4/22/2021 3:03:06.141 PM
+(Coding:  16#  20 01 00 0F 16 78 2F C4  4A 08 8D 59 40 0C 0C 01  02 24 40 00 10 00 00 34  00 02 00 00 04 06 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+69 of 526; Event ID: 16# 02:400C
+CPU info: Follow-on operating mode change 
+Power-on mode set: WARM RESTART to RUN (if CPU was in RUN before power off) 
+ 
+Pending startup inhibit(s):
+ - No startup inhibit set 
+
+ CPU changes from STOP (initialization) to STOP mode 
+
+ PLC_1 / PLC_1 
+  
+
+Incoming event
+Event type:  OK
+4/22/2021 3:03:06.041 PM
+(Coding:  16#  20 01 00 0F 16 78 2F C4  44 10 DD 39 40 0C 0C 01  02 24 40 00 10 00 00 34  00 02 00 00 03 04 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+70 of 526; Event ID: 16# 02:4001
+CPU info: Power on 
+ 
+memory card type: Program card (external load memory) 
+ CPU changes from NOPOWER to STOP (initialization) mode 
+
+ PLC_1 / PLC_1 
+  
+
+Incoming event
+Event type:  OK
+4/22/2021 3:02:29.159 PM
+(Coding:  16#  20 01 00 0F 16 78 2F BB  AD B1 CD 75 40 01 0C 01  03 01 00 00 10 00 00 34  00 02 00 00 0F 03 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+71 of 526; Event ID: 16# 02:4002
+CPU info: Power off 
+ CPU changes from RUN to NOPOWER mode 
+
+ PLC_1 / PLC_1 
+  
+
+Incoming event
+Event type:  OK
+4/22/2021 3:00:52.109 PM
+(Coding:  16#  20 01 00 0F 16 78 2F A5  15 1B BD 48 40 02 0C 01  00 00 00 00 10 00 00 34  00 02 00 00 08 0F 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+72 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+4/22/2021 2:59:04.437 PM
+(Coding:  16#  34 01 00 05 16 78 2F 8C  03 59 77 27 39 CB 00 00  04 B9 00 13 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 3F 04  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+73 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+4/22/2021 2:59:04.436 PM
+(Coding:  16#  34 00 00 05 16 78 2F 8C  03 48 2A E8 39 CB 00 00  04 BB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+74 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+4/22/2021 2:59:01.926 PM
+(Coding:  16#  34 01 00 05 16 78 2F 8B  6D A5 FA 72 39 CB 00 00  04 BB 00 05 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  D3 00 00 00 00 00 00 00  00 00 00 00)
+
+
+75 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing   
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Outgoing event
+Event type:  OK
+4/22/2021 2:59:01.924 PM
+(Coding:  16#  20 00 00 03 16 78 2F 8B  6D 85 E4 2D 39 51 00 00  38 51 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+76 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing  
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Incoming event
+Event type:  Error
+4/22/2021 2:59:01.906 PM
+(Coding:  16#  20 01 00 03 16 78 2F 8B  6C 75 43 5D 39 51 00 00  00 00 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+77 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ GF4 
+  
+
+Outgoing event
+Event type:  OK
+4/18/2021 1:42:29.739 PM
+(Coding:  16#  34 00 00 05 16 76 F1 0B  F4 C7 43 B5 39 CB 00 00  38 CB 00 00 00 00 01 76  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+78 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ GF3 
+  
+
+Outgoing event
+Event type:  OK
+4/18/2021 1:42:29.729 PM
+(Coding:  16#  34 00 00 05 16 76 F1 0B  F4 24 EB A7 39 CB 00 00  38 CB 00 00 00 00 01 2E  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+79 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Connection abort by IO device
+ 
+ GF3 
+  
+
+Incoming event
+Event type:  Error
+4/18/2021 1:42:25.014 PM
+(Coding:  16#  34 01 00 05 16 76 F1 0A  DB 21 3C B2 39 CB 00 00  04 BE 00 0B 00 00 01 2E  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 0B  CF 81 FD 05 00 00 00 00  00 00 00 00)
+
+
+80 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Connection abort by IO device
+ 
+ GF4 
+  
+
+Incoming event
+Event type:  Error
+4/18/2021 1:42:25.000 PM
+(Coding:  16#  34 01 00 05 16 76 F1 0A  DA 42 40 B8 39 CB 00 00  04 BE 00 0B 00 00 01 76  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 0B  CF 81 FD 05 00 00 00 00  00 00 00 00)
+
+
+81 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ GF3 
+  
+
+Outgoing event
+Event type:  OK
+4/17/2021 6:20:00.200 PM
+(Coding:  16#  34 00 00 05 16 76 B1 9C  20 3B 17 9A 39 CB 00 00  38 CB 00 00 00 00 01 2E  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+82 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ GF4 
+  
+
+Outgoing event
+Event type:  OK
+4/17/2021 6:20:00.110 PM
+(Coding:  16#  34 00 00 05 16 76 B1 9C  1A DD 5B 9D 39 CB 00 00  38 CB 00 00 00 00 01 76  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+83 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Connection abort by IO device
+ 
+ GF3 
+  
+
+Incoming event
+Event type:  Error
+4/17/2021 6:19:55.396 PM
+(Coding:  16#  34 01 00 05 16 76 B1 9B  01 EC C6 E1 39 CB 00 00  04 BE 00 0B 00 00 01 2E  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 0B  CF 81 FD 05 00 00 00 00  00 00 00 00)
+
+
+84 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ GF3 / Drive Profile Lexium 1_1. 
+ 
+
+Outgoing event
+Event type:  OK
+4/17/2021 6:19:55.393 PM
+(Coding:  16#  20 00 00 02 16 76 B1 9B  01 BB EA 90 39 58 00 00  38 58 00 00 00 00 01 35  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+85 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ GF3 / Drive Profile Lexium 1_1. 
+ 
+
+Incoming event
+Event type:  Error
+4/17/2021 6:19:55.388 PM
+(Coding:  16#  20 01 00 02 16 76 B1 9B  01 6E 1A B8 39 58 00 00  00 00 00 00 00 00 01 35  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+86 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Connection abort by IO device
+ 
+ GF4 
+  
+
+Incoming event
+Event type:  Error
+4/17/2021 6:19:55.375 PM
+(Coding:  16#  34 01 00 05 16 76 B1 9B  00 A7 6A 27 39 CB 00 00  04 BE 00 0B 00 00 01 76  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 0B  CF 81 FD 05 00 00 00 00  00 00 00 00)
+
+
+87 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ GF4 
+  
+
+Outgoing event
+Event type:  OK
+4/17/2021 5:04:03.140 PM
+(Coding:  16#  34 00 00 05 16 76 AD 77  1A 56 93 2E 39 CB 00 00  38 CB 00 00 00 00 01 76  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+88 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ GF3 
+  
+
+Outgoing event
+Event type:  OK
+4/17/2021 5:04:03.039 PM
+(Coding:  16#  34 00 00 05 16 76 AD 77  14 51 19 28 39 CB 00 00  38 CB 00 00 00 00 01 2E  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+89 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Connection abort by IO device
+ 
+ GF4 
+  
+
+Incoming event
+Event type:  Error
+4/17/2021 5:03:58.322 PM
+(Coding:  16#  34 01 00 05 16 76 AD 75  FB 23 10 10 39 CB 00 00  04 BE 00 0B 00 00 01 76  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 0B  CF 81 FD 05 00 00 00 00  00 00 00 00)
+
+
+90 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Connection abort by IO device
+ 
+ GF3 
+  
+
+Incoming event
+Event type:  Error
+4/17/2021 5:03:58.309 PM
+(Coding:  16#  34 01 00 05 16 76 AD 75  FA 61 02 F2 39 CB 00 00  04 BE 00 0B 00 00 01 2E  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 0B  CF 81 FD 05 00 00 00 00  00 00 00 00)
+
+
+91 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+4/17/2021 12:21:41.019 PM
+(Coding:  16#  34 00 00 05 16 76 9E 0E  75 32 6D B2 39 CB 00 00  38 CB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+92 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ GF4 
+  
+
+Outgoing event
+Event type:  OK
+4/17/2021 11:34:38.216 AM
+(Coding:  16#  34 00 00 05 16 76 9B 7D  39 07 BF C3 39 CB 00 00  38 CB 00 00 00 00 01 76  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+93 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ GF3 
+  
+
+Outgoing event
+Event type:  OK
+4/17/2021 11:34:38.200 AM
+(Coding:  16#  34 00 00 05 16 76 9B 7D  38 1A CA 37 39 CB 00 00  38 CB 00 00 00 00 01 2E  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+94 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ GF4 
+  
+
+Incoming event
+Event type:  Error
+4/17/2021 11:34:33.496 AM
+(Coding:  16#  34 01 00 05 16 76 9B 7C  1F B8 C7 6F 39 CB 00 00  04 BB 00 05 00 00 01 76  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  4C 90 00 00 00 00 00 00  00 00 00 00)
+
+
+95 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ GF4 / Drive Profile Lexium 1_1. 
+ 
+
+Outgoing event
+Event type:  OK
+4/17/2021 11:34:33.492 AM
+(Coding:  16#  20 00 00 02 16 76 9B 7C  1F 7B 52 E2 39 58 00 00  38 58 00 00 00 00 01 7D  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+96 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ GF4 / Drive Profile Lexium 1_1. 
+ 
+
+Incoming event
+Event type:  Error
+4/17/2021 11:34:33.485 AM
+(Coding:  16#  20 01 00 02 16 76 9B 7C  1F 0F 3F 00 39 58 00 00  00 00 00 00 00 00 01 7D  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+97 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ GF3 
+  
+
+Incoming event
+Event type:  Error
+4/17/2021 11:34:33.473 AM
+(Coding:  16#  34 01 00 05 16 76 9B 7C  1E 5D 31 CE 39 CB 00 00  04 BB 00 05 00 00 01 2E  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  4A 08 00 00 00 00 00 00  00 00 00 00)
+
+
+98 of 526; Event ID: 16# 02:400C
+CPU info: Follow-on operating mode change 
+Power-on mode set: WARM RESTART to RUN (if CPU was in RUN before power off) 
+ 
+Pending startup inhibit(s):
+ - No startup inhibit set 
+
+ CPU changes from STARTUP to RUN mode 
+
+ PLC_1 / PLC_1 
+  
+
+Incoming event
+Event type:  OK
+4/17/2021 11:13:55.433 AM
+(Coding:  16#  20 01 00 0F 16 76 9A 5B  DD 69 56 3D 40 0C 0C 01  02 24 40 00 10 00 00 34  00 02 00 00 06 08 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+99 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+4/17/2021 11:13:55.429 AM
+(Coding:  16#  34 01 00 05 16 76 9A 5B  DD 24 7E FE 39 CB 00 00  04 B9 00 13 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+100 of 526; Event ID: 16# 02:400C
+CPU info: Follow-on operating mode change 
+Power-on mode set: WARM RESTART to RUN (if CPU was in RUN before power off) 
+ 
+Pending startup inhibit(s):
+ - No startup inhibit set 
+
+ CPU changes from STOP to STARTUP mode 
+
+ PLC_1 / PLC_1 
+  
+
+Incoming event
+Event type:  OK
+4/17/2021 11:12:55.771 AM
+(Coding:  16#  20 01 00 0F 16 76 9A 4D  F9 46 51 8F 40 0C 0C 01  02 24 40 00 10 00 00 34  00 02 00 00 04 06 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+101 of 526; Event ID: 16# 02:400C
+CPU info: Follow-on operating mode change 
+Power-on mode set: WARM RESTART to RUN (if CPU was in RUN before power off) 
+ 
+Pending startup inhibit(s):
+ - No startup inhibit set 
+
+ CPU changes from STOP (initialization) to STOP mode 
+
+ PLC_1 / PLC_1 
+  
+
+Incoming event
+Event type:  OK
+4/17/2021 11:12:55.671 AM
+(Coding:  16#  20 01 00 0F 16 76 9A 4D  F3 4B D7 90 40 0C 0C 01  02 24 40 00 10 00 00 34  00 02 00 00 03 04 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+102 of 526; Event ID: 16# 02:4001
+CPU info: Power on 
+ 
+memory card type: Program card (external load memory) 
+ CPU changes from NOPOWER to STOP (initialization) mode 
+
+ PLC_1 / PLC_1 
+  
+
+Incoming event
+Event type:  OK
+4/17/2021 11:12:18.727 AM
+(Coding:  16#  20 01 00 0F 16 76 9A 45  59 41 19 C2 40 01 0C 01  03 01 00 00 10 00 00 34  00 02 00 00 0F 03 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+103 of 526; Event ID: 16# 02:4002
+CPU info: Power off 
+ CPU changes from RUN to NOPOWER mode 
+
+ PLC_1 / PLC_1 
+  
+
+Incoming event
+Event type:  OK
+4/17/2021 8:26:31.376 AM
+(Coding:  16#  20 01 00 0F 16 76 91 39  4C F3 8B 2C 40 02 0C 01  00 00 00 00 10 00 00 34  00 02 00 00 08 0F 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+104 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+4/17/2021 8:25:51.992 AM
+(Coding:  16#  34 01 00 05 16 76 91 30  21 74 ED 45 39 CB 00 00  04 B9 00 13 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 3F 04  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+105 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+4/17/2021 8:25:51.990 AM
+(Coding:  16#  34 00 00 05 16 76 91 30  21 62 4C AD 39 CB 00 00  04 BB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+106 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+4/17/2021 8:25:49.480 AM
+(Coding:  16#  34 01 00 05 16 76 91 2F  8B BB 82 1B 39 CB 00 00  04 BB 00 05 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  51 80 00 00 00 00 00 00  00 00 00 00)
+
+
+107 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing   
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Outgoing event
+Event type:  OK
+4/17/2021 8:25:49.476 AM
+(Coding:  16#  20 00 00 03 16 76 91 2F  8B 7D C4 41 39 51 00 00  38 51 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+108 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing  
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Incoming event
+Event type:  Error
+4/17/2021 8:25:49.461 AM
+(Coding:  16#  20 01 00 03 16 76 91 2F  8A 9B 8B 2A 39 51 00 00  00 00 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+109 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/24/2021 5:57:04.665 PM
+(Coding:  16#  34 00 00 05 16 6F 55 B4  6D 4F D5 0F 39 CB 00 00  38 CB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+110 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/24/2021 5:56:52.590 PM
+(Coding:  16#  34 01 00 05 16 6F 55 B1  9D 91 33 47 39 CB 00 00  04 B9 00 13 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 3F 04  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+111 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/24/2021 5:56:52.589 PM
+(Coding:  16#  34 00 00 05 16 6F 55 B1  9D 81 BB 1B 39 CB 00 00  04 BB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+112 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/24/2021 5:56:50.080 PM
+(Coding:  16#  34 01 00 05 16 6F 55 B1  07 F1 C4 76 39 CB 00 00  04 BB 00 05 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  3E 40 00 00 00 00 00 00  00 00 00 00)
+
+
+113 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing   
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Outgoing event
+Event type:  OK
+3/24/2021 5:56:50.076 PM
+(Coding:  16#  20 00 00 03 16 6F 55 B1  07 B7 AF 85 39 51 00 00  38 51 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+114 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing  
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Incoming event
+Event type:  Error
+3/24/2021 5:56:50.057 PM
+(Coding:  16#  20 01 00 03 16 6F 55 B1  06 93 8C CD 39 51 00 00  00 00 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+115 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/24/2021 1:36:36.231 PM
+(Coding:  16#  34 00 00 05 16 6F 47 7D  A6 0D 61 1A 39 CB 00 00  38 CB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+116 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:         78
+ RH1_cp200 / cp201. 
+ 
+
+Outgoing event
+Event type:  OK
+3/24/2021 1:36:26.404 PM
+(Coding:  16#  20 00 00 1E 16 6F 47 7B  5C 49 27 94 75 E5 00 00  71 05 00 01 00 00 01 36  00 0D 00 00 00 00 00 4E  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+117 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:         84
+ RH1_cp200 / cp202. 
+ 
+
+Outgoing event
+Event type:  OK
+3/24/2021 1:36:26.397 PM
+(Coding:  16#  20 00 00 1E 16 6F 47 7B  5B E4 72 C7 75 E5 00 00  71 05 00 01 00 00 01 37  00 0D 00 00 00 00 00 54  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+118 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:         90
+ RH1_cp200 / cp203. 
+ 
+
+Outgoing event
+Event type:  OK
+3/24/2021 1:36:26.300 PM
+(Coding:  16#  20 00 00 1E 16 6F 47 7B  56 16 7E 67 75 E5 00 00  71 05 00 01 00 00 01 38  00 0D 00 00 00 00 00 5A  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+119 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ GF1 
+  
+
+Outgoing event
+Event type:  OK
+3/24/2021 1:36:01.459 PM
+(Coding:  16#  34 00 00 05 16 6F 47 75  8D 71 AB D7 39 CB 00 00  38 CB 00 00 00 00 01 1E  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+120 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ GF2 
+  
+
+Outgoing event
+Event type:  OK
+3/24/2021 1:36:01.447 PM
+(Coding:  16#  34 00 00 05 16 6F 47 75  8C C3 1F 22 39 CB 00 00  38 CB 00 00 00 00 01 26  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+121 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ GF3 
+  
+
+Outgoing event
+Event type:  OK
+3/24/2021 1:36:01.373 PM
+(Coding:  16#  34 00 00 05 16 6F 47 75  88 5C 00 D7 39 CB 00 00  38 CB 00 00 00 00 01 2E  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+122 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ GF4 
+  
+
+Outgoing event
+Event type:  OK
+3/24/2021 1:36:01.361 PM
+(Coding:  16#  34 00 00 05 16 6F 47 75  87 99 C5 B3 39 CB 00 00  38 CB 00 00 00 00 01 76  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+123 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:         90
+ RH1_cp200 / cp203. 
+ 
+
+Incoming event
+Event type:  Error
+3/24/2021 1:35:49.108 PM
+(Coding:  16#  20 01 00 1E 16 6F 47 72  AD 4D 44 AA 75 E5 00 00  71 05 00 01 00 00 01 38  00 0D 00 00 00 00 00 5A  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+124 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:         78
+ RH1_cp200 / cp201. 
+ 
+
+Incoming event
+Event type:  Error
+3/24/2021 1:35:49.101 PM
+(Coding:  16#  20 01 00 1E 16 6F 47 72  AC DD 9A C7 75 E5 00 00  71 05 00 01 00 00 01 36  00 0D 00 00 00 00 00 4E  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+125 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:         84
+ RH1_cp200 / cp202. 
+ 
+
+Incoming event
+Event type:  Error
+3/24/2021 1:35:49.097 PM
+(Coding:  16#  20 01 00 1E 16 6F 47 72  AC A8 D5 32 75 E5 00 00  71 05 00 01 00 00 01 37  00 0D 00 00 00 00 00 54  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+126 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ RH1_cp200 
+  
+
+Outgoing event
+Event type:  OK
+3/24/2021 1:35:49.049 PM
+(Coding:  16#  34 00 00 05 16 6F 47 72  A9 C8 81 BC 39 CB 00 00  38 CB 00 00 00 00 01 06  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+127 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ RH1_cp200 
+  
+
+Incoming event
+Event type:  Error
+3/24/2021 1:35:44.175 PM
+(Coding:  16#  34 01 00 05 16 6F 47 71  87 47 C0 AD 39 CB 00 00  04 B9 00 13 00 00 01 06  00 02 00 00 00 00 00 00  00 00 00 00 81 81 3F 04  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+128 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ RH1_cp200 
+  
+
+Outgoing event
+Event type:  OK
+3/24/2021 1:35:44.174 PM
+(Coding:  16#  34 00 00 05 16 6F 47 71  87 34 C9 27 39 CB 00 00  04 BB 00 00 00 00 01 06  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+129 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/24/2021 1:35:44.171 PM
+(Coding:  16#  34 01 00 05 16 6F 47 71  87 05 DB 3F 39 CB 00 00  04 B9 00 13 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 3F 04  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+130 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/24/2021 1:35:44.169 PM
+(Coding:  16#  34 00 00 05 16 6F 47 71  86 E7 B7 A4 39 CB 00 00  04 BB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+131 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ GF3 
+  
+
+Incoming event
+Event type:  Error
+3/24/2021 1:35:44.166 PM
+(Coding:  16#  34 01 00 05 16 6F 47 71  86 B5 0B EC 39 CB 00 00  04 B9 00 13 00 00 01 2E  00 02 00 00 00 00 00 00  00 00 00 00 81 81 3F 04  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+132 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ GF3 
+  
+
+Outgoing event
+Event type:  OK
+3/24/2021 1:35:44.164 PM
+(Coding:  16#  34 00 00 05 16 6F 47 71  86 A2 CB 9D 39 CB 00 00  04 BB 00 00 00 00 01 2E  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+133 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ GF2 
+  
+
+Incoming event
+Event type:  Error
+3/24/2021 1:35:44.159 PM
+(Coding:  16#  34 01 00 05 16 6F 47 71  86 56 1F 12 39 CB 00 00  04 B9 00 13 00 00 01 26  00 02 00 00 00 00 00 00  00 00 00 00 81 81 3F 04  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+134 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ GF2 
+  
+
+Outgoing event
+Event type:  OK
+3/24/2021 1:35:44.158 PM
+(Coding:  16#  34 00 00 05 16 6F 47 71  86 44 4B 26 39 CB 00 00  04 BB 00 00 00 00 01 26  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+135 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ GF1 
+  
+
+Incoming event
+Event type:  Error
+3/24/2021 1:35:44.155 PM
+(Coding:  16#  34 01 00 05 16 6F 47 71  86 16 85 3F 39 CB 00 00  04 B9 00 13 00 00 01 1E  00 02 00 00 00 00 00 00  00 00 00 00 81 81 3F 04  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+136 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ GF1 
+  
+
+Outgoing event
+Event type:  OK
+3/24/2021 1:35:44.155 PM
+(Coding:  16#  34 00 00 05 16 6F 47 71  86 11 98 5D 39 CB 00 00  04 BB 00 00 00 00 01 1E  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+137 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ GF4 
+  
+
+Incoming event
+Event type:  Error
+3/24/2021 1:35:44.054 PM
+(Coding:  16#  34 01 00 05 16 6F 47 71  80 10 0E E7 39 CB 00 00  04 B9 00 13 00 00 01 76  00 02 00 00 00 00 00 00  00 00 00 00 81 81 3F 04  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+138 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ GF4 
+  
+
+Outgoing event
+Event type:  OK
+3/24/2021 1:35:44.054 PM
+(Coding:  16#  34 00 00 05 16 6F 47 71  80 0D 24 2A 39 CB 00 00  04 BB 00 00 00 00 01 76  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+139 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ RH1_cp200 
+  
+
+Incoming event
+Event type:  Error
+3/24/2021 1:35:41.676 PM
+(Coding:  16#  34 01 00 05 16 6F 47 70  F2 51 5A A7 39 CB 00 00  04 BB 00 05 00 00 01 06  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  D1 80 00 00 00 00 00 00  00 00 00 00)
+
+
+140 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/24/2021 1:35:41.656 PM
+(Coding:  16#  34 01 00 05 16 6F 47 70  F1 1E 6F CD 39 CB 00 00  04 BB 00 05 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  2F 80 00 00 00 00 00 00  00 00 00 00)
+
+
+141 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing   
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Outgoing event
+Event type:  OK
+3/24/2021 1:35:41.654 PM
+(Coding:  16#  20 00 00 03 16 6F 47 70  F0 FE 3F EC 39 51 00 00  38 51 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+142 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing  
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Incoming event
+Event type:  Error
+3/24/2021 1:35:41.637 PM
+(Coding:  16#  20 01 00 03 16 6F 47 70  F0 02 F5 05 39 51 00 00  00 00 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+143 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ GF3 
+  
+
+Incoming event
+Event type:  Error
+3/24/2021 1:35:41.613 PM
+(Coding:  16#  34 01 00 05 16 6F 47 70  EE 8C DC A7 39 CB 00 00  04 BB 00 05 00 00 01 2E  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  DB 70 00 00 00 00 00 00  00 00 00 00)
+
+
+144 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ GF3 / Drive Profile Lexium 1_1. 
+ 
+
+Outgoing event
+Event type:  OK
+3/24/2021 1:35:41.611 PM
+(Coding:  16#  20 00 00 02 16 6F 47 70  EE 6C 7C FF 39 58 00 00  38 58 00 00 00 00 01 35  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+145 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ GF3 / Drive Profile Lexium 1_1. 
+ 
+
+Incoming event
+Event type:  Error
+3/24/2021 1:35:41.600 PM
+(Coding:  16#  20 01 00 02 16 6F 47 70  ED C3 99 51 39 58 00 00  00 00 00 00 00 00 01 35  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+146 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ GF2 
+  
+
+Incoming event
+Event type:  Error
+3/24/2021 1:35:41.588 PM
+(Coding:  16#  34 01 00 05 16 6F 47 70  ED 12 7A 50 39 CB 00 00  04 BB 00 05 00 00 01 26  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  84 90 00 00 00 00 00 00  00 00 00 00)
+
+
+147 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ GF2 / Drive Profile Lexium 1_1. 
+ 
+
+Outgoing event
+Event type:  OK
+3/24/2021 1:35:41.584 PM
+(Coding:  16#  20 00 00 02 16 6F 47 70  EC CF 9E B5 39 58 00 00  38 58 00 00 00 00 01 2D  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+148 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ GF1 
+  
+
+Incoming event
+Event type:  Error
+3/24/2021 1:35:41.572 PM
+(Coding:  16#  34 01 00 05 16 6F 47 70  EC 1C 9E 7D 39 CB 00 00  04 BB 00 05 00 00 01 1E  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  92 A8 00 00 00 00 00 00  00 00 00 00)
+
+
+149 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ GF1 / Drive Profile Lexium 1_1. 
+ 
+
+Outgoing event
+Event type:  OK
+3/24/2021 1:35:41.569 PM
+(Coding:  16#  20 00 00 02 16 6F 47 70  EB F1 C5 07 39 58 00 00  38 58 00 00 00 00 01 25  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+150 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ GF2 / Drive Profile Lexium 1_1. 
+ 
+
+Incoming event
+Event type:  Error
+3/24/2021 1:35:41.563 PM
+(Coding:  16#  20 01 00 02 16 6F 47 70  EB 91 DD 5C 39 58 00 00  00 00 00 00 00 00 01 2D  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+151 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ GF1 / Drive Profile Lexium 1_1. 
+ 
+
+Incoming event
+Event type:  Error
+3/24/2021 1:35:41.558 PM
+(Coding:  16#  20 01 00 02 16 6F 47 70  EB 4A 9A F2 39 58 00 00  00 00 00 00 00 00 01 25  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+152 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ GF4 
+  
+
+Incoming event
+Event type:  Error
+3/24/2021 1:35:41.546 PM
+(Coding:  16#  34 01 00 05 16 6F 47 70  EA 8A 67 C9 39 CB 00 00  04 BB 00 05 00 00 01 76  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  25 48 00 00 00 00 00 00  00 00 00 00)
+
+
+153 of 526; Event ID: 16# 02:4428
+Security information: Session authentication successful
+ SessionID 1568-33100
+ 
+ PLC_1 
+  
+
+Client IPAddr: 192.168.2.11
+
+
+Incoming event
+Event type:  
+3/17/2021 2:16:23.194 PM
+(Coding:  16#  34 01 00 5F 16 6D 23 99  6E FD A5 60 44 28 0C 00  06 20 81 4C 00 00 00 32  00 02 00 00 00 00 00 00  F0 09 00 B6 00 00 00 00  C0 A8 02 0B 00 00 00 00  00 00 00 00)
+
+
+154 of 526; Event ID: 16# 02:4428
+Security information: Session authentication successful
+ SessionID 1568-33100
+ 
+ PLC_1 
+  
+
+Client IPAddr: 192.168.2.20
+
+
+Incoming event
+Event type:  
+3/17/2021 11:51:37.241 AM
+(Coding:  16#  34 01 00 5F 16 6D 1B B3  13 D1 BC BF 44 28 0C 00  06 20 81 4C 00 00 00 32  00 02 00 00 00 00 00 00  F0 09 00 B6 00 00 00 00  C0 A8 02 14 00 00 00 00  00 00 00 00)
+
+
+155 of 526; Event ID: 16# 02:4428
+Security information: Session authentication successful
+ SessionID 1568-33100
+ 
+ PLC_1 
+  
+
+Client IPAddr: 192.168.2.20
+
+
+Incoming event
+Event type:  
+3/17/2021 11:49:37.352 AM
+(Coding:  16#  34 01 00 5F 16 6D 1B 97  29 E1 20 34 44 28 0C 00  06 20 81 4C 00 00 00 32  00 02 00 00 00 00 00 00  F0 09 00 B6 00 00 00 00  C0 A8 02 14 00 00 00 00  00 00 00 00)
+
+
+156 of 526; Event ID: 16# 02:4428
+Security information: Session authentication successful
+ SessionID 1568-33100
+ 
+ PLC_1 
+  
+
+Client IPAddr: 192.168.2.20
+
+
+Incoming event
+Event type:  
+3/17/2021 11:47:56.353 AM
+(Coding:  16#  34 01 00 5F 16 6D 1B 7F  A5 E3 79 C4 44 28 0C 00  06 20 81 4C 00 00 00 32  00 02 00 00 00 00 00 00  F0 09 00 B6 00 00 00 00  C0 A8 02 14 00 00 00 00  00 00 00 00)
+
+
+157 of 526; Event ID: 16# 02:4428
+Security information: Session authentication successful
+ SessionID 1568-33100
+ 
+ PLC_1 
+  
+
+Client IPAddr: 192.168.2.20
+
+
+Incoming event
+Event type:  
+3/17/2021 11:47:33.105 AM
+(Coding:  16#  34 01 00 5F 16 6D 1B 7A  3C 2B E6 3A 44 28 0C 00  06 20 81 4C 00 00 00 32  00 02 00 00 00 00 00 00  F0 09 00 B6 00 00 00 00  C0 A8 02 14 00 00 00 00  00 00 00 00)
+
+
+158 of 526; Event ID: 16# 02:4428
+Security information: Session authentication successful
+ SessionID 1568-33100
+ 
+ PLC_1 
+  
+
+Client IPAddr: 192.168.2.20
+
+
+Incoming event
+Event type:  
+3/17/2021 11:46:20.587 AM
+(Coding:  16#  34 01 00 5F 16 6D 1B 69  59 C7 B8 4F 44 28 0C 00  06 20 81 4C 00 00 00 32  00 02 00 00 00 00 00 00  F0 09 00 B6 00 00 00 00  C0 A8 02 14 00 00 00 00  00 00 00 00)
+
+
+159 of 526; Event ID: 16# 02:4428
+Security information: Session authentication successful
+ SessionID 1568-33100
+ 
+ PLC_1 
+  
+
+Client IPAddr: 192.168.2.20
+
+
+Incoming event
+Event type:  
+3/17/2021 11:44:33.658 AM
+(Coding:  16#  34 01 00 5F 16 6D 1B 50  74 48 82 E4 44 28 0C 00  06 20 81 4C 00 00 00 32  00 02 00 00 00 00 00 00  F0 09 00 B6 00 00 00 00  C0 A8 02 14 00 00 00 00  00 00 00 00)
+
+
+160 of 526; Event ID: 16# 02:4428
+Security information: Session authentication successful
+ SessionID 1568-33100
+ 
+ PLC_1 
+  
+
+Client IPAddr: 192.168.2.20
+
+
+Incoming event
+Event type:  
+3/17/2021 11:33:27.050 AM
+(Coding:  16#  34 01 00 5F 16 6D 1A B5  3F 64 0E 1F 44 28 0C 00  06 20 81 4C 00 00 00 32  00 02 00 00 00 00 00 00  F0 09 00 B6 00 00 00 00  C0 A8 02 14 00 00 00 00  00 00 00 00)
+
+
+161 of 526; Event ID: 16# 02:4428
+Security information: Session authentication successful
+ SessionID 1568-33100
+ 
+ PLC_1 
+  
+
+Client IPAddr: 192.168.2.20
+
+
+Incoming event
+Event type:  
+3/17/2021 11:07:59.920 AM
+(Coding:  16#  34 01 00 5F 16 6D 19 51  AF 4F D6 89 44 28 0C 00  06 20 81 4C 00 00 00 32  00 02 00 00 00 00 00 00  F0 09 00 B6 00 00 00 00  C0 A8 02 14 00 00 00 00  00 00 00 00)
+
+
+162 of 526; Event ID: 16# 02:4428
+Security information: Session authentication successful
+ SessionID 1568-33100
+ 
+ PLC_1 
+  
+
+Client IPAddr: 192.168.2.11
+
+
+Incoming event
+Event type:  
+3/17/2021 9:33:27.879 AM
+(Coding:  16#  34 01 00 5F 16 6D 14 29  0F 52 20 A1 44 28 0C 00  06 20 81 4C 00 00 00 32  00 02 00 00 00 00 00 00  F0 09 00 B6 00 00 00 00  C0 A8 02 0B 00 00 00 00  00 00 00 00)
+
+
+163 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/15/2021 3:24:12.052 PM
+(Coding:  16#  34 00 00 05 16 6C 8A 23  A7 2A 42 D6 39 CB 00 00  38 CB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+164 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/15/2021 3:22:59.982 PM
+(Coding:  16#  34 01 00 05 16 6C 8A 12  DF 7F F8 E9 39 CB 00 00  04 B9 00 13 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 3F 04  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+165 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/15/2021 3:22:59.982 PM
+(Coding:  16#  34 00 00 05 16 6C 8A 12  DF 7A FC 6F 39 CB 00 00  04 BB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+166 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/15/2021 3:22:57.474 PM
+(Coding:  16#  34 01 00 05 16 6C 8A 12  4A 00 D2 4F 39 CB 00 00  04 BB 00 05 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  5A 00 00 00 00 00 00 00  00 00 00 00)
+
+
+167 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing   
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Outgoing event
+Event type:  OK
+3/15/2021 3:22:57.472 PM
+(Coding:  16#  20 00 00 03 16 6C 8A 12  49 E0 83 71 39 51 00 00  38 51 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+168 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing  
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Incoming event
+Event type:  Error
+3/15/2021 3:22:57.454 PM
+(Coding:  16#  20 01 00 03 16 6C 8A 12  48 D0 5A 1C 39 51 00 00  00 00 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+169 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/15/2021 9:53:22.055 AM
+(Coding:  16#  34 00 00 05 16 6C 78 15  F7 25 A7 DD 39 CB 00 00  38 CB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+170 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/15/2021 9:52:17.487 AM
+(Coding:  16#  34 01 00 05 16 6C 78 06  EE 97 3F CD 39 CB 00 00  04 B9 00 13 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 3F 04  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+171 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/15/2021 9:52:17.486 AM
+(Coding:  16#  34 00 00 05 16 6C 78 06  EE 8B 22 27 39 CB 00 00  04 BB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+172 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/15/2021 9:52:14.977 AM
+(Coding:  16#  34 01 00 05 16 6C 78 06  58 FC FA 29 39 CB 00 00  04 BB 00 05 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  78 C0 00 00 00 00 00 00  00 00 00 00)
+
+
+173 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing   
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Outgoing event
+Event type:  OK
+3/15/2021 9:52:14.974 AM
+(Coding:  16#  20 00 00 03 16 6C 78 06  58 CD 0F 64 39 51 00 00  38 51 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+174 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing  
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Incoming event
+Event type:  Error
+3/15/2021 9:52:14.957 AM
+(Coding:  16#  20 01 00 03 16 6C 78 06  57 D1 80 89 39 51 00 00  00 00 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+175 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/13/2021 4:57:26.056 PM
+(Coding:  16#  34 00 00 05 16 6B F2 10  F9 2A 8C 2D 39 CB 00 00  38 CB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+176 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/13/2021 4:53:33.977 PM
+(Coding:  16#  34 01 00 05 16 6B F1 DA  F0 36 6C E7 39 CB 00 00  04 B9 00 13 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 3F 04  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+177 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/13/2021 4:53:33.977 PM
+(Coding:  16#  34 00 00 05 16 6B F1 DA  F0 33 5D 07 39 CB 00 00  04 BB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+178 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/13/2021 4:53:31.470 PM
+(Coding:  16#  34 01 00 05 16 6B F1 DA  5A BF 69 14 39 CB 00 00  04 BB 00 05 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  16 80 00 00 00 00 00 00  00 00 00 00)
+
+
+179 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing   
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Outgoing event
+Event type:  OK
+3/13/2021 4:53:31.468 PM
+(Coding:  16#  20 00 00 03 16 6B F1 DA  5A AB 44 77 39 51 00 00  38 51 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+180 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing  
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Incoming event
+Event type:  Error
+3/13/2021 4:53:31.452 PM
+(Coding:  16#  20 01 00 03 16 6B F1 DA  59 B8 3B 42 39 51 00 00  00 00 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+181 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/13/2021 4:46:41.171 PM
+(Coding:  16#  34 00 00 05 16 6B F1 7A  D3 10 AD 2F 39 CB 00 00  38 CB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+182 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/13/2021 4:44:04.085 PM
+(Coding:  16#  34 01 00 05 16 6B F1 56  3F F9 1D 77 39 CB 00 00  04 B9 00 13 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 3F 04  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+183 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/13/2021 4:44:04.083 PM
+(Coding:  16#  34 00 00 05 16 6B F1 56  3F DC C7 BF 39 CB 00 00  04 BB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+184 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/13/2021 4:44:01.573 PM
+(Coding:  16#  34 01 00 05 16 6B F1 55  AA 49 C3 E7 39 CB 00 00  04 BB 00 05 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  AF 80 00 00 00 00 00 00  00 00 00 00)
+
+
+185 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing   
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Outgoing event
+Event type:  OK
+3/13/2021 4:44:01.570 PM
+(Coding:  16#  20 00 00 03 16 6B F1 55  AA 18 04 EC 39 51 00 00  38 51 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+186 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing  
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Incoming event
+Event type:  Error
+3/13/2021 4:44:01.553 PM
+(Coding:  16#  20 01 00 03 16 6B F1 55  A9 10 54 AF 39 51 00 00  00 00 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+187 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/13/2021 4:35:55.451 PM
+(Coding:  16#  34 00 00 05 16 6B F0 E4  7B 25 5F EA 39 CB 00 00  38 CB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+188 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/13/2021 4:35:05.879 PM
+(Coding:  16#  34 01 00 05 16 6B F0 D8  F0 64 D4 DD 39 CB 00 00  04 B9 00 13 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 3F 04  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+189 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/13/2021 4:35:05.878 PM
+(Coding:  16#  34 00 00 05 16 6B F0 D8  F0 61 BF 1F 39 CB 00 00  04 BB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+190 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/13/2021 4:35:03.369 PM
+(Coding:  16#  34 01 00 05 16 6B F0 D8  5A D5 85 2E 39 CB 00 00  04 BB 00 05 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  5A 80 00 00 00 00 00 00  00 00 00 00)
+
+
+191 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing   
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Outgoing event
+Event type:  OK
+3/13/2021 4:35:03.368 PM
+(Coding:  16#  20 00 00 03 16 6B F0 D8  5A BC 52 BF 39 51 00 00  38 51 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+192 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing  
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Incoming event
+Event type:  Error
+3/13/2021 4:35:03.351 PM
+(Coding:  16#  20 01 00 03 16 6B F0 D8  59 B9 3E 29 39 51 00 00  00 00 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+193 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/13/2021 4:26:36.061 PM
+(Coding:  16#  34 00 00 05 16 6B F0 62  3C E7 AB FF 39 CB 00 00  38 CB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+194 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/13/2021 4:20:21.476 PM
+(Coding:  16#  34 01 00 05 16 6B F0 0B  05 E7 4D 8A 39 CB 00 00  04 B9 00 13 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 3F 04  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+195 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/13/2021 4:20:21.476 PM
+(Coding:  16#  34 00 00 05 16 6B F0 0B  05 E2 CD 79 39 CB 00 00  04 BB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+196 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/13/2021 4:20:18.968 PM
+(Coding:  16#  34 01 00 05 16 6B F0 0A  70 68 E9 67 39 CB 00 00  04 BB 00 05 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  AB 40 00 00 00 00 00 00  00 00 00 00)
+
+
+197 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing   
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Outgoing event
+Event type:  OK
+3/13/2021 4:20:18.966 PM
+(Coding:  16#  20 00 00 03 16 6B F0 0A  70 4B D2 BC 39 51 00 00  38 51 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+198 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing  
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Incoming event
+Event type:  Error
+3/13/2021 4:20:18.950 PM
+(Coding:  16#  20 01 00 03 16 6B F0 0A  6F 4D B8 4D 39 51 00 00  00 00 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+199 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/13/2021 3:06:28.086 PM
+(Coding:  16#  34 00 00 05 16 6B EC 02  CB 3A E7 3C 39 CB 00 00  38 CB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+200 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        200
+ kr120r2700 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Outgoing event
+Event type:  OK
+3/13/2021 3:06:21.398 PM
+(Coding:  16#  20 00 00 1E 16 6B EC 01  3C 9B 61 47 75 E5 00 00  71 05 00 01 00 00 01 4B  00 0D 00 00 00 00 00 C8  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+201 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        200
+ kr120r2700 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Incoming event
+Event type:  Error
+3/13/2021 3:05:45.498 PM
+(Coding:  16#  20 01 00 1E 16 6B EB F8  E0 CC EC D7 75 E5 00 00  71 05 00 01 00 00 01 4B  00 0D 00 00 00 00 00 C8  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+202 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ kr120r2700 
+  
+
+Outgoing event
+Event type:  OK
+3/13/2021 3:05:45.451 PM
+(Coding:  16#  34 00 00 05 16 6B EB F8  DE 08 37 88 39 CB 00 00  38 CB 00 00 00 00 01 46  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+203 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/13/2021 3:04:36.010 PM
+(Coding:  16#  34 01 00 05 16 6B EB E8  B3 05 0F EF 39 CB 00 00  04 B9 00 13 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 3F 04  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+204 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/13/2021 3:04:36.010 PM
+(Coding:  16#  34 00 00 05 16 6B EB E8  B3 00 0C DD 39 CB 00 00  04 BB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+205 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ kr120r2700 
+  
+
+Incoming event
+Event type:  Error
+3/13/2021 3:04:35.911 PM
+(Coding:  16#  34 01 00 05 16 6B EB E8  AD 12 3D 31 39 CB 00 00  04 B9 00 13 00 00 01 46  00 02 00 00 00 00 00 00  00 00 00 00 81 81 3F 04  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+206 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Connection abort by IO device
+ 
+ kr120r2700 
+  
+
+Outgoing event
+Event type:  OK
+3/13/2021 3:04:35.910 PM
+(Coding:  16#  34 00 00 05 16 6B EB E8  AD 0D 2D 15 39 CB 00 00  04 BE 00 00 00 00 01 46  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+207 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/13/2021 3:04:33.568 PM
+(Coding:  16#  34 01 00 05 16 6B EB E8  21 75 D4 F5 39 CB 00 00  04 BB 00 05 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  7A 40 00 00 00 00 00 00  00 00 00 00)
+
+
+208 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing   
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Outgoing event
+Event type:  OK
+3/13/2021 3:04:33.567 PM
+(Coding:  16#  20 00 00 03 16 6B EB E8  21 62 42 3A 39 51 00 00  38 51 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+209 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing  
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Incoming event
+Event type:  Error
+3/13/2021 3:04:33.553 PM
+(Coding:  16#  20 01 00 03 16 6B EB E8  20 8E DA 67 39 51 00 00  00 00 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+210 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Connection abort by IO device
+ 
+ kr120r2700 
+  
+
+Incoming event
+Event type:  Error
+3/13/2021 3:04:33.404 PM
+(Coding:  16#  34 01 00 05 16 6B EB E8  17 A6 14 8E 39 CB 00 00  04 BE 00 0B 00 00 01 46  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 0B  CF 81 FD 02 00 00 00 00  00 00 00 00)
+
+
+211 of 526; Event ID: 16# 0D:75D3
+Error: Safety program: Error in PROFIsafe communication with F-I/O
+F-monitoring time exceeded
+F-runtime group   1
+Start address of the F-I/O:        200
+ kr120r2700 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Outgoing event
+Event type:  OK
+3/13/2021 3:04:33.402 PM
+(Coding:  16#  20 00 00 1E 16 6B EB E8  17 88 5B 13 75 D3 00 00  71 01 00 01 00 00 01 4B  00 0D 00 00 00 00 00 C8  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+212 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        200
+ kr120r2700 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Outgoing event
+Event type:  OK
+3/13/2021 3:04:33.401 PM
+(Coding:  16#  20 00 00 1E 16 6B EB E8  17 7C 55 D1 75 E5 00 00  71 05 00 01 00 00 01 4B  00 0D 00 00 00 00 00 C8  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+213 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        200
+ kr120r2700 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Incoming event
+Event type:  Error
+3/13/2021 3:04:33.299 PM
+(Coding:  16#  20 01 00 1E 16 6B EB E8  11 62 AB 34 75 E5 00 00  71 05 00 01 00 00 01 4B  00 0D 00 00 00 00 00 C8  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+214 of 526; Event ID: 16# 0D:75D3
+Error: Safety program: Error in PROFIsafe communication with F-I/O
+F-monitoring time exceeded
+F-runtime group   1
+Start address of the F-I/O:        200
+ kr120r2700 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Incoming event
+Event type:  Error
+3/13/2021 3:04:33.298 PM
+(Coding:  16#  20 01 00 1E 16 6B EB E8  11 58 66 8A 75 D3 00 00  71 01 00 01 00 00 01 4B  00 0D 00 00 00 00 00 C8  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+215 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/13/2021 10:53:01.552 AM
+(Coding:  16#  34 00 00 05 16 6B DE 2E  3F 34 AF 5C 39 CB 00 00  38 CB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+216 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/13/2021 10:52:46.986 AM
+(Coding:  16#  34 01 00 05 16 6B DE 2A  DA FC 3A 94 39 CB 00 00  04 B9 00 13 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 3F 04  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+217 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/13/2021 10:52:46.986 AM
+(Coding:  16#  34 00 00 05 16 6B DE 2A  DA F9 59 49 39 CB 00 00  04 BB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+218 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/13/2021 10:52:44.477 AM
+(Coding:  16#  34 01 00 05 16 6B DE 2A  45 78 C8 53 39 CB 00 00  04 BB 00 05 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  49 80 00 00 00 00 00 00  00 00 00 00)
+
+
+219 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing   
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Outgoing event
+Event type:  OK
+3/13/2021 10:52:44.473 AM
+(Coding:  16#  20 00 00 03 16 6B DE 2A  45 39 71 19 39 51 00 00  38 51 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+220 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing  
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Incoming event
+Event type:  Error
+3/13/2021 10:52:44.456 AM
+(Coding:  16#  20 01 00 03 16 6B DE 2A  44 2C A3 62 39 51 00 00  00 00 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+221 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/13/2021 8:40:51.352 AM
+(Coding:  16#  34 00 00 05 16 6B D6 F7  DA 72 73 27 39 CB 00 00  38 CB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+222 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/13/2021 8:40:44.280 AM
+(Coding:  16#  34 01 00 05 16 6B D6 F6  34 ED 23 55 39 CB 00 00  04 B9 00 13 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 3F 04  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+223 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/13/2021 8:40:44.280 AM
+(Coding:  16#  34 00 00 05 16 6B D6 F6  34 EA 3B 7A 39 CB 00 00  04 BB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+224 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/13/2021 8:40:41.773 AM
+(Coding:  16#  34 01 00 05 16 6B D6 F5  9F 7E 9E 8F 39 CB 00 00  04 BB 00 05 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  7C C0 00 00 00 00 00 00  00 00 00 00)
+
+
+225 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing   
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Outgoing event
+Event type:  OK
+3/13/2021 8:40:41.770 AM
+(Coding:  16#  20 00 00 03 16 6B D6 F5  9F 4F 86 11 39 51 00 00  38 51 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+226 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing  
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Incoming event
+Event type:  Error
+3/13/2021 8:40:41.754 AM
+(Coding:  16#  20 01 00 03 16 6B D6 F5  9E 59 B4 FD 39 51 00 00  00 00 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+227 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/13/2021 8:40:21.350 AM
+(Coding:  16#  34 00 00 05 16 6B D6 F0  DE 32 7D 35 39 CB 00 00  38 CB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+228 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/13/2021 8:40:11.782 AM
+(Coding:  16#  34 01 00 05 16 6B D6 EE  A3 DA 89 68 39 CB 00 00  04 B9 00 13 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 3F 04  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+229 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/13/2021 8:40:11.781 AM
+(Coding:  16#  34 00 00 05 16 6B D6 EE  A3 D6 8F AF 39 CB 00 00  04 BB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+230 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/13/2021 8:40:09.274 AM
+(Coding:  16#  34 01 00 05 16 6B D6 EE  0E 60 4F A4 39 CB 00 00  04 BB 00 05 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  F5 80 00 00 00 00 00 00  00 00 00 00)
+
+
+231 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing   
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Outgoing event
+Event type:  OK
+3/13/2021 8:40:09.271 AM
+(Coding:  16#  20 00 00 03 16 6B D6 EE  0E 3C DC D9 39 51 00 00  38 51 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+232 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing  
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Incoming event
+Event type:  Error
+3/13/2021 8:40:09.255 AM
+(Coding:  16#  20 01 00 03 16 6B D6 EE  0D 40 42 8C 39 51 00 00  00 00 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+233 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/13/2021 8:25:58.253 AM
+(Coding:  16#  34 00 00 05 16 6B D6 27  E9 93 18 37 39 CB 00 00  38 CB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+234 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/13/2021 8:25:46.181 AM
+(Coding:  16#  34 01 00 05 16 6B D6 25  1A 0F 6B 3F 39 CB 00 00  04 B9 00 13 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 3F 04  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+235 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/13/2021 8:25:46.181 AM
+(Coding:  16#  34 00 00 05 16 6B D6 25  1A 0B F9 D7 39 CB 00 00  04 BB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+236 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/13/2021 8:25:43.674 AM
+(Coding:  16#  34 01 00 05 16 6B D6 24  84 A1 CD E1 39 CB 00 00  04 BB 00 05 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  02 00 00 00 00 00 00 00  00 00 00 00)
+
+
+237 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing   
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Outgoing event
+Event type:  OK
+3/13/2021 8:25:43.671 AM
+(Coding:  16#  20 00 00 03 16 6B D6 24  84 67 C1 10 39 51 00 00  38 51 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+238 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing  
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Incoming event
+Event type:  Error
+3/13/2021 8:25:43.654 AM
+(Coding:  16#  20 01 00 03 16 6B D6 24  83 6F 14 C9 39 51 00 00  00 00 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+239 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/13/2021 8:25:08.046 AM
+(Coding:  16#  34 00 00 05 16 6B D6 1C  39 07 A5 E2 39 CB 00 00  38 CB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+240 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/13/2021 8:24:55.980 AM
+(Coding:  16#  34 01 00 05 16 6B D6 19  69 CE 3E FA 39 CB 00 00  04 B9 00 13 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 3F 04  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+241 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/13/2021 8:24:55.979 AM
+(Coding:  16#  34 00 00 05 16 6B D6 19  69 C8 F0 50 39 CB 00 00  04 BB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+242 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/13/2021 8:24:53.471 AM
+(Coding:  16#  34 01 00 05 16 6B D6 18  D4 44 3B 0A 39 CB 00 00  04 BB 00 05 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  94 00 00 00 00 00 00 00  00 00 00 00)
+
+
+243 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing   
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Outgoing event
+Event type:  OK
+3/13/2021 8:24:53.469 AM
+(Coding:  16#  20 00 00 03 16 6B D6 18  D4 24 3D DF 39 51 00 00  38 51 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+244 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing  
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Incoming event
+Event type:  Error
+3/13/2021 8:24:53.452 AM
+(Coding:  16#  20 01 00 03 16 6B D6 18  D3 2A 5C B5 39 51 00 00  00 00 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+245 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/13/2021 8:24:48.847 AM
+(Coding:  16#  34 00 00 05 16 6B D6 17  C0 AD 21 E9 39 CB 00 00  38 CB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+246 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/13/2021 8:24:36.778 AM
+(Coding:  16#  34 01 00 05 16 6B D6 14  F1 4A 33 C1 39 CB 00 00  04 B9 00 13 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 3F 04  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+247 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/13/2021 8:24:36.778 AM
+(Coding:  16#  34 00 00 05 16 6B D6 14  F1 47 29 25 39 CB 00 00  04 BB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+248 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/13/2021 8:24:34.269 AM
+(Coding:  16#  34 01 00 05 16 6B D6 14  5B BF 78 D5 39 CB 00 00  04 BB 00 05 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  E6 C0 00 00 00 00 00 00  00 00 00 00)
+
+
+249 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing   
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Outgoing event
+Event type:  OK
+3/13/2021 8:24:34.267 AM
+(Coding:  16#  20 00 00 03 16 6B D6 14  5B A3 55 FC 39 51 00 00  38 51 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+250 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing  
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Incoming event
+Event type:  Error
+3/13/2021 8:24:34.253 AM
+(Coding:  16#  20 01 00 03 16 6B D6 14  5A D2 FF D6 39 51 00 00  00 00 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+251 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/13/2021 8:23:27.851 AM
+(Coding:  16#  34 00 00 05 16 6B D6 04  E4 F2 BE 91 39 CB 00 00  38 CB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+252 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/13/2021 8:23:18.282 AM
+(Coding:  16#  34 01 00 05 16 6B D6 02  AA 8C 8B 21 39 CB 00 00  04 B9 00 13 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 3F 04  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+253 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/13/2021 8:23:18.281 AM
+(Coding:  16#  34 00 00 05 16 6B D6 02  AA 88 14 29 39 CB 00 00  04 BB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+254 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/13/2021 8:23:15.773 AM
+(Coding:  16#  34 01 00 05 16 6B D6 02  15 09 96 77 39 CB 00 00  04 BB 00 05 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  38 40 00 00 00 00 00 00  00 00 00 00)
+
+
+255 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing   
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Outgoing event
+Event type:  OK
+3/13/2021 8:23:15.771 AM
+(Coding:  16#  20 00 00 03 16 6B D6 02  14 E7 7A EC 39 51 00 00  38 51 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+256 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing  
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Incoming event
+Event type:  Error
+3/13/2021 8:23:15.755 AM
+(Coding:  16#  20 01 00 03 16 6B D6 02  13 F1 D9 F7 39 51 00 00  00 00 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+257 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/13/2021 8:22:55.950 AM
+(Coding:  16#  34 00 00 05 16 6B D5 FD  77 7F 0A FA 39 CB 00 00  38 CB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+258 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/13/2021 8:22:48.883 AM
+(Coding:  16#  34 01 00 05 16 6B D5 FB  D2 40 4D 3C 39 CB 00 00  04 B9 00 13 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 3F 04  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+259 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/13/2021 8:22:48.882 AM
+(Coding:  16#  34 00 00 05 16 6B D5 FB  D2 33 82 99 39 CB 00 00  04 BB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+260 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/13/2021 8:22:46.375 AM
+(Coding:  16#  34 01 00 05 16 6B D5 FB  3C C1 0D 45 39 CB 00 00  04 BB 00 05 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  D3 00 00 00 00 00 00 00  00 00 00 00)
+
+
+261 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing   
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Outgoing event
+Event type:  OK
+3/13/2021 8:22:46.371 AM
+(Coding:  16#  20 00 00 03 16 6B D5 FB  3C 81 88 05 39 51 00 00  38 51 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+262 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing  
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Incoming event
+Event type:  Error
+3/13/2021 8:22:46.356 AM
+(Coding:  16#  20 01 00 03 16 6B D5 FB  3B A0 CB 61 39 51 00 00  00 00 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+263 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/13/2021 8:22:41.553 AM
+(Coding:  16#  34 00 00 05 16 6B D5 FA  1D 5D 2C B2 39 CB 00 00  38 CB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+264 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/13/2021 8:22:31.979 AM
+(Coding:  16#  34 01 00 05 16 6B D5 F7  E2 B7 3B 91 39 CB 00 00  04 B9 00 13 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 3F 04  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+265 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/13/2021 8:22:31.979 AM
+(Coding:  16#  34 00 00 05 16 6B D5 F7  E2 B3 A3 9F 39 CB 00 00  04 BB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+266 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/13/2021 8:22:29.471 AM
+(Coding:  16#  34 01 00 05 16 6B D5 F7  4D 33 47 B2 39 CB 00 00  04 BB 00 05 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  B3 C0 00 00 00 00 00 00  00 00 00 00)
+
+
+267 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing   
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Outgoing event
+Event type:  OK
+3/13/2021 8:22:29.469 AM
+(Coding:  16#  20 00 00 03 16 6B D5 F7  4D 16 37 24 39 51 00 00  38 51 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+268 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing  
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Incoming event
+Event type:  Error
+3/13/2021 8:22:29.455 AM
+(Coding:  16#  20 01 00 03 16 6B D5 F7  4C 44 52 C7 39 51 00 00  00 00 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+269 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/13/2021 8:22:17.952 AM
+(Coding:  16#  34 00 00 05 16 6B D5 F4  9E A5 BC 34 39 CB 00 00  38 CB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+270 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/13/2021 8:22:08.382 AM
+(Coding:  16#  34 01 00 05 16 6B D5 F2  64 31 7A 4F 39 CB 00 00  04 B9 00 13 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 3F 04  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+271 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/13/2021 8:22:08.381 AM
+(Coding:  16#  34 00 00 05 16 6B D5 F2  64 2D 6B A6 39 CB 00 00  04 BB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+272 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/13/2021 8:22:05.875 AM
+(Coding:  16#  34 01 00 05 16 6B D5 F1  CE C7 20 11 39 CB 00 00  04 BB 00 05 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  0C C0 00 00 00 00 00 00  00 00 00 00)
+
+
+273 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing   
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Outgoing event
+Event type:  OK
+3/13/2021 8:22:05.873 AM
+(Coding:  16#  20 00 00 03 16 6B D5 F1  CE AC 0D CA 39 51 00 00  38 51 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+274 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing  
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Incoming event
+Event type:  Error
+3/13/2021 8:22:05.857 AM
+(Coding:  16#  20 01 00 03 16 6B D5 F1  CD AE A8 E2 39 51 00 00  00 00 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+275 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/13/2021 8:21:45.952 AM
+(Coding:  16#  34 00 00 05 16 6B D5 ED  2B 49 5B 5A 39 CB 00 00  38 CB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+276 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/13/2021 8:21:31.382 AM
+(Coding:  16#  34 01 00 05 16 6B D5 E9  C6 D3 1A 35 39 CB 00 00  04 B9 00 13 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 3F 04  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+277 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/13/2021 8:21:31.382 AM
+(Coding:  16#  34 00 00 05 16 6B D5 E9  C6 D0 17 87 39 CB 00 00  04 BB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+278 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/13/2021 8:21:28.874 AM
+(Coding:  16#  34 01 00 05 16 6B D5 E9  31 5C B3 97 39 CB 00 00  04 BB 00 05 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  0F 80 00 00 00 00 00 00  00 00 00 00)
+
+
+279 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing   
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Outgoing event
+Event type:  OK
+3/13/2021 8:21:28.872 AM
+(Coding:  16#  20 00 00 03 16 6B D5 E9  31 3C C3 8C 39 51 00 00  38 51 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+280 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing  
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Incoming event
+Event type:  Error
+3/13/2021 8:21:28.857 AM
+(Coding:  16#  20 01 00 03 16 6B D5 E9  30 51 92 1A 39 51 00 00  00 00 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+281 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/13/2021 8:20:44.253 AM
+(Coding:  16#  34 00 00 05 16 6B D5 DE  CD C0 37 67 39 CB 00 00  38 CB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+282 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/13/2021 8:20:29.683 AM
+(Coding:  16#  34 01 00 05 16 6B D5 DB  69 4D A6 C1 39 CB 00 00  04 B9 00 13 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 3F 04  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+283 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/13/2021 8:20:29.683 AM
+(Coding:  16#  34 00 00 05 16 6B D5 DB  69 4A C5 91 39 CB 00 00  04 BB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+284 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/13/2021 8:20:27.176 AM
+(Coding:  16#  34 01 00 05 16 6B D5 DA  D3 D6 BB 27 39 CB 00 00  04 BB 00 05 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  04 40 00 00 00 00 00 00  00 00 00 00)
+
+
+285 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing   
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Outgoing event
+Event type:  OK
+3/13/2021 8:20:27.173 AM
+(Coding:  16#  20 00 00 03 16 6B D5 DA  D3 AA 22 5D 39 51 00 00  38 51 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+286 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing  
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Incoming event
+Event type:  Error
+3/13/2021 8:20:27.155 AM
+(Coding:  16#  20 01 00 03 16 6B D5 DA  D2 9F DB 3A 39 51 00 00  00 00 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+287 of 526; Event ID: 16# 02:4428
+Security information: Session authentication successful
+ SessionID 1568-33100
+ 
+ PLC_1 
+  
+
+Client IPAddr: 192.168.2.17
+
+
+Incoming event
+Event type:  
+3/12/2021 2:20:29.513 PM
+(Coding:  16#  34 01 00 5F 16 6B 9A EB  F2 31 7E 97 44 28 0C 00  06 20 81 4C 00 00 00 32  00 02 00 00 00 00 00 00  F0 09 00 B6 00 00 00 00  C0 A8 02 11 00 00 00 00  00 00 00 00)
+
+
+288 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/12/2021 9:37:08.314 AM
+(Coding:  16#  34 00 00 05 16 6B 8B 75  8B C3 ED D2 39 CB 00 00  38 CB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+289 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        244
+ kr90r3100 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Outgoing event
+Event type:  OK
+3/12/2021 9:36:59.703 AM
+(Coding:  16#  20 00 00 1E 16 6B 8B 73  8A 7E 00 22 75 E5 00 00  71 05 00 01 00 00 01 5E  00 0D 00 00 00 00 00 F4  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+290 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        200
+ kr120r2700 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Outgoing event
+Event type:  OK
+3/12/2021 9:36:59.699 AM
+(Coding:  16#  20 00 00 1E 16 6B 8B 73  8A 3D FF 2F 75 E5 00 00  71 05 00 01 00 00 01 4B  00 0D 00 00 00 00 00 C8  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+291 of 526; Event ID: 16# 0D:75D3
+Error: Safety program: Error in PROFIsafe communication with F-I/O
+F-monitoring time exceeded
+F-runtime group   1
+Start address of the F-I/O:        200
+ kr120r2700 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Outgoing event
+Event type:  OK
+3/12/2021 9:36:56.198 AM
+(Coding:  16#  20 00 00 1E 16 6B 8B 72  B9 98 D9 0A 75 D3 00 00  71 01 00 01 00 00 01 4B  00 0D 00 00 00 00 00 C8  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+292 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        200
+ kr120r2700 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Incoming event
+Event type:  Error
+3/12/2021 9:36:56.100 AM
+(Coding:  16#  20 01 00 1E 16 6B 8B 72  B3 C1 E5 B2 75 E5 00 00  71 05 00 01 00 00 01 4B  00 0D 00 00 00 00 00 C8  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+293 of 526; Event ID: 16# 0D:75D3
+Error: Safety program: Error in PROFIsafe communication with F-I/O
+F-monitoring time exceeded
+F-runtime group   1
+Start address of the F-I/O:        200
+ kr120r2700 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Incoming event
+Event type:  Error
+3/12/2021 9:36:56.099 AM
+(Coding:  16#  20 01 00 1E 16 6B 8B 72  B3 AB 44 47 75 D3 00 00  71 01 00 01 00 00 01 4B  00 0D 00 00 00 00 00 C8  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+294 of 526; Event ID: 16# 0D:75D3
+Error: Safety program: Error in PROFIsafe communication with F-I/O
+Check value error (CRC)
+F-runtime group   1
+Start address of the F-I/O:        244
+ kr90r3100 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Outgoing event
+Event type:  OK
+3/12/2021 9:36:55.799 AM
+(Coding:  16#  20 00 00 1E 16 6B 8B 72  A1 C5 4F 64 75 D3 00 00  71 02 00 01 00 00 01 5E  00 0D 00 00 00 00 00 F4  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+295 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        244
+ kr90r3100 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Incoming event
+Event type:  Error
+3/12/2021 9:36:55.700 AM
+(Coding:  16#  20 01 00 1E 16 6B 8B 72  9B E4 1C B2 75 E5 00 00  71 05 00 01 00 00 01 5E  00 0D 00 00 00 00 00 F4  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+296 of 526; Event ID: 16# 0D:75D3
+Error: Safety program: Error in PROFIsafe communication with F-I/O
+Check value error (CRC)
+F-runtime group   1
+Start address of the F-I/O:        244
+ kr90r3100 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Incoming event
+Event type:  Error
+3/12/2021 9:36:55.699 AM
+(Coding:  16#  20 01 00 1E 16 6B 8B 72  9B D4 77 17 75 D3 00 00  71 02 00 01 00 00 01 5E  00 0D 00 00 00 00 00 F4  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+297 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        244
+ kr90r3100 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Outgoing event
+Event type:  OK
+3/12/2021 9:36:55.602 AM
+(Coding:  16#  20 00 00 1E 16 6B 8B 72  96 13 65 FC 75 E5 00 00  71 05 00 01 00 00 01 5E  00 0D 00 00 00 00 00 F4  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+298 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        200
+ kr120r2700 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Outgoing event
+Event type:  OK
+3/12/2021 9:36:55.600 AM
+(Coding:  16#  20 00 00 1E 16 6B 8B 72  95 F0 74 3D 75 E5 00 00  71 05 00 01 00 00 01 4B  00 0D 00 00 00 00 00 C8  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+299 of 526; Event ID: 16# 02:400E
+CPU info: Communication initiated request: WARM RESTART 
+Pending startup inhibit(s): 
+ - No startup inhibit set 
+
+ CPU changes from STARTUP to RUN mode 
+
+ PLC_1 / PLC_1 
+  
+
+Incoming event
+Event type:  OK
+3/12/2021 9:36:55.506 AM
+(Coding:  16#  20 01 00 0F 16 6B 8B 72  90 57 76 01 40 0E 0C 01  00 66 40 00 10 00 00 34  00 02 00 00 06 08 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+300 of 526; Event ID: 16# 02:400E
+CPU info: Communication initiated request: WARM RESTART 
+Pending startup inhibit(s): 
+ - No startup inhibit set 
+
+ CPU changes from STOP to STARTUP mode 
+
+ PLC_1 / PLC_1 
+  
+
+Incoming event
+Event type:  OK
+3/12/2021 9:36:54.614 AM
+(Coding:  16#  20 01 00 0F 16 6B 8B 72  5B 27 27 8B 40 0E 0C 01  00 66 40 00 10 00 00 34  00 02 00 00 04 06 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+301 of 526; Event ID: 16# 02:4010
+CPU info: System initiated request: STOP 
+Pending startup inhibit(s):
+ - No startup inhibit set 
+ 
+ CPU changes from RUN to STOP mode 
+
+ PLC_1 / PLC_1 
+  
+
+Incoming event
+Event type:  OK
+3/12/2021 9:35:59.486 AM
+(Coding:  16#  20 01 00 0F 16 6B 8B 65  85 47 49 AA 40 10 0C 01  00 64 40 00 10 00 00 34  00 02 00 00 08 04 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+302 of 526; Event ID: 16# 02:3500
+Temporary CPU error: Maximum program cycle time exceeded twice 
+set value: 150 milliseconds 
+ CPU changes to STOP mode (system reaction) 
+
+ PLC_1 / PLC_1 
+  
+
+Incoming event
+Event type:  Error
+3/12/2021 9:35:58.784 AM
+(Coding:  16#  20 01 00 13 16 6B 8B 65  5B 77 EF C8 35 00 0C 05  00 00 00 96 10 03 00 34  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+303 of 526; Event ID: 16# 0D:75D3
+Error: Safety program: Error in PROFIsafe communication with F-I/O
+Check value error (CRC)
+F-runtime group   1
+Start address of the F-I/O:        200
+ kr120r2700 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Outgoing event
+Event type:  OK
+3/12/2021 9:35:58.698 AM
+(Coding:  16#  20 00 00 1E 16 6B 8B 65  56 54 D4 67 75 D3 00 00  71 02 00 01 00 00 01 4B  00 0D 00 00 00 00 00 C8  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+304 of 526; Event ID: 16# 02:3501
+Temporary CPU error: Maximum program cycle time exceeded 
+parameter value: 150 milliseconds 
+ Time error, OB80 start requested 
+
+ PLC_1 / PLC_1 
+  
+
+Incoming event
+Event type:  Error
+3/12/2021 9:35:58.633 AM
+(Coding:  16#  20 01 00 13 16 6B 8B 65  52 77 2F E1 35 01 0C 05  00 00 00 96 10 0F 00 34  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+305 of 526; Event ID: 16# 0D:75D3
+Error: Safety program: Error in PROFIsafe communication with F-I/O
+Check value error (CRC)
+F-runtime group   1
+Start address of the F-I/O:        244
+ kr90r3100 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Outgoing event
+Event type:  OK
+3/12/2021 9:35:58.601 AM
+(Coding:  16#  20 00 00 1E 16 6B 8B 65  50 8B E0 27 75 D3 00 00  71 02 00 01 00 00 01 5E  00 0D 00 00 00 00 00 F4  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+306 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        200
+ kr120r2700 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Incoming event
+Event type:  Error
+3/12/2021 9:35:58.600 AM
+(Coding:  16#  20 01 00 1E 16 6B 8B 65  50 79 BA 44 75 E5 00 00  71 05 00 01 00 00 01 4B  00 0D 00 00 00 00 00 C8  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+307 of 526; Event ID: 16# 0D:75D3
+Error: Safety program: Error in PROFIsafe communication with F-I/O
+Check value error (CRC)
+F-runtime group   1
+Start address of the F-I/O:        200
+ kr120r2700 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Incoming event
+Event type:  Error
+3/12/2021 9:35:58.599 AM
+(Coding:  16#  20 01 00 1E 16 6B 8B 65  50 63 5C 97 75 D3 00 00  71 02 00 01 00 00 01 4B  00 0D 00 00 00 00 00 C8  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+308 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        244
+ kr90r3100 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Incoming event
+Event type:  Error
+3/12/2021 9:35:58.507 AM
+(Coding:  16#  20 01 00 1E 16 6B 8B 65  4A E7 83 EF 75 E5 00 00  71 05 00 01 00 00 01 5E  00 0D 00 00 00 00 00 F4  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+309 of 526; Event ID: 16# 0D:75D3
+Error: Safety program: Error in PROFIsafe communication with F-I/O
+Check value error (CRC)
+F-runtime group   1
+Start address of the F-I/O:        244
+ kr90r3100 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Incoming event
+Event type:  Error
+3/12/2021 9:35:58.505 AM
+(Coding:  16#  20 01 00 1E 16 6B 8B 65  4A CA C9 B7 75 D3 00 00  71 02 00 01 00 00 01 5E  00 0D 00 00 00 00 00 F4  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+310 of 526; Event ID: 16# 02:400E
+CPU info: Communication initiated request: WARM RESTART 
+Pending startup inhibit(s): 
+ - No startup inhibit set 
+
+ CPU changes from STARTUP to RUN mode 
+
+ PLC_1 / PLC_1 
+  
+
+Incoming event
+Event type:  OK
+3/12/2021 9:35:58.481 AM
+(Coding:  16#  20 01 00 0F 16 6B 8B 65  49 5D C9 2E 40 0E 0C 01  00 66 40 00 10 00 00 34  00 02 00 00 06 08 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+311 of 526; Event ID: 16# 02:400E
+CPU info: Communication initiated request: WARM RESTART 
+Pending startup inhibit(s): 
+ - No startup inhibit set 
+
+ CPU changes from STOP to STARTUP mode 
+
+ PLC_1 / PLC_1 
+  
+
+Incoming event
+Event type:  OK
+3/12/2021 9:35:57.639 AM
+(Coding:  16#  20 01 00 0F 16 6B 8B 65  17 36 5B 69 40 0E 0C 01  00 66 40 00 10 00 00 34  00 02 00 00 04 06 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+312 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/12/2021 9:34:33.745 AM
+(Coding:  16#  34 01 00 05 16 6B 8B 51  8E BC 2C 6F 39 CB 00 00  04 B9 00 13 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 3F 04  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+313 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/12/2021 9:34:33.745 AM
+(Coding:  16#  34 00 00 05 16 6B 8B 51  8E B8 E0 B4 39 CB 00 00  04 BB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+314 of 526; Event ID: 16# 02:4010
+CPU info: System initiated request: STOP 
+Pending startup inhibit(s):
+ - PLC program not loaded or loading/change not successfully finished
+ 
+ CPU changes from RUN to STOP mode 
+
+ PLC_1 / PLC_1 
+  
+
+Incoming event
+Event type:  OK
+3/12/2021 9:34:31.903 AM
+(Coding:  16#  20 01 00 0F 16 6B 8B 51  20 EB 99 7A 40 10 0C 01  00 64 4B 00 10 00 00 34  00 02 00 00 08 04 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+315 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/12/2021 9:34:31.240 AM
+(Coding:  16#  34 01 00 05 16 6B 8B 50  F9 69 24 B7 39 CB 00 00  04 BB 00 05 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  D5 80 00 00 00 00 00 00  00 00 00 00)
+
+
+316 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing   
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Outgoing event
+Event type:  OK
+3/12/2021 9:34:31.239 AM
+(Coding:  16#  20 00 00 03 16 6B 8B 50  F9 55 A0 22 39 51 00 00  38 51 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+317 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing  
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Incoming event
+Event type:  Error
+3/12/2021 9:34:31.225 AM
+(Coding:  16#  20 01 00 03 16 6B 8B 50  F8 81 37 77 39 51 00 00  00 00 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+318 of 526; Event ID: 16# 02:3500
+Temporary CPU error: Maximum program cycle time exceeded twice 
+set value: 150 milliseconds 
+ CPU changes to STOP mode (system reaction) 
+
+ PLC_1 / PLC_1 
+  
+
+Incoming event
+Event type:  Error
+3/12/2021 9:34:31.167 AM
+(Coding:  16#  20 01 00 13 16 6B 8B 50  F5 16 59 21 35 00 0C 05  00 00 00 96 10 03 00 34  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+319 of 526; Event ID: 16# 02:3501
+Temporary CPU error: Maximum program cycle time exceeded 
+parameter value: 150 milliseconds 
+ Time error, OB80 start requested 
+
+ PLC_1 / PLC_1 
+  
+
+Incoming event
+Event type:  Error
+3/12/2021 9:34:31.016 AM
+(Coding:  16#  20 01 00 13 16 6B 8B 50  EC 15 E2 56 35 01 0C 05  00 00 00 96 10 0F 00 34  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+320 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:56:46.557 PM
+(Coding:  16#  34 00 00 05 16 6B 4B 0C  12 10 D8 29 39 CB 00 00  38 CB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+321 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        200
+ kr120r2700 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:56:39.199 PM
+(Coding:  16#  20 00 00 1E 16 6B 4B 0A  5B 7B 0E C7 75 E5 00 00  71 05 00 01 00 00 01 4B  00 0D 00 00 00 00 00 C8  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+322 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        200
+ kr120r2700 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:54:53.998 PM
+(Coding:  16#  20 01 00 1E 16 6B 4A F1  DD 0B 3E 62 75 E5 00 00  71 05 00 01 00 00 01 4B  00 0D 00 00 00 00 00 C8  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+323 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ kr120r2700 
+  
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:54:53.925 PM
+(Coding:  16#  34 00 00 05 16 6B 4A F1  D8 AB B6 9C 39 CB 00 00  38 CB 00 00 00 00 01 46  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+324 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/11/2021 1:54:41.984 PM
+(Coding:  16#  34 01 00 05 16 6B 4A EF  10 F0 4C E9 39 CB 00 00  04 B9 00 13 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 3F 04  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+325 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:54:41.984 PM
+(Coding:  16#  34 00 00 05 16 6B 4A EF  10 ED 19 47 39 CB 00 00  04 BB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+326 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ kr120r2700 
+  
+
+Incoming event
+Event type:  Error
+3/11/2021 1:54:41.883 PM
+(Coding:  16#  34 01 00 05 16 6B 4A EF  0A F6 24 33 39 CB 00 00  04 B9 00 13 00 00 01 46  00 02 00 00 00 00 00 00  00 00 00 00 81 81 3F 04  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+327 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Connection abort by IO device
+ 
+ kr120r2700 
+  
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:54:41.883 PM
+(Coding:  16#  34 00 00 05 16 6B 4A EF  0A F2 0E A9 39 CB 00 00  04 BE 00 00 00 00 01 46  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+328 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/11/2021 1:54:39.568 PM
+(Coding:  16#  34 01 00 05 16 6B 4A EE  80 F0 98 1C 39 CB 00 00  04 BB 00 05 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  0F 80 00 00 00 00 00 00  00 00 00 00)
+
+
+329 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing   
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:54:39.567 PM
+(Coding:  16#  20 00 00 03 16 6B 4A EE  80 E1 55 A7 39 51 00 00  38 51 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+330 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing  
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:54:39.553 PM
+(Coding:  16#  20 01 00 03 16 6B 4A EE  80 10 5C 0C 39 51 00 00  00 00 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+331 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Connection abort by IO device
+ 
+ kr120r2700 
+  
+
+Incoming event
+Event type:  Error
+3/11/2021 1:54:39.379 PM
+(Coding:  16#  34 01 00 05 16 6B 4A EE  75 B2 DE A5 39 CB 00 00  04 BE 00 0B 00 00 01 46  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 0B  CF 81 FD 02 00 00 00 00  00 00 00 00)
+
+
+332 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:47:09.431 PM
+(Coding:  16#  34 00 00 05 16 6B 4A 85  B2 B3 B0 02 39 CB 00 00  38 CB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+333 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        432
+ RK2_cp400 / cp405. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:47:02.404 PM
+(Coding:  16#  20 00 00 1E 16 6B 4A 84  0F D6 D2 F7 75 E5 00 00  71 05 00 01 00 00 01 51  00 0D 00 00 00 00 01 B0  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+334 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        156
+ RK1_cp300 / cp303. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:47:02.399 PM
+(Coding:  16#  20 00 00 1E 16 6B 4A 84  0F 93 B2 9F 75 E5 00 00  71 05 00 01 00 00 01 8E  00 0D 00 00 00 00 00 9C  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+335 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        244
+ kr90r3100 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:40.135 PM
+(Coding:  16#  20 00 00 1E 16 6B 49 BB  4C 96 DB 7F 75 E5 00 00  71 05 00 01 00 00 01 5E  00 0D 00 00 00 00 00 F4  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+336 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        200
+ kr120r2700 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:40.131 PM
+(Coding:  16#  20 00 00 1E 16 6B 49 BB  4C 60 CF 31 75 E5 00 00  71 05 00 01 00 00 01 4B  00 0D 00 00 00 00 00 C8  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+337 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        443
+ RD3_CP600 / cp602. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:40.126 PM
+(Coding:  16#  20 00 00 1E 16 6B 49 BB  4C 13 D6 AE 75 E5 00 00  71 05 00 01 00 00 01 A6  00 0D 00 00 00 00 01 BB  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+338 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:         78
+ RH1_cp200 / cp201. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:40.121 PM
+(Coding:  16#  20 00 00 1E 16 6B 49 BB  4B C0 4C 65 75 E5 00 00  71 05 00 01 00 00 01 36  00 0D 00 00 00 00 00 4E  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+339 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        150
+ RK1_cp300 / cp302. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:40.116 PM
+(Coding:  16#  20 00 00 1E 16 6B 49 BB  4B 74 16 BE 75 E5 00 00  71 05 00 01 00 00 01 8D  00 0D 00 00 00 00 00 96  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+340 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        437
+ RD3_CP600 / cp601. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:40.111 PM
+(Coding:  16#  20 00 00 1E 16 6B 49 BB  4B 32 1B C5 75 E5 00 00  71 05 00 01 00 00 01 A5  00 0D 00 00 00 00 01 B5  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+341 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:         84
+ RH1_cp200 / cp202. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:40.106 PM
+(Coding:  16#  20 00 00 1E 16 6B 49 BB  4A E1 ED 54 75 E5 00 00  71 05 00 01 00 00 01 37  00 0D 00 00 00 00 00 54  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+342 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        143
+ RK1_cp300 / cp301. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:40.100 PM
+(Coding:  16#  20 00 00 1E 16 6B 49 BB  4A 82 80 0A 75 E5 00 00  71 05 00 01 00 00 01 8C  00 0D 00 00 00 00 00 8F  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+343 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        449
+ RD3_CP600 / cp603. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:40.008 PM
+(Coding:  16#  20 00 00 1E 16 6B 49 BB  45 06 E5 C4 75 E5 00 00  71 05 00 01 00 00 01 A7  00 0D 00 00 00 00 01 C1  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+344 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        379
+ RM2_cp500 / CP501. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:40.003 PM
+(Coding:  16#  20 00 00 1E 16 6B 49 BB  44 C5 F4 55 75 E5 00 00  71 05 00 01 00 00 01 43  00 0D 00 00 00 00 01 7B  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+345 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:         90
+ RH1_cp200 / cp203. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:40.000 PM
+(Coding:  16#  20 00 00 1E 16 6B 49 BB  44 94 10 0F 75 E5 00 00  71 05 00 01 00 00 01 38  00 0D 00 00 00 00 00 5A  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+346 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        156
+ RK1_cp300 / cp303. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:07.410 PM
+(Coding:  16#  20 01 00 1E 16 6B 49 B3  AE 11 A7 BD 75 E5 00 00  71 05 00 01 00 00 01 8E  00 0D 00 00 00 00 00 9C  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+347 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        150
+ RK1_cp300 / cp302. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:07.402 PM
+(Coding:  16#  20 01 00 1E 16 6B 49 B3  AD 98 0D A2 75 E5 00 00  71 05 00 01 00 00 01 8D  00 0D 00 00 00 00 00 96  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+348 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        143
+ RK1_cp300 / cp301. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:07.397 PM
+(Coding:  16#  20 01 00 1E 16 6B 49 B3  AD 41 B9 71 75 E5 00 00  71 05 00 01 00 00 01 8C  00 0D 00 00 00 00 00 8F  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+349 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ RK1_cp300 
+  
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:07.340 PM
+(Coding:  16#  34 00 00 05 16 6B 49 B3  A9 DB 1E B4 39 CB 00 00  38 CB 00 00 00 00 01 10  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+350 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:         90
+ RH1_cp200 / cp203. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:07.311 PM
+(Coding:  16#  20 01 00 1E 16 6B 49 B3  A8 2C 60 37 75 E5 00 00  71 05 00 01 00 00 01 38  00 0D 00 00 00 00 00 5A  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+351 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:         78
+ RH1_cp200 / cp201. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:07.303 PM
+(Coding:  16#  20 01 00 1E 16 6B 49 B3  A7 A9 6B A7 75 E5 00 00  71 05 00 01 00 00 01 36  00 0D 00 00 00 00 00 4E  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+352 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:         84
+ RH1_cp200 / cp202. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:07.297 PM
+(Coding:  16#  20 01 00 1E 16 6B 49 B3  A7 4D FF A4 75 E5 00 00  71 05 00 01 00 00 01 37  00 0D 00 00 00 00 00 54  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+353 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ RH1_cp200 
+  
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:07.244 PM
+(Coding:  16#  34 00 00 05 16 6B 49 B3  A4 27 21 77 39 CB 00 00  38 CB 00 00 00 00 01 06  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+354 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        449
+ RD3_CP600 / cp603. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:07.116 PM
+(Coding:  16#  20 01 00 1E 16 6B 49 B3  9C 8E 11 A6 75 E5 00 00  71 05 00 01 00 00 01 A7  00 0D 00 00 00 00 01 C1  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+355 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        379
+ RM2_cp500 / CP501. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:07.111 PM
+(Coding:  16#  20 01 00 1E 16 6B 49 B3  9C 3A 9B B1 75 E5 00 00  71 05 00 01 00 00 01 43  00 0D 00 00 00 00 01 7B  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+356 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        443
+ RD3_CP600 / cp602. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:07.108 PM
+(Coding:  16#  20 01 00 1E 16 6B 49 B3  9C 07 17 57 75 E5 00 00  71 05 00 01 00 00 01 A6  00 0D 00 00 00 00 01 BB  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+357 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        437
+ RD3_CP600 / cp601. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:07.101 PM
+(Coding:  16#  20 01 00 1E 16 6B 49 B3  9B 9D ED D5 75 E5 00 00  71 05 00 01 00 00 01 A5  00 0D 00 00 00 00 01 B5  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+358 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ RD3_CP600 
+  
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:07.089 PM
+(Coding:  16#  34 00 00 05 16 6B 49 B3  9A E8 3D F5 39 CB 00 00  38 CB 00 00 00 00 01 AD  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+359 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ RM2_cp500 
+  
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:07.048 PM
+(Coding:  16#  34 00 00 05 16 6B 49 B3  98 73 F0 F0 39 CB 00 00  38 CB 00 00 00 00 01 09  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+360 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        432
+ RK2_cp400 / cp405. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:07.001 PM
+(Coding:  16#  20 01 00 1E 16 6B 49 B3  95 AD 95 15 75 E5 00 00  71 05 00 01 00 00 01 51  00 0D 00 00 00 00 01 B0  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+361 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ RK2_cp400 
+  
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:06.934 PM
+(Coding:  16#  34 00 00 05 16 6B 49 B3  91 A9 9A 5F 39 CB 00 00  38 CB 00 00 00 00 01 17  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+362 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ GF1 
+  
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:06.773 PM
+(Coding:  16#  34 00 00 05 16 6B 49 B3  88 1C 81 E0 39 CB 00 00  38 CB 00 00 00 00 01 1E  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+363 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ GF3 
+  
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:06.763 PM
+(Coding:  16#  34 00 00 05 16 6B 49 B3  87 7F 01 95 39 CB 00 00  38 CB 00 00 00 00 01 2E  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+364 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        244
+ kr90r3100 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:06.705 PM
+(Coding:  16#  20 01 00 1E 16 6B 49 B3  84 08 48 67 75 E5 00 00  71 05 00 01 00 00 01 5E  00 0D 00 00 00 00 00 F4  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+365 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        200
+ kr120r2700 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:06.701 PM
+(Coding:  16#  20 01 00 1E 16 6B 49 B3  83 CB EC 32 75 E5 00 00  71 05 00 01 00 00 01 4B  00 0D 00 00 00 00 00 C8  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+366 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ kr120r2700 
+  
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:06.613 PM
+(Coding:  16#  34 00 00 05 16 6B 49 B3  7E 85 77 99 39 CB 00 00  38 CB 00 00 00 00 01 46  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+367 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ kr90r3100 
+  
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:06.605 PM
+(Coding:  16#  34 00 00 05 16 6B 49 B3  7E 11 21 15 39 CB 00 00  38 CB 00 00 00 00 01 4D  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+368 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ GF4 
+  
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:06.469 PM
+(Coding:  16#  34 00 00 05 16 6B 49 B3  75 F3 E9 7F 39 CB 00 00  38 CB 00 00 00 00 01 76  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+369 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ GF2 
+  
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:06.369 PM
+(Coding:  16#  34 00 00 05 16 6B 49 B3  70 03 DF 0F 39 CB 00 00  38 CB 00 00 00 00 01 26  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+370 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:04.858 PM
+(Coding:  16#  34 01 00 05 16 6B 49 B3  15 EA 08 07 39 CB 00 00  04 B9 00 13 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 3F 04  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+371 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:04.857 PM
+(Coding:  16#  34 00 00 05 16 6B 49 B3  15 E3 04 62 39 CB 00 00  04 BB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+372 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:02.354 PM
+(Coding:  16#  34 01 00 05 16 6B 49 B2  80 B5 41 87 39 CB 00 00  04 BB 00 05 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  7D 80 00 00 00 00 00 00  00 00 00 00)
+
+
+373 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ FZ5 / VAEM-L1-S-8-PT_1. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.352 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  80 90 4B B5 39 58 00 00  38 58 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+374 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ RD3_CP600 
+  
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:02.338 PM
+(Coding:  16#  34 01 00 05 16 6B 49 B2  7F C0 9D D2 39 CB 00 00  04 BB 00 05 00 00 01 AD  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  79 A0 00 00 00 00 00 00  00 00 00 00)
+
+
+375 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RD3_CP600 / cp611. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.335 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  7F 94 B5 70 39 58 00 00  38 58 00 00 00 00 01 AC  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+376 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RD3_CP600 / cp610. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.334 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  7F 7F 6A 4F 39 58 00 00  38 58 00 00 00 00 01 AB  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+377 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RD3_CP600 / cp606. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.331 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  7F 52 E1 57 39 58 00 00  38 58 00 00 00 00 01 AA  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+378 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RD3_CP600 / cp605. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.329 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  7F 2F 26 B0 39 58 00 00  38 58 00 00 00 00 01 A9  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+379 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RD3_CP600 / cp604. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.325 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  7E F3 69 0F 39 58 00 00  38 58 00 00 00 00 01 A8  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+380 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ RH1_cp200 
+  
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:02.311 PM
+(Coding:  16#  34 01 00 05 16 6B 49 B2  7E 1F CD 3D 39 CB 00 00  04 BB 00 05 00 00 01 06  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  4E 40 00 00 00 00 00 00  00 00 00 00)
+
+
+381 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RH1_cp200 / cp241. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.308 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  7D EE 22 03 39 58 00 00  38 58 00 00 00 00 01 8B  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+382 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RH1_cp200 / cp240. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.305 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  7D C2 96 AB 39 58 00 00  38 58 00 00 00 00 01 8A  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+383 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RH1_cp200 / cp231. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.302 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  7D 8F 4B 93 39 58 00 00  38 58 00 00 00 00 01 89  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+384 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RH1_cp200 / cp230. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.299 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  7D 63 23 0F 39 58 00 00  38 58 00 00 00 00 01 88  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+385 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RH1_cp200 / cp227. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.297 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  7D 4D 52 D7 39 58 00 00  38 58 00 00 00 00 01 87  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+386 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RH1_cp200 / cp226. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.295 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  7D 2F 6F BF 39 58 00 00  38 58 00 00 00 00 01 86  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+387 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RH1_cp200 / cp225. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.293 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  7D 0D 3B 4A 39 58 00 00  38 58 00 00 00 00 01 85  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+388 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RH1_cp200 / cp223. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.290 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  7C E1 A1 04 39 58 00 00  38 58 00 00 00 00 01 84  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+389 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RH1_cp200 / cp221. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.288 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  7C BE D4 0F 39 58 00 00  38 58 00 00 00 00 01 42  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+390 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RH1_cp200 / cp222. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.286 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  7C 9E 34 E9 39 58 00 00  38 58 00 00 00 00 01 41  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+391 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RH1_cp200 / cp220. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.284 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  7C 7F FF FA 39 58 00 00  38 58 00 00 00 00 01 40  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+392 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RH1_cp200 / cp216. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.281 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  7C 52 66 A5 39 58 00 00  38 58 00 00 00 00 01 3F  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+393 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RH1_cp200 / cp215. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.277 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  7C 1F ED 41 39 58 00 00  38 58 00 00 00 00 01 3E  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+394 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RH1_cp200 / cp214. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.275 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  7B FC 6A 48 39 58 00 00  38 58 00 00 00 00 01 3D  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+395 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RH1_cp200 / cp213. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.271 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  7B C2 D2 07 39 58 00 00  38 58 00 00 00 00 01 3C  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+396 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RH1_cp200 / cp212. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.269 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  7B 9F 77 D7 39 58 00 00  38 58 00 00 00 00 01 3B  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+397 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RH1_cp200 / cp211. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.267 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  7B 7F 2C 33 39 58 00 00  38 58 00 00 00 00 01 3A  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+398 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RH1_cp200 / cp210. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.264 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  7B 51 25 AA 39 58 00 00  38 58 00 00 00 00 01 39  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+399 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ RM2_cp500 
+  
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:02.250 PM
+(Coding:  16#  34 01 00 05 16 6B 49 B2  7A 7B 87 6F 39 CB 00 00  04 BB 00 05 00 00 01 09  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  DB 80 00 00 00 00 00 00  00 00 00 00)
+
+
+400 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RM2_cp500 / CP520. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.248 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  7A 5F 28 E1 39 58 00 00  38 58 00 00 00 00 01 83  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+401 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RM2_cp500 / CP510. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.245 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  7A 30 31 D7 39 58 00 00  38 58 00 00 00 00 01 44  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+402 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ RK2_cp400 
+  
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:02.231 PM
+(Coding:  16#  34 01 00 05 16 6B 49 B2  79 62 F5 AB 39 CB 00 00  04 BB 00 05 00 00 01 17  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  13 E0 00 00 00 00 00 00  00 00 00 00)
+
+
+403 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RK2_cp400 / cp430. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.230 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  79 4B 5C 62 39 58 00 00  38 58 00 00 00 00 01 9D  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+404 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RK2_cp400 / cp420. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.227 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  79 21 C4 89 39 58 00 00  38 58 00 00 00 00 01 57  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+405 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RK2_cp400 / cp414. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.225 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  78 FF 6F 25 39 58 00 00  38 58 00 00 00 00 01 56  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+406 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RK2_cp400 / cp413. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.223 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  78 DE EA 1C 39 58 00 00  38 58 00 00 00 00 01 55  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+407 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RK2_cp400 / cp412. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.221 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  78 C1 65 99 39 58 00 00  38 58 00 00 00 00 01 54  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+408 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RK2_cp400 / cp411. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.218 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  78 91 86 C6 39 58 00 00  38 58 00 00 00 00 01 53  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+409 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RK2_cp400 / cp410. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.215 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  78 6D FA D3 39 58 00 00  38 58 00 00 00 00 01 52  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+410 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ RK1_cp300 
+  
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:02.200 PM
+(Coding:  16#  34 01 00 05 16 6B 49 B2  77 7E C1 3A 39 CB 00 00  04 BB 00 05 00 00 01 10  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  2D 60 00 00 00 00 00 00  00 00 00 00)
+
+
+411 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RK1_cp300 / 317. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.196 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  77 3F E8 2F 39 58 00 00  38 58 00 00 00 00 01 9C  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+412 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RK1_cp300 / cp316. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.190 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  76 ED DB 21 39 58 00 00  38 58 00 00 00 00 01 9B  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+413 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RK1_cp300 / cp315. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.187 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  76 BF 48 E4 39 58 00 00  38 58 00 00 00 00 01 9A  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+414 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RK1_cp300 / cp314. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.185 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  76 9F 68 06 39 58 00 00  38 58 00 00 00 00 01 99  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+415 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RK1_cp300 / cp313. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.182 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  76 69 65 68 39 58 00 00  38 58 00 00 00 00 01 98  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+416 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RK1_cp300 / cp312. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.178 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  76 39 C4 32 39 58 00 00  38 58 00 00 00 00 01 97  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+417 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RK1_cp300 / cp311. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.175 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  76 09 65 47 39 58 00 00  38 58 00 00 00 00 01 96  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+418 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RK1_cp300 / cp310. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.172 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  75 DD 84 EF 39 58 00 00  38 58 00 00 00 00 01 95  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+419 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RK1_cp300 / cp309. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.169 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  75 AC 66 DF 39 58 00 00  38 58 00 00 00 00 01 94  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+420 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RK1_cp300 / cp308. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.164 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  75 5E FB B9 39 58 00 00  38 58 00 00 00 00 01 93  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+421 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RK1_cp300 / cp307. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.162 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  75 3A 50 54 39 58 00 00  38 58 00 00 00 00 01 92  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+422 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RK1_cp300 / cp306. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.159 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  75 0A EF A1 39 58 00 00  38 58 00 00 00 00 01 91  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+423 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RK1_cp300 / cp305. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.155 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  74 DA FC 01 39 58 00 00  38 58 00 00 00 00 01 90  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+424 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ RK1_cp300 / cp304. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.153 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  74 B8 DB 6D 39 58 00 00  38 58 00 00 00 00 01 8F  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+425 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Connection abort by IO device
+ 
+ kr90r3100 
+  
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:02.136 PM
+(Coding:  16#  34 01 00 05 16 6B 49 B2  73 B0 3B 9F 39 CB 00 00  04 BE 00 0B 00 00 01 4D  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 0B  CF 81 FD 05 00 00 00 00  00 00 00 00)
+
+
+426 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ kr90r3100 / 256 digital in- and outputs_1. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.132 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  73 6F CC AD 39 58 00 00  38 58 00 00 00 00 01 5F  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+427 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Connection abort by IO device
+ 
+ kr120r2700 
+  
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:02.116 PM
+(Coding:  16#  34 01 00 05 16 6B 49 B2  72 7F 26 64 39 CB 00 00  04 BE 00 0B 00 00 01 46  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 0B  CF 81 FD 05 00 00 00 00  00 00 00 00)
+
+
+428 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ kr120r2700 / 256 digital in- and outputs_1. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.113 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  72 58 93 DC 39 58 00 00  38 58 00 00 00 00 01 4C  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+429 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Connection abort by IO device
+ 
+ GF3 
+  
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:02.095 PM
+(Coding:  16#  34 01 00 05 16 6B 49 B2  71 39 01 A6 39 CB 00 00  04 BE 00 0B 00 00 01 2E  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 0B  CF 81 FD 05 00 00 00 00  00 00 00 00)
+
+
+430 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ GF3 / Drive Profile Lexium 1_1. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.092 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  71 0D C3 ED 39 58 00 00  38 58 00 00 00 00 01 35  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+431 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ FZ5 / VAEM-L1-S-8-PT_1. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:02.084 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  70 9A 3C DF 39 58 00 00  00 00 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+432 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Connection abort by IO device
+ 
+ GF1 
+  
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:02.069 PM
+(Coding:  16#  34 01 00 05 16 6B 49 B2  6F BA 0B DF 39 CB 00 00  04 BE 00 0B 00 00 01 1E  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 0B  CF 81 FD 05 00 00 00 00  00 00 00 00)
+
+
+433 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ GF1 / Drive Profile Lexium 1_1. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:32:02.066 PM
+(Coding:  16#  20 00 00 02 16 6B 49 B2  6F 8C F2 C8 39 58 00 00  38 58 00 00 00 00 01 25  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+434 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RD3_CP600 / cp606. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:02.059 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  6F 17 4C A4 39 58 00 00  00 00 00 00 00 00 01 AA  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+435 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RD3_CP600 / cp605. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:02.051 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  6E 9C 7F AE 39 58 00 00  00 00 00 00 00 00 01 A9  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+436 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RD3_CP600 / cp604. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:02.041 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  6E 0A E5 FF 39 58 00 00  00 00 00 00 00 00 01 A8  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+437 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RH1_cp200 / cp240. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:02.032 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  6D 77 63 E1 39 58 00 00  00 00 00 00 00 00 01 8A  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+438 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RH1_cp200 / cp231. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:02.022 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  6C E7 14 7A 39 58 00 00  00 00 00 00 00 00 01 89  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+439 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RH1_cp200 / cp230. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:02.012 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  6C 47 F4 31 39 58 00 00  00 00 00 00 00 00 01 88  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+440 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RH1_cp200 / cp216. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:02.002 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  6B BA A3 ED 39 58 00 00  00 00 00 00 00 00 01 3F  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+441 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RH1_cp200 / cp215. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.994 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  6B 35 31 6D 39 58 00 00  00 00 00 00 00 00 01 3E  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+442 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RH1_cp200 / cp214. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.985 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  6A B9 60 19 39 58 00 00  00 00 00 00 00 00 01 3D  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+443 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RH1_cp200 / cp213. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.977 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  6A 38 74 67 39 58 00 00  00 00 00 00 00 00 01 3C  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+444 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RH1_cp200 / cp212. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.968 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  69 B5 8A 49 39 58 00 00  00 00 00 00 00 00 01 3B  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+445 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RH1_cp200 / cp211. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.961 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  69 44 FE 72 39 58 00 00  00 00 00 00 00 00 01 3A  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+446 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RH1_cp200 / cp210. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.954 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  68 D6 40 4F 39 58 00 00  00 00 00 00 00 00 01 39  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+447 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RM2_cp500 / CP510. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.944 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  68 3A 60 17 39 58 00 00  00 00 00 00 00 00 01 44  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+448 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RK1_cp300 / cp312. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.933 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  67 99 33 15 39 58 00 00  00 00 00 00 00 00 01 97  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+449 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RK1_cp300 / cp311. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.926 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  67 26 0E 5D 39 58 00 00  00 00 00 00 00 00 01 96  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+450 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RK1_cp300 / cp310. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.918 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  66 B6 34 75 39 58 00 00  00 00 00 00 00 00 01 95  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+451 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RK1_cp300 / cp309. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.911 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  66 45 FD AF 39 58 00 00  00 00 00 00 00 00 01 94  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+452 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RK1_cp300 / cp308. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.900 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  65 A6 67 FD 39 58 00 00  00 00 00 00 00 00 01 93  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+453 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RK1_cp300 / cp307. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.895 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  65 52 14 F9 39 58 00 00  00 00 00 00 00 00 01 92  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+454 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RK1_cp300 / cp306. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.887 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  64 D3 EF F4 39 58 00 00  00 00 00 00 00 00 01 91  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+455 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RK1_cp300 / cp305. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.880 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  64 68 17 88 39 58 00 00  00 00 00 00 00 00 01 90  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+456 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RK1_cp300 / cp304. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.873 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  64 03 5B 52 39 58 00 00  00 00 00 00 00 00 01 8F  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+457 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RK2_cp400 / cp414. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.865 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  63 84 1D 66 39 58 00 00  00 00 00 00 00 00 01 56  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+458 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RK2_cp400 / cp413. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.858 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  63 21 8A 54 39 58 00 00  00 00 00 00 00 00 01 55  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+459 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RK2_cp400 / cp412. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.850 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  62 A1 49 AC 39 58 00 00  00 00 00 00 00 00 01 54  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+460 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RK2_cp400 / cp411. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.843 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  62 34 93 D8 39 58 00 00  00 00 00 00 00 00 01 53  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+461 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RK2_cp400 / cp410. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.835 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  61 C5 0F 99 39 58 00 00  00 00 00 00 00 00 01 52  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+462 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ kr120r2700 / 256 digital in- and outputs_1. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.828 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  61 54 D0 1D 39 58 00 00  00 00 00 00 00 00 01 4C  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+463 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ kr90r3100 / 256 digital in- and outputs_1. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.820 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  60 E2 4F C9 39 58 00 00  00 00 00 00 00 00 01 5F  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+464 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RD3_CP600 / cp611. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.814 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  60 7E FD E2 39 58 00 00  00 00 00 00 00 00 01 AC  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+465 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RD3_CP600 / cp610. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.805 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  5F F2 03 04 39 58 00 00  00 00 00 00 00 00 01 AB  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+466 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RH1_cp200 / cp241. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.797 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  5F 82 0A 35 39 58 00 00  00 00 00 00 00 00 01 8B  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+467 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RH1_cp200 / cp227. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.791 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  5F 1D 9D 37 39 58 00 00  00 00 00 00 00 00 01 87  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+468 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RH1_cp200 / cp226. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.784 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  5E B0 E0 E5 39 58 00 00  00 00 00 00 00 00 01 86  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+469 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RH1_cp200 / cp225. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.775 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  5E 2F 3E 2D 39 58 00 00  00 00 00 00 00 00 01 85  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+470 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RH1_cp200 / cp223. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.766 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  5D A0 A8 E4 39 58 00 00  00 00 00 00 00 00 01 84  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+471 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RH1_cp200 / cp222. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.759 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  5D 32 44 ED 39 58 00 00  00 00 00 00 00 00 01 41  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+472 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RH1_cp200 / cp221. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.747 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  5C 84 B0 E7 39 58 00 00  00 00 00 00 00 00 01 42  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+473 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RH1_cp200 / cp220. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.741 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  5C 2D 3F F8 39 58 00 00  00 00 00 00 00 00 01 40  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+474 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RM2_cp500 / CP520. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.732 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  5B A1 34 2F 39 58 00 00  00 00 00 00 00 00 01 83  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+475 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RK1_cp300 / 317. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.724 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  5B 23 20 31 39 58 00 00  00 00 00 00 00 00 01 9C  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+476 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RK1_cp300 / cp316. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.716 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  5A A1 B2 3C 39 58 00 00  00 00 00 00 00 00 01 9B  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+477 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RK1_cp300 / cp315. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.708 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  5A 2F 05 57 39 58 00 00  00 00 00 00 00 00 01 9A  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+478 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RK1_cp300 / cp314. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.701 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  59 C2 35 87 39 58 00 00  00 00 00 00 00 00 01 99  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+479 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RK1_cp300 / cp313. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.694 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  59 5C DF 45 39 58 00 00  00 00 00 00 00 00 01 98  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+480 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RK2_cp400 / cp430. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.689 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  59 12 8B 29 39 58 00 00  00 00 00 00 00 00 01 9D  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+481 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ RK2_cp400 / cp420. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.685 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  58 CE 3F C7 39 58 00 00  00 00 00 00 00 00 01 57  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+482 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ GF3 / Drive Profile Lexium 1_1. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.681 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  58 8D 67 10 39 58 00 00  00 00 00 00 00 00 01 35  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+483 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ GF1 / Drive Profile Lexium 1_1. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.676 PM
+(Coding:  16#  20 01 00 02 16 6B 49 B2  58 40 CB BF 39 58 00 00  00 00 00 00 00 00 01 25  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+484 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Connection abort by IO device
+ 
+ GF4 
+  
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.661 PM
+(Coding:  16#  34 01 00 05 16 6B 49 B2  57 5C CF BC 39 CB 00 00  04 BE 00 0B 00 00 01 76  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 0B  CF 81 FD 05 00 00 00 00  00 00 00 00)
+
+
+485 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Connection abort by IO device
+ 
+ GF2 
+  
+
+Incoming event
+Event type:  Error
+3/11/2021 1:32:01.643 PM
+(Coding:  16#  34 01 00 05 16 6B 49 B2  56 51 57 A2 39 CB 00 00  04 BE 00 0B 00 00 01 26  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 0B  CF 81 FD 05 00 00 00 00  00 00 00 00)
+
+
+486 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:25:23.539 PM
+(Coding:  16#  34 00 00 05 16 6B 49 55  A5 73 17 92 39 CB 00 00  38 CB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+487 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        244
+ kr90r3100 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:25:14.901 PM
+(Coding:  16#  20 00 00 1E 16 6B 49 53  A2 9C B0 5F 75 E5 00 00  71 05 00 01 00 00 01 5E  00 0D 00 00 00 00 00 F4  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+488 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        200
+ kr120r2700 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:25:14.898 PM
+(Coding:  16#  20 00 00 1E 16 6B 49 53  A2 68 3E 9C 75 E5 00 00  71 05 00 01 00 00 01 4B  00 0D 00 00 00 00 00 C8  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+489 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        200
+ kr120r2700 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:24:28.698 PM
+(Coding:  16#  20 01 00 1E 16 6B 49 48  E0 AC C3 5D 75 E5 00 00  71 05 00 01 00 00 01 4B  00 0D 00 00 00 00 00 C8  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+490 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ kr120r2700 
+  
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:24:28.608 PM
+(Coding:  16#  34 00 00 05 16 6B 49 48  DB 54 23 4A 39 CB 00 00  38 CB 00 00 00 00 01 46  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+491 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        244
+ kr90r3100 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:24:25.998 PM
+(Coding:  16#  20 01 00 1E 16 6B 49 48  3F C1 E7 6C 75 E5 00 00  71 05 00 01 00 00 01 5E  00 0D 00 00 00 00 00 F4  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+492 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ kr90r3100 
+  
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:24:25.908 PM
+(Coding:  16#  34 00 00 05 16 6B 49 48  3A 65 4F EA 39 CB 00 00  38 CB 00 00 00 00 01 4D  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+493 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ kr120r2700 
+  
+
+Incoming event
+Event type:  Error
+3/11/2021 1:23:13.971 PM
+(Coding:  16#  34 01 00 05 16 6B 49 37  7A 97 D2 47 39 CB 00 00  04 B9 00 13 00 00 01 46  00 02 00 00 00 00 00 00  00 00 00 00 81 81 3F 04  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+494 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Connection abort by IO device
+ 
+ kr120r2700 
+  
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:23:13.971 PM
+(Coding:  16#  34 00 00 05 16 6B 49 37  7A 94 B6 FB 39 CB 00 00  04 BE 00 00 00 00 01 46  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+495 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Connection abort by IO device
+ 
+ kr120r2700 
+  
+
+Incoming event
+Event type:  Error
+3/11/2021 1:23:11.443 PM
+(Coding:  16#  34 01 00 05 16 6B 49 36  E3 F1 AA D7 39 CB 00 00  04 BE 00 0B 00 00 01 46  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 0B  CF 81 FD 02 00 00 00 00  00 00 00 00)
+
+
+496 of 526; Event ID: 16# 0D:75D3
+Error: Safety program: Error in PROFIsafe communication with F-I/O
+F-monitoring time exceeded
+F-runtime group   1
+Start address of the F-I/O:        200
+ kr120r2700 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:23:11.442 PM
+(Coding:  16#  20 00 00 1E 16 6B 49 36  E3 E1 1B 04 75 D3 00 00  71 01 00 01 00 00 01 4B  00 0D 00 00 00 00 00 C8  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+497 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        200
+ kr120r2700 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:23:11.441 PM
+(Coding:  16#  20 00 00 1E 16 6B 49 36  E3 D5 CA 43 75 E5 00 00  71 05 00 01 00 00 01 4B  00 0D 00 00 00 00 00 C8  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+498 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        200
+ kr120r2700 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:23:11.400 PM
+(Coding:  16#  20 01 00 1E 16 6B 49 36  E1 5A F5 82 75 E5 00 00  71 05 00 01 00 00 01 4B  00 0D 00 00 00 00 00 C8  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+499 of 526; Event ID: 16# 0D:75D3
+Error: Safety program: Error in PROFIsafe communication with F-I/O
+F-monitoring time exceeded
+F-runtime group   1
+Start address of the F-I/O:        200
+ kr120r2700 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:23:11.398 PM
+(Coding:  16#  20 01 00 1E 16 6B 49 36  E1 3C DE 17 75 D3 00 00  71 01 00 01 00 00 01 4B  00 0D 00 00 00 00 00 C8  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+500 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/11/2021 1:23:08.967 PM
+(Coding:  16#  34 01 00 05 16 6B 49 36  50 5D D1 97 39 CB 00 00  04 B9 00 13 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 3F 04  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+501 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:23:08.967 PM
+(Coding:  16#  34 00 00 05 16 6B 49 36  50 59 58 C4 39 CB 00 00  04 BB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+502 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ kr90r3100 
+  
+
+Incoming event
+Event type:  Error
+3/11/2021 1:23:08.868 PM
+(Coding:  16#  34 01 00 05 16 6B 49 36  4A 76 D0 79 39 CB 00 00  04 B9 00 13 00 00 01 4D  00 02 00 00 00 00 00 00  00 00 00 00 81 81 3F 04  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+503 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Connection abort by IO device
+ 
+ kr90r3100 
+  
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:23:08.867 PM
+(Coding:  16#  34 00 00 05 16 6B 49 36  4A 65 B1 3A 39 CB 00 00  04 BE 00 00 00 00 01 4D  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+504 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/11/2021 1:23:06.473 PM
+(Coding:  16#  34 01 00 05 16 6B 49 35  BB AE 50 32 39 CB 00 00  04 BB 00 05 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  81 00 00 00 00 00 00 00  00 00 00 00)
+
+
+505 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing   
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:23:06.471 PM
+(Coding:  16#  20 00 00 03 16 6B 49 35  BB 8E 17 EA 39 51 00 00  38 51 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+506 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing  
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:23:06.452 PM
+(Coding:  16#  20 01 00 03 16 6B 49 35  BA 6E A4 D9 39 51 00 00  00 00 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+507 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Connection abort by IO device
+ 
+ kr90r3100 
+  
+
+Incoming event
+Event type:  Error
+3/11/2021 1:23:06.360 PM
+(Coding:  16#  34 01 00 05 16 6B 49 35  B4 F4 F8 57 39 CB 00 00  04 BE 00 0B 00 00 01 4D  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 0B  CF 81 FD 02 00 00 00 00  00 00 00 00)
+
+
+508 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component   
+ 
+ kr90r3100 / 256 digital in- and outputs_1. 
+ 
+
+Outgoing event
+Event type:  OK
+3/11/2021 1:23:06.358 PM
+(Coding:  16#  20 00 00 02 16 6B 49 35  B4 D4 89 E5 39 58 00 00  38 58 00 00 00 00 01 5F  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+509 of 526; Event ID: 16# 02:3958
+Error: User data failure of hardware component  
+ 
+ kr90r3100 / 256 digital in- and outputs_1. 
+ 
+
+Incoming event
+Event type:  Error
+3/11/2021 1:23:06.354 PM
+(Coding:  16#  20 01 00 02 16 6B 49 35  B4 96 84 C2 39 58 00 00  00 00 00 00 00 00 01 5F  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+510 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/10/2021 2:21:10.752 PM
+(Coding:  16#  34 00 00 05 16 6A FD CC  69 9B D5 97 39 CB 00 00  38 CB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+511 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/10/2021 2:20:58.684 PM
+(Coding:  16#  34 01 00 05 16 6A FD C9  9A 43 40 27 39 CB 00 00  04 B9 00 13 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 3F 04  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+512 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/10/2021 2:20:58.683 PM
+(Coding:  16#  34 00 00 05 16 6A FD C9  9A 3D FB D1 39 CB 00 00  04 BB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+513 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - Watchdog time expired
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/10/2021 2:20:56.175 PM
+(Coding:  16#  34 01 00 05 16 6A FD C9  04 BA D8 B2 39 CB 00 00  04 BB 00 05 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 81 81 FD 05  6C 80 00 00 00 00 00 00  00 00 00 00)
+
+
+514 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing   
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Outgoing event
+Event type:  OK
+3/10/2021 2:20:56.173 PM
+(Coding:  16#  20 00 00 03 16 6A FD C9  04 9A C7 8C 39 51 00 00  38 51 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+515 of 526; Event ID: 16# 02:3951
+Error: Hardware component removed or missing  
+ 
+ FZ5 / VAEM-L1-S-8-PT_1 
+ 
+
+Incoming event
+Event type:  Error
+3/10/2021 2:20:56.155 PM
+(Coding:  16#  20 01 00 03 16 6A FD C9  03 8B 50 6D 39 51 00 00  00 00 00 00 00 00 01 67  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+516 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/9/2021 3:52:23.576 PM
+(Coding:  16#  34 00 00 05 16 6A B4 32  16 09 66 0A 39 CB 00 00  38 CB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+517 of 526; Event ID: 16# 02:400C
+CPU info: Follow-on operating mode change 
+Power-on mode set: WARM RESTART to RUN (if CPU was in RUN before power off) 
+ 
+Pending startup inhibit(s):
+ - No startup inhibit set 
+
+ CPU changes from STARTUP to RUN mode 
+
+ PLC_1 / PLC_1 
+  
+
+Incoming event
+Event type:  OK
+3/9/2021 3:52:05.876 PM
+(Coding:  16#  20 01 00 0F 16 6A B4 2D  F6 FF A3 2F 40 0C 0C 01  02 24 40 00 10 00 00 34  00 02 00 00 06 08 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+518 of 526; Event ID: 16# 02:39CB
+Error: IO device failure - IO device not found
+ 
+ FZ5 
+  
+
+Incoming event
+Event type:  Error
+3/9/2021 3:52:05.871 PM
+(Coding:  16#  34 01 00 05 16 6A B4 2D  F6 B9 43 B7 39 CB 00 00  04 B9 00 13 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+519 of 526; Event ID: 16# 02:400C
+CPU info: Follow-on operating mode change 
+Power-on mode set: WARM RESTART to RUN (if CPU was in RUN before power off) 
+ 
+Pending startup inhibit(s):
+ - No startup inhibit set 
+
+ CPU changes from STOP to STARTUP mode 
+
+ PLC_1 / PLC_1 
+  
+
+Incoming event
+Event type:  OK
+3/9/2021 3:51:06.176 PM
+(Coding:  16#  20 01 00 0F 16 6A B4 20  10 9D 4E 37 40 0C 0C 01  02 24 40 00 10 00 00 34  00 02 00 00 04 06 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+520 of 526; Event ID: 16# 02:400C
+CPU info: Follow-on operating mode change 
+Power-on mode set: WARM RESTART to RUN (if CPU was in RUN before power off) 
+ 
+Pending startup inhibit(s):
+ - No startup inhibit set 
+
+ CPU changes from STOP (initialization) to STOP mode 
+
+ PLC_1 / PLC_1 
+  
+
+Incoming event
+Event type:  OK
+3/9/2021 3:51:06.076 PM
+(Coding:  16#  20 01 00 0F 16 6A B4 20  0A A5 1A 6C 40 0C 0C 01  02 24 40 00 10 00 00 34  00 02 00 00 03 04 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+521 of 526; Event ID: 16# 02:4001
+CPU info: Power on 
+ 
+memory card type: Program card (external load memory) 
+ CPU changes from NOPOWER to STOP (initialization) mode 
+
+ PLC_1 / PLC_1 
+  
+
+Incoming event
+Event type:  OK
+3/9/2021 3:50:29.426 PM
+(Coding:  16#  20 01 00 0F 16 6A B4 17  82 1F 6E 15 40 01 0C 01  03 01 00 00 10 00 00 34  00 02 00 00 0F 03 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+522 of 526; Event ID: 16# 02:4002
+CPU info: Power off 
+ CPU changes from RUN to NOPOWER mode 
+
+ PLC_1 / PLC_1 
+  
+
+Incoming event
+Event type:  OK
+3/9/2021 3:50:05.121 PM
+(Coding:  16#  20 01 00 0F 16 6A B4 11  D9 72 ED 09 40 02 0C 01  00 00 00 00 10 00 00 34  00 02 00 00 08 0F 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+523 of 526; Event ID: 16# 02:39CB
+Error: IO device failure -  
+ 
+ FZ5 
+  
+
+Outgoing event
+Event type:  OK
+3/9/2021 9:49:05.797 AM
+(Coding:  16#  34 00 00 05 16 6A A0 5E  E5 20 B9 0E 39 CB 00 00  38 CB 00 00 00 00 01 60  00 02 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+524 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        432
+ RK2_cp400 / cp405. 
+ 
+
+Outgoing event
+Event type:  OK
+3/9/2021 9:48:59.231 AM
+(Coding:  16#  20 00 00 1E 16 6A A0 5D  5D C7 B8 27 75 E5 00 00  71 05 00 01 00 00 01 51  00 0D 00 00 00 00 01 B0  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+525 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        156
+ RK1_cp300 / cp303. 
+ 
+
+Outgoing event
+Event type:  OK
+3/9/2021 9:48:59.225 AM
+(Coding:  16#  20 00 00 1E 16 6A A0 5D  5D 67 A0 69 75 E5 00 00  71 05 00 01 00 00 01 8E  00 0D 00 00 00 00 00 9C  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
+526 of 526; Event ID: 16# 0D:75E5
+Error: Safety program: F-I/O passivated
+Error in PROFIsafe communication
+F-runtime group   1
+Start address of the F-I/O:        244
+ kr90r3100 / 64 safe digital in- and outputs (2.4)_1. 
+ 
+
+Outgoing event
+Event type:  OK
+3/9/2021 9:48:53.454 AM
+(Coding:  16#  20 00 00 1E 16 6A A0 5C  05 76 24 07 75 E5 00 00  71 05 00 01 00 00 01 5E  00 0D 00 00 00 00 00 F4  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00)
+
+
